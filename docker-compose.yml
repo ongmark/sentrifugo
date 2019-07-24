@@ -1,0 +1,51 @@
+version: '3.4'
+
+networks:
+  web:
+    external: true
+  internal:
+    external: false
+
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      # mysql root user
+      MYSQL_ROOT_PASSWORD: "3EuC;c9igcgF"
+      # create sentrifugo user and sentrifugo db
+      MYSQL_USER: "sentrifugo"
+      MYSQL_PASSWORD: "dQ2khLom8Bf#"
+      MYSQL_DATABASE: "sentrifugo"
+    networks:
+      - internal
+    labels:
+      - "traefik.enable=enable"
+      - "traefik.port=3306"
+      - "traefik.docker.network=internal"
+    volumes:
+      - sentrifugo_db:/var/lib/mysql
+
+  sentrifugo:
+    # image: gofaustino/sentrifugo
+    build: .
+    restart: always
+    depends_on:
+      - db
+    networks:
+      - internal
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:hris.triune.com.ph"
+      - "traefik.port=80"
+      - "traefik.backend=sentrifugo_tesi"
+      - "traefik.docker.network=web"
+    volumes:
+      - sentrifugo_data:/var/www/html/public
+      - sentrifugo_logs:/var/www/html/logs
+
+volumes:
+  sentrifugo_db:
+  sentrifugo_data:
+  sentrifugo_logs:
