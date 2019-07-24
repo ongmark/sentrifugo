@@ -7,7 +7,7 @@ database before executing the following steps.
 
 Download New Upgrade 
 --------------------
-- Go to http://www.sentrifugo.com/ 
+- Go to https://www.sentrifugo.com/ 
 - Click on UPGRADE menu item in the menu list 
 - Select the Upgrade Type: Code, Database or Both (Code and Database)
 - Select your current version from "Your Version" dropdown

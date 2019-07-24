@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Service_WindowsAzure
  * @subpackage Storage
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://todo     name_todo
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://todo     name_todo
  * @version    $Id: Blob.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -85,8 +85,8 @@ require_once 'Zend/Service/WindowsAzure/Exception.php';
  * @category   Zend
  * @package    Zend_Service_WindowsAzure
  * @subpackage Storage
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_Storage
 {
@@ -190,7 +190,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -218,7 +218,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 			
 		// List containers
@@ -246,7 +246,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if (!is_array($metadata)) {
 			throw new Zend_Service_WindowsAzure_Exception('Meta data should be an array of key and value pairs.');
@@ -284,7 +284,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 
 		// Perform request
@@ -346,7 +346,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 
 		// Headers
@@ -399,7 +399,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 
 		// Perform request
@@ -433,7 +433,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 
 		return $this->getContainer($containerName)->Metadata;
@@ -446,7 +446,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 *
 	 * @param string $containerName      Container name
 	 * @param array  $metadata           Key/value pairs of meta data
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
 	public function setContainerMetadata($containerName = '', $metadata = array(), $additionalHeaders = array())
@@ -455,7 +455,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if (!is_array($metadata)) {
 			throw new Zend_Service_WindowsAzure_Exception('Meta data should be an array of key and value pairs.');
@@ -484,7 +484,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * Delete container
 	 *
 	 * @param string $containerName      Container name
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
 	public function deleteContainer($containerName = '', $additionalHeaders = array())
@@ -493,7 +493,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 			
 		// Additional headers?
@@ -579,7 +579,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param string $localFileName      Local file name to be uploaded
 	 * @param array  $metadata           Key/value pairs of meta data
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @return object Partial blob properties
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
@@ -589,7 +589,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -621,7 +621,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param mixed  $data      		 Data to store
 	 * @param array  $metadata           Key/value pairs of meta data
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @return object Partial blob properties
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
@@ -631,7 +631,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -697,7 +697,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -774,7 +774,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($identifier === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Block identifier is not specified.');
@@ -810,7 +810,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param array $blockList           Array of block identifiers
 	 * @param array  $metadata           Key/value pairs of meta data
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
 	public function putBlockList($containerName = '', $blobName = '', $blockList = array(), $metadata = array(), $leaseId = null, $additionalHeaders = array())
@@ -819,7 +819,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -884,7 +884,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -957,7 +957,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param int    $size      		 Size of the page blob in bytes
 	 * @param array  $metadata           Key/value pairs of meta data
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @return object Partial blob properties
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
@@ -967,7 +967,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1031,7 +1031,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param mixed  $contents			 Page contents
 	 * @param string $writeMethod        Write method (Zend_Service_WindowsAzure_Storage_Blob::PAGE_WRITE_*)
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
 	public function putPage($containerName = '', $blobName = '', $startByteOffset = 0, $endByteOffset = 0, $contents = '', $writeMethod = self::PAGE_WRITE_UPDATE, $leaseId = null, $additionalHeaders = array())
@@ -1040,7 +1040,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1105,7 +1105,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1169,7 +1169,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param array  $metadata                  Key/value pairs of meta data
 	 * @param string $sourceSnapshotId          Source snapshot identifier
 	 * @param string $destinationLeaseId        Destination lease identifier
-	 * @param array  $additionalHeaders         Additional headers. See http://msdn.microsoft.com/en-us/library/dd894037.aspx for more information.
+	 * @param array  $additionalHeaders         Additional headers. See https://msdn.microsoft.com/en-us/library/dd894037.aspx for more information.
 	 * @return object Partial blob properties
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
@@ -1179,7 +1179,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Source container name is not specified.');
 		}
 		if (!self::isValidContainerName($sourceContainerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Source container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Source container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($sourceBlobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Source blob name is not specified.');
@@ -1188,7 +1188,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Destination container name is not specified.');
 		}
 		if (!self::isValidContainerName($destinationContainerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Destination container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Destination container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($destinationBlobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Destination blob name is not specified.');
@@ -1252,7 +1252,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param string $localFileName      Local file name to store downloaded blob
 	 * @param string $snapshotId         Snapshot identifier
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
 	public function getBlob($containerName = '', $blobName = '', $localFileName = '', $snapshotId = null, $leaseId = null, $additionalHeaders = array())
@@ -1261,7 +1261,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1281,7 +1281,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param string $blobName           Blob name
 	 * @param string $snapshotId         Snapshot identifier
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @return mixed Blob contents
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
@@ -1291,7 +1291,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1332,7 +1332,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param string $blobName           Blob name
 	 * @param string $snapshotId         Snapshot identifier
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @return Zend_Service_WindowsAzure_Storage_BlobInstance
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
@@ -1342,7 +1342,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1415,7 +1415,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1436,7 +1436,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param string $blobName           Blob name
 	 * @param array  $metadata           Key/value pairs of meta data
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
 	public function setBlobMetadata($containerName = '', $blobName = '', $metadata = array(), $leaseId = null, $additionalHeaders = array())
@@ -1445,7 +1445,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1479,12 +1479,12 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	/**
 	 * Set blob properties
 	 *
-	 * All available properties are listed at http://msdn.microsoft.com/en-us/library/ee691966.aspx and should be provided in the $additionalHeaders parameter.
+	 * All available properties are listed at https://msdn.microsoft.com/en-us/library/ee691966.aspx and should be provided in the $additionalHeaders parameter.
 	 *
 	 * @param string $containerName      Container name
 	 * @param string $blobName           Blob name
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
 	public function setBlobProperties($containerName = '', $blobName = '', $leaseId = null, $additionalHeaders = array())
@@ -1493,7 +1493,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1541,7 +1541,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1560,7 +1560,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param string $blobName           Blob name
 	 * @param string $snapshotId         Snapshot identifier
 	 * @param string $leaseId            Lease identifier
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
 	public function deleteBlob($containerName = '', $blobName = '', $snapshotId = null, $leaseId = null, $additionalHeaders = array())
@@ -1569,7 +1569,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1610,7 +1610,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	 * @param string $containerName      Container name
 	 * @param string $blobName           Blob name
 	 * @param array  $metadata           Key/value pairs of meta data
-	 * @param array  $additionalHeaders  Additional headers. See http://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
+	 * @param array  $additionalHeaders  Additional headers. See https://msdn.microsoft.com/en-us/library/dd179371.aspx for more information.
 	 * @return string Date/Time value representing the snapshot identifier.
 	 * @throws Zend_Service_WindowsAzure_Exception
 	 */
@@ -1620,7 +1620,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1648,7 +1648,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 	}
 
 	/**
-	 * Lease blob - See (http://msdn.microsoft.com/en-us/library/ee691972.aspx)
+	 * Lease blob - See (https://msdn.microsoft.com/en-us/library/ee691972.aspx)
 	 *
 	 * @param string $containerName      Container name
 	 * @param string $blobName           Blob name
@@ -1663,7 +1663,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 		if ($blobName === '') {
 			throw new Zend_Service_WindowsAzure_Exception('Blob name is not specified.');
@@ -1714,7 +1714,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 			
 		// Build query string
@@ -1829,7 +1829,7 @@ class Zend_Service_WindowsAzure_Storage_Blob extends Zend_Service_WindowsAzure_S
 			throw new Zend_Service_WindowsAzure_Exception('Container name is not specified.');
 		}
 		if (!self::isValidContainerName($containerName)) {
-			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See http://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
+			throw new Zend_Service_WindowsAzure_Exception('Container name does not adhere to container naming conventions. See https://msdn.microsoft.com/en-us/library/dd135715.aspx for more information.');
 		}
 
 		// Resource name

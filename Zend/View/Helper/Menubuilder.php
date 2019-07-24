@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -454,11 +454,11 @@ class Zend_View_Helper_Menubuilder extends Zend_View_Helper_Abstract {
 					$menuName = $menuDetailsArr[$s]['menuName'];
 					$tmpMenuUrl = $menuDetailsArr[$s]['url'];				
 
-					if($tmpMenuUrl && (strpos($tmpMenuUrl,'http://') === false || strpos($tmpMenuUrl,'http://') === false  || strpos($tmpMenuUrl,'http://') === false))
+					if($tmpMenuUrl && (strpos($tmpMenuUrl,'https://') === false || strpos($tmpMenuUrl,'https://') === false  || strpos($tmpMenuUrl,'https://') === false))
 					{
 						$menuUrl = BASE_URL.substr($tmpMenuUrl,1,strlen($tmpMenuUrl));
 					}
-					else if(strpos($tmpMenuUrl,'http://') === true || strpos($tmpMenuUrl,'http://') === true  || strpos($tmpMenuUrl,'http://') === true)
+					else if(strpos($tmpMenuUrl,'https://') === true || strpos($tmpMenuUrl,'https://') === true  || strpos($tmpMenuUrl,'https://') === true)
 						$menuUrl = $tmpMenuUrl;
 					else
 						$menuUrl = 'javascript:void(0);';

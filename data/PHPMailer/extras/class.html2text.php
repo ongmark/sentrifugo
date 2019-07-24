@@ -12,7 +12,7 @@
  * (at your option) any later version.                                   *
  *                                                                       *
  * The GNU General Public License can be found at                        *
- * http://www.gnu.org/copyleft/gpl.html.                                 *
+ * https://www.gnu.org/copyleft/gpl.html.                                 *
  *                                                                       *
  * This script is distributed in the hope that it will be useful,        *
  * but WITHOUT ANY WARRANTY; without even the implied warranty of        *
@@ -372,7 +372,7 @@ class html2text
     {
         if ( empty($url) ) {
             if ( !empty($_SERVER['HTTP_HOST']) ) {
-                $this->url = 'http://' . $_SERVER['HTTP_HOST'];
+                $this->url = 'https://' . $_SERVER['HTTP_HOST'];
             } else {
                 $this->url = '';
             }

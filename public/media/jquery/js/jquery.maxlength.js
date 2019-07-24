@@ -1,4 +1,4 @@
-﻿/* http://keith-wood.name/maxlength.html
+﻿/* https://keith-wood.name/maxlength.html
    Textarea Max Length for jQuery v2.0.0.
    Written by Keith Wood (kwood{at}iinet.com.au) May 2009.
    Licensed under the MIT (https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt) license. 

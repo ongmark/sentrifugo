@@ -8,15 +8,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Session
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Session.php 24196 2011-07-05 15:58:11Z matthew $
  * @since      Preview Release 0.2
  */
@@ -43,8 +43,8 @@ require_once 'Zend/Session/SaveHandler/Interface.php';
  *
  * @category   Zend
  * @package    Zend_Session
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Session extends Zend_Session_Abstract
 {
@@ -444,7 +444,7 @@ class Zend_Session extends Zend_Session_Abstract
                . " output started in {$filename}/{$linenum}");
         }
 
-        // See http://www.php.net/manual/en/ref.session.php for explanation
+        // See https://www.php.net/manual/en/ref.session.php for explanation
         if (!self::$_unitTestEnabled && defined('SID')) {
             /** @see Zend_Session_Exception */
             require_once 'Zend/Session/Exception.php';
@@ -453,7 +453,7 @@ class Zend_Session extends Zend_Session_Abstract
 
         /**
          * Hack to throw exceptions on start instead of php errors
-         * @see http://framework.zend.com/issues/browse/ZF-1325
+         * @see https://framework.zend.com/issues/browse/ZF-1325
          */
 
         $errorLevel = (is_int(self::$_throwStartupExceptions)) ? self::$_throwStartupExceptions : E_ALL;

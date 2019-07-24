@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<xsd:schema xmlns="http://webservice.voicebutler.odg.tonline.de"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://webservice.voicebutler.odg.tonline.de"
+<xsd:schema xmlns="https://webservice.voicebutler.odg.tonline.de"
+	xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://webservice.voicebutler.odg.tonline.de"
 	elementFormDefault="unqualified" attributeFormDefault="unqualified"
 	version="1.1">
 

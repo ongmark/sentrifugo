@@ -281,7 +281,7 @@ $this->autoPadding = false; // Automatically increases padding in block elements
 
 //////////////////////////////////////////////
 
-// Default values if no style sheet offered	(cf. http://www.w3.org/TR/CSS21/sample.html)
+// Default values if no style sheet offered	(cf. https://www.w3.org/TR/CSS21/sample.html)
 $this->defaultCSS = array(
 	'BODY' => array(
 		'FONT-FAMILY' => 'serif',

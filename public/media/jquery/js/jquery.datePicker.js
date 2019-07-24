@@ -1,7 +1,7 @@
 /**
- * Copyright (c) 2008 Kelvin Luck (http://www.kelvinluck.com/)
- * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) 
- * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
+ * Copyright (c) 2008 Kelvin Luck (https://www.kelvinluck.com/)
+ * Dual licensed under the MIT (https://www.opensource.org/licenses/mit-license.php) 
+ * and GPL (https://www.opensource.org/licenses/gpl-license.php) licenses.
  * .
  * $Id: jquery.datePicker.js 94 2010-01-25 02:25:27Z kelvin.luck $
  **/
@@ -21,7 +21,7 @@
  * @type jQuery
  * @name renderCalendar
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('#calendar-me').renderCalendar({month:0, year:2007});
  * @desc Renders a calendar displaying January 2007 into the element with an id of calendar-me.
@@ -196,7 +196,7 @@
  * @type jQuery
  * @name datePicker
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('input.date-picker').datePicker();
  * @desc Creates a date picker button next to all matched input elements. When the button is clicked on the value of the selected date will be placed in the corresponding input (formatted according to Date.format).
@@ -300,7 +300,7 @@
  * @type jQuery
  * @name dpSetDisabled
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('.date-picker').datePicker();
  * $('.date-picker').dpSetDisabled(true);
@@ -317,7 +317,7 @@
  * @type jQuery
  * @name dpSetStartDate
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('.date-picker').datePicker();
  * $('.date-picker').dpSetStartDate('01/01/2000');
@@ -334,7 +334,7 @@
  * @type jQuery
  * @name dpSetEndDate
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('.date-picker').datePicker();
  * $('.date-picker').dpSetEndDate('01/01/2010');
@@ -350,7 +350,7 @@
  * @type Array
  * @name dpGetSelected
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('.date-picker').datePicker();
  * alert($('.date-picker').dpGetSelected());
@@ -374,7 +374,7 @@
  * @type jQuery
  * @name dpSetSelected
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('.date-picker').datePicker();
  * $('.date-picker').dpSetSelected('01/01/2010');
@@ -395,7 +395,7 @@
  * @type jQuery
  * @name dpSetDisplayedMonth
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('.date-picker').datePicker();
  * $('.date-picker').dpSetDisplayedMonth(10, 2008);
@@ -412,7 +412,7 @@
  * @type jQuery
  * @name dpDisplay
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('#date-picker').datePicker();
  * $('#date-picker').dpDisplay();
@@ -429,7 +429,7 @@
  * @type jQuery
  * @name dpSetRenderCallback
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('#date-picker').datePicker();
  * $('#date-picker').dpSetRenderCallback(function($td, thisDate, month, year)
@@ -450,7 +450,7 @@
  * @type jQuery
  * @name dpSetPosition
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('#date-picker').datePicker();
  * $('#date-picker').dpSetPosition($.dpConst.POS_BOTTOM, $.dpConst.POS_RIGHT);
@@ -468,7 +468,7 @@
  * @type jQuery
  * @name dpSetOffset
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('#date-picker').datePicker();
  * $('#date-picker').dpSetOffset(-20, 200);
@@ -484,7 +484,7 @@
  * @type jQuery
  * @name dpClose
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  * @example $('.date-pick')
  *		.datePicker()
@@ -512,7 +512,7 @@
  * @type jQuery
  * @name dpRerenderCalendar
  * @cat plugins/datePicker
- * @author Kelvin Luck (http://www.kelvinluck.com/)
+ * @author Kelvin Luck (https://www.kelvinluck.com/)
  *
  **/
 		dpRerenderCalendar : function()

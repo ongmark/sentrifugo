@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Health
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Health.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -49,13 +49,13 @@ require_once 'Zend/Gdata/Health/ProfileEntry.php';
 /**
  * Service class for interacting with the Google Health Data API
  *
- * @link http://code.google.com/apis/health
+ * @link https://code.google.com/apis/health
  *
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Health
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Gdata_Health extends Zend_Gdata
 {
@@ -101,10 +101,10 @@ class Zend_Gdata_Health extends Zend_Gdata
 
     public static $namespaces =
         array('ccr' => 'urn:astm-org:CCR',
-              'batch' => 'http://schemas.google.com/gdata/batch',
-              'h9m' => 'http://schemas.google.com/health/metadata',
-              'gAcl' => 'http://schemas.google.com/acl/2007',
-              'gd' => 'http://schemas.google.com/g/2005');
+              'batch' => 'https://schemas.google.com/gdata/batch',
+              'h9m' => 'https://schemas.google.com/health/metadata',
+              'gAcl' => 'https://schemas.google.com/acl/2007',
+              'gd' => 'https://schemas.google.com/g/2005');
 
     /**
      * Create Zend_Gdata_Health object

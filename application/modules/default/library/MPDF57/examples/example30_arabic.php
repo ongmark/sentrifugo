@@ -109,7 +109,7 @@ body, p { direction: rtl; font-family: 'XB Zar'; font-size: 15pt; }
 
 
 
-From http://titus.uni-frankfurt.de/unicode/alphabet/arabtest.htm
+From https://titus.uni-frankfurt.de/unicode/alphabet/arabtest.htm
 <br />
 
 1. Arabic:

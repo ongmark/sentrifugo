@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Paginator
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Sliding.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -30,11 +30,11 @@ require_once 'Zend/Paginator/ScrollingStyle/Interface.php';
  * the end of the page set, at which point it will continue on to
  * the end of the range and the last page in the set.
  *
- * @link       http://search.yahoo.com/search?p=Zend+Framework
+ * @link       https://search.yahoo.com/search?p=Zend+Framework
  * @category   Zend
  * @package    Zend_Paginator
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Paginator_ScrollingStyle_Sliding implements Zend_Paginator_ScrollingStyle_Interface
 {

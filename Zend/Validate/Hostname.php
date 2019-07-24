@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Validate
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Hostname.php 24307 2011-07-30 02:13:14Z adamlundrigan $
  */
 
@@ -41,8 +41,8 @@ require_once 'Zend/Validate/Ip.php';
  *
  * @category   Zend
  * @package    Zend_Validate
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Validate_Hostname extends Zend_Validate_Abstract
 {
@@ -111,7 +111,7 @@ class Zend_Validate_Hostname extends Zend_Validate_Abstract
      * Array of valid top-level-domains
      *
      * @see ftp://data.iana.org/TLD/tlds-alpha-by-domain.txt  List of all TLDs by domain
-     * @see http://www.iana.org/domains/root/db/ Official list of supported TLDs
+     * @see https://www.iana.org/domains/root/db/ Official list of supported TLDs
      * @var array
      */
     protected $_validTlds = array(
@@ -143,51 +143,51 @@ class Zend_Validate_Hostname extends Zend_Validate_Abstract
 
     /**
      * Array for valid Idns
-     * @see http://www.iana.org/domains/idn-tables/ Official list of supported IDN Chars
-     * (.AC) Ascension Island http://www.nic.ac/pdf/AC-IDN-Policy.pdf
-     * (.AR) Argentinia http://www.nic.ar/faqidn.html
-     * (.AS) American Samoa http://www.nic.as/idn/chars.cfm
-     * (.AT) Austria http://www.nic.at/en/service/technical_information/idn/charset_converter/
-     * (.BIZ) International http://www.iana.org/domains/idn-tables/
-     * (.BR) Brazil http://registro.br/faq/faq6.html
-     * (.BV) Bouvett Island http://www.norid.no/domeneregistrering/idn/idn_nyetegn.en.html
-     * (.CAT) Catalan http://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html
+     * @see https://www.iana.org/domains/idn-tables/ Official list of supported IDN Chars
+     * (.AC) Ascension Island https://www.nic.ac/pdf/AC-IDN-Policy.pdf
+     * (.AR) Argentinia https://www.nic.ar/faqidn.html
+     * (.AS) American Samoa https://www.nic.as/idn/chars.cfm
+     * (.AT) Austria https://www.nic.at/en/service/technical_information/idn/charset_converter/
+     * (.BIZ) International https://www.iana.org/domains/idn-tables/
+     * (.BR) Brazil https://registro.br/faq/faq6.html
+     * (.BV) Bouvett Island https://www.norid.no/domeneregistrering/idn/idn_nyetegn.en.html
+     * (.CAT) Catalan https://www.iana.org/domains/idn-tables/tables/cat_ca_1.0.html
      * (.CH) Switzerland https://nic.switch.ch/reg/ocView.action?res=EF6GW2JBPVTG67DLNIQXU234MN6SC33JNQQGI7L6#anhang1
-     * (.CL) Chile http://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html
-     * (.COM) International http://www.verisign.com/information-services/naming-services/internationalized-domain-names/index.html
-     * (.DE) Germany http://www.denic.de/en/domains/idns/liste.html
-     * (.DK) Danmark http://www.dk-hostmaster.dk/index.php?id=151
+     * (.CL) Chile https://www.iana.org/domains/idn-tables/tables/cl_latn_1.0.html
+     * (.COM) International https://www.verisign.com/information-services/naming-services/internationalized-domain-names/index.html
+     * (.DE) Germany https://www.denic.de/en/domains/idns/liste.html
+     * (.DK) Danmark https://www.dk-hostmaster.dk/index.php?id=151
      * (.ES) Spain https://www.nic.es/media/2008-05/1210147705287.pdf
-     * (.FI) Finland http://www.ficora.fi/en/index/palvelut/fiverkkotunnukset/aakkostenkaytto.html
+     * (.FI) Finland https://www.ficora.fi/en/index/palvelut/fiverkkotunnukset/aakkostenkaytto.html
      * (.GR) Greece https://grweb.ics.forth.gr/CharacterTable1_en.jsp
-     * (.HU) Hungary http://www.domain.hu/domain/English/szabalyzat/szabalyzat.html
-     * (.INFO) International http://www.nic.info/info/idn
-     * (.IO) British Indian Ocean Territory http://www.nic.io/IO-IDN-Policy.pdf
-     * (.IR) Iran http://www.nic.ir/Allowable_Characters_dot-iran
-     * (.IS) Iceland http://www.isnic.is/domain/rules.php
-     * (.KR) Korea http://www.iana.org/domains/idn-tables/tables/kr_ko-kr_1.0.html
+     * (.HU) Hungary https://www.domain.hu/domain/English/szabalyzat/szabalyzat.html
+     * (.INFO) International https://www.nic.info/info/idn
+     * (.IO) British Indian Ocean Territory https://www.nic.io/IO-IDN-Policy.pdf
+     * (.IR) Iran https://www.nic.ir/Allowable_Characters_dot-iran
+     * (.IS) Iceland https://www.isnic.is/domain/rules.php
+     * (.KR) Korea https://www.iana.org/domains/idn-tables/tables/kr_ko-kr_1.0.html
      * (.LI) Liechtenstein https://nic.switch.ch/reg/ocView.action?res=EF6GW2JBPVTG67DLNIQXU234MN6SC33JNQQGI7L6#anhang1
-     * (.LT) Lithuania http://www.domreg.lt/static/doc/public/idn_symbols-en.pdf
-     * (.MD) Moldova http://www.register.md/
-     * (.MUSEUM) International http://www.iana.org/domains/idn-tables/tables/museum_latn_1.0.html
-     * (.NET) International http://www.verisign.com/information-services/naming-services/internationalized-domain-names/index.html
-     * (.NO) Norway http://www.norid.no/domeneregistrering/idn/idn_nyetegn.en.html
-     * (.NU) Niue http://www.worldnames.net/
-     * (.ORG) International http://www.pir.org/index.php?db=content/FAQs&tbl=FAQs_Registrant&id=2
+     * (.LT) Lithuania https://www.domreg.lt/static/doc/public/idn_symbols-en.pdf
+     * (.MD) Moldova https://www.register.md/
+     * (.MUSEUM) International https://www.iana.org/domains/idn-tables/tables/museum_latn_1.0.html
+     * (.NET) International https://www.verisign.com/information-services/naming-services/internationalized-domain-names/index.html
+     * (.NO) Norway https://www.norid.no/domeneregistrering/idn/idn_nyetegn.en.html
+     * (.NU) Niue https://www.worldnames.net/
+     * (.ORG) International https://www.pir.org/index.php?db=content/FAQs&tbl=FAQs_Registrant&id=2
      * (.PE) Peru https://www.nic.pe/nuevas_politicas_faq_2.php
-     * (.PL) Poland http://www.dns.pl/IDN/allowed_character_sets.pdf
-     * (.PR) Puerto Rico http://www.nic.pr/idn_rules.asp
+     * (.PL) Poland https://www.dns.pl/IDN/allowed_character_sets.pdf
+     * (.PR) Puerto Rico https://www.nic.pr/idn_rules.asp
      * (.PT) Portugal https://online.dns.pt/dns_2008/do?com=DS;8216320233;111;+PAGE(4000058)+K-CAT-CODIGO(C.125)+RCNT(100);
-     * (.RU) Russia http://www.iana.org/domains/idn-tables/tables/ru_ru-ru_1.0.html
-     * (.SA) Saudi Arabia http://www.iana.org/domains/idn-tables/tables/sa_ar_1.0.html
-     * (.SE) Sweden http://www.iis.se/english/IDN_campaignsite.shtml?lang=en
-     * (.SH) Saint Helena http://www.nic.sh/SH-IDN-Policy.pdf
-     * (.SJ) Svalbard and Jan Mayen http://www.norid.no/domeneregistrering/idn/idn_nyetegn.en.html
-     * (.TH) Thailand http://www.iana.org/domains/idn-tables/tables/th_th-th_1.0.html
-     * (.TM) Turkmenistan http://www.nic.tm/TM-IDN-Policy.pdf
+     * (.RU) Russia https://www.iana.org/domains/idn-tables/tables/ru_ru-ru_1.0.html
+     * (.SA) Saudi Arabia https://www.iana.org/domains/idn-tables/tables/sa_ar_1.0.html
+     * (.SE) Sweden https://www.iis.se/english/IDN_campaignsite.shtml?lang=en
+     * (.SH) Saint Helena https://www.nic.sh/SH-IDN-Policy.pdf
+     * (.SJ) Svalbard and Jan Mayen https://www.norid.no/domeneregistrering/idn/idn_nyetegn.en.html
+     * (.TH) Thailand https://www.iana.org/domains/idn-tables/tables/th_th-th_1.0.html
+     * (.TM) Turkmenistan https://www.nic.tm/TM-IDN-Policy.pdf
      * (.TR) Turkey https://www.nic.tr/index.php
-     * (.VE) Venice http://www.iana.org/domains/idn-tables/tables/ve_es_1.0.html
-     * (.VN) Vietnam http://www.vnnic.vn/english/5-6-300-2-2-04-20071115.htm#1.%20Introduction
+     * (.VE) Venice https://www.iana.org/domains/idn-tables/tables/ve_es_1.0.html
+     * (.VN) Vietnam https://www.vnnic.vn/english/5-6-300-2-2-04-20071115.htm#1.%20Introduction
      *
      * @var array
      */
@@ -327,7 +327,7 @@ class Zend_Validate_Hostname extends Zend_Validate_Abstract
      * @param boolean          $validateTld OPTIONAL Set whether the TLD element of a hostname is validated (default true)
      * @param Zend_Validate_Ip $ipValidator OPTIONAL
      * @return void
-     * @see http://www.iana.org/cctld/specifications-policies-cctlds-01apr02.htm  Technical Specifications for ccTLDs
+     * @see https://www.iana.org/cctld/specifications-policies-cctlds-01apr02.htm  Technical Specifications for ccTLDs
      */
     public function __construct($options = array())
     {

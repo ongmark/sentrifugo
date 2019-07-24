@@ -3,10 +3,10 @@
  * jqGrid German Translation
  * Version 1.0.0 (developed for jQuery Grid 3.3.1)
  * Olaf Klöppel opensource@blue-hit.de
- * http://blue-hit.de/ 
+ * https://blue-hit.de/ 
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -42,7 +42,7 @@ $.jgrid = {
 		    email: "ist keine valide E-Mail Adresse",
 		    integer: "Bitte geben Sie eine Ganzzahl ein",
 			date: "Bitte geben Sie ein gültiges Datum ein",
-			url: "ist keine gültige URL. Prefix muss eingegeben werden ('http://' oder 'https://')",
+			url: "ist keine gültige URL. Prefix muss eingegeben werden ('https://' oder 'https://')",
 			nodefined : " ist nicht definiert!",
 			novalue : " Rückgabewert ist erforderlich!",
 			customarray : "Benutzerdefinierte Funktion sollte ein Array zurückgeben!",

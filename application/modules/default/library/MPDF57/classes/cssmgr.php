@@ -35,7 +35,7 @@ function ReadDefaultCSS($CSSstr) {
 			$stylearr = explode(';',$stylestr);
 			foreach($stylearr AS $sta) {
 				if (trim($sta)) {
-					// Changed to allow style="background: url('http://www.bpm1.com/bg.jpg')"
+					// Changed to allow style="background: url('https://www.bpm1.com/bg.jpg')"
 					list($property,$value) = explode(':',$sta,2);
 					$property = trim($property);
 					$value = preg_replace('/\s*!important/i','',$value);
@@ -243,7 +243,7 @@ function ReadCSS($html) {
 			$stylearr = explode(';',$stylestr);
 			foreach($stylearr AS $sta) {
 				if (trim($sta)) { 
-					// Changed to allow style="background: url('http://www.bpm1.com/bg.jpg')"
+					// Changed to allow style="background: url('https://www.bpm1.com/bg.jpg')"
 					list($property,$value) = explode(':',$sta,2);
 					$property = trim($property);
 					$value = preg_replace('/\s*!important/i','',$value);

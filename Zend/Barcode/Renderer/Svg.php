@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Barcode
  * @subpackage Renderer
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Image.php 20366 2010-01-18 03:56:52Z ralph $
  */
 
@@ -28,8 +28,8 @@ require_once 'Zend/Barcode/Renderer/RendererAbstract.php';
  *
  * @category   Zend
  * @package    Zend_Barcode
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Barcode_Renderer_Svg extends Zend_Barcode_Renderer_RendererAbstract
 {
@@ -160,7 +160,7 @@ class Zend_Barcode_Renderer_Svg extends Zend_Barcode_Renderer_RendererAbstract
             $this->_resource = new DOMDocument('1.0', 'utf-8');
             $this->_resource->formatOutput = true;
             $this->_rootElement = $this->_resource->createElement('svg');
-            $this->_rootElement->setAttribute('xmlns', "http://www.w3.org/2000/svg");
+            $this->_rootElement->setAttribute('xmlns', "https://www.w3.org/2000/svg");
             $this->_rootElement->setAttribute('version', '1.1');
             $this->_rootElement->setAttribute('width', $width);
             $this->_rootElement->setAttribute('height', $height);

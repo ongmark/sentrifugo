@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Twitter
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Twitter.php 23877 2011-04-28 20:17:01Z ralph $
  */
 
@@ -39,8 +39,8 @@ require_once 'Zend/Oauth/Consumer.php';
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Twitter
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_Twitter extends Zend_Rest_Client
 {
@@ -58,7 +58,7 @@ class Zend_Service_Twitter extends Zend_Rest_Client
     /**
      * OAuth Endpoint
      */
-    const OAUTH_BASE_URI = 'http://twitter.com/oauth';
+    const OAUTH_BASE_URI = 'https://twitter.com/oauth';
 
     /**
      * @var Zend_Http_CookieJar
@@ -130,7 +130,7 @@ class Zend_Service_Twitter extends Zend_Rest_Client
      */
     public function __construct($options = null, Zend_Oauth_Consumer $consumer = null)
     {
-        $this->setUri('http://api.twitter.com');
+        $this->setUri('https://api.twitter.com');
         if ($options instanceof Zend_Config) {
             $options = $options->toArray();
         }

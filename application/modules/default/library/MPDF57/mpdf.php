@@ -578,7 +578,7 @@ var $entsearch;		// Array of HTML entities (>ASCII 127) to substitute
 var $entsubstitute;	// Array of substitution decimal unicode for the Hi entities
 
 
-// Default values if no style sheet offered	(cf. http://www.w3.org/TR/CSS21/sample.html)
+// Default values if no style sheet offered	(cf. https://www.w3.org/TR/CSS21/sample.html)
 var $defaultCSS;
 
 var $linemaxfontsize;
@@ -899,7 +899,7 @@ function __construct($mode='',$format='A4',$default_font_size=0,$default_font=''
 	$this->defFillColor = $this->FillColor = $this->SetFColor($this->ConvertColor(255),true);
 
 	//SVG color names array
-	//http://www.w3schools.com/css/css_colornames.asp
+	//https://www.w3schools.com/css/css_colornames.asp
 	$this->SVGcolors = array('antiquewhite'=>'#FAEBD7','aqua'=>'#00FFFF','aquamarine'=>'#7FFFD4','beige'=>'#F5F5DC','black'=>'#000000',
 'blue'=>'#0000FF','brown'=>'#A52A2A','cadetblue'=>'#5F9EA0','chocolate'=>'#D2691E','cornflowerblue'=>'#6495ED','crimson'=>'#DC143C',
 'darkblue'=>'#00008B','darkgoldenrod'=>'#B8860B','darkgreen'=>'#006400','darkmagenta'=>'#8B008B','darkorange'=>'#FF8C00',
@@ -8959,13 +8959,13 @@ function _putmetadata() {
 
 	$m = '<?xpacket begin="'.chr(239).chr(187).chr(191).'" id="W5M0MpCehiHzreSzNTczkc9d"?>'."\n";	// begin = FEFF BOM
 	$m .= ' <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="3.1-701">'."\n";
-	$m .= '  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">'."\n";
-	$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:pdf="http://ns.adobe.com/pdf/1.3/">'."\n";
+	$m .= '  <rdf:RDF xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#">'."\n";
+	$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:pdf="https://ns.adobe.com/pdf/1.3/">'."\n";
 	$m .= '    <pdf:Producer>'.$Producer.'</pdf:Producer>'."\n";
 	if(!empty($this->keywords)) { $m .= '    <pdf:Keywords>'.$this->keywords.'</pdf:Keywords>'."\n"; }
 	$m .= '   </rdf:Description>'."\n";
 
-	$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:xmp="http://ns.adobe.com/xap/1.0/">'."\n";
+	$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:xmp="https://ns.adobe.com/xap/1.0/">'."\n";
 	$m .= '    <xmp:CreateDate>'.$CreationDate.'</xmp:CreateDate>'."\n";
 	$m .= '    <xmp:ModifyDate>'.$CreationDate.'</xmp:ModifyDate>'."\n";
 	$m .= '    <xmp:MetadataDate>'.$CreationDate.'</xmp:MetadataDate>'."\n";
@@ -8973,7 +8973,7 @@ function _putmetadata() {
 	$m .= '   </rdf:Description>'."\n";
 
 	// DC elements
-	$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:dc="http://purl.org/dc/elements/1.1/">'."\n";
+	$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:dc="https://purl.org/dc/elements/1.1/">'."\n";
 	$m .= '    <dc:format>application/pdf</dc:format>'."\n";
 	if(!empty($this->title)) {
 		$m .= '    <dc:title>
@@ -9008,19 +9008,19 @@ function _putmetadata() {
 
 	// This bit is specific to PDFX-1a
 	if ($this->PDFX) {
-		$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" pdfx:Apag_PDFX_Checkup="1.3" pdfx:GTS_PDFXConformance="PDF/X-1a:2003" pdfx:GTS_PDFXVersion="PDF/X-1:2003"/>'."\n";
+		$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:pdfx="https://ns.adobe.com/pdfx/1.3/" pdfx:Apag_PDFX_Checkup="1.3" pdfx:GTS_PDFXConformance="PDF/X-1a:2003" pdfx:GTS_PDFXVersion="PDF/X-1:2003"/>'."\n";
 	}
 
 	// This bit is specific to PDFA-1b
 	else if ($this->PDFA) {
-		$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/" >'."\n";
+		$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:pdfaid="https://www.aiim.org/pdfa/ns/id/" >'."\n";
 		$m .= '    <pdfaid:part>1</pdfaid:part>'."\n";
 		$m .= '    <pdfaid:conformance>B</pdfaid:conformance>'."\n";
 		$m .= '    <pdfaid:amd>2005</pdfaid:amd>'."\n";
 		$m .= '   </rdf:Description>'."\n";
 	}
 
-	$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/">'."\n";
+	$m .= '   <rdf:Description rdf:about="uuid:'.$uuid.'" xmlns:xmpMM="https://ns.adobe.com/xap/1.0/mm/">'."\n";
 	$m .= '    <xmpMM:DocumentID>uuid:'.$uuid.'</xmpMM:DocumentID>'."\n";
 	$m .= '   </rdf:Description>'."\n";
 	$m .= '  </rdf:RDF>'."\n";
@@ -9063,7 +9063,7 @@ function _putoutputintent() {
 			$this->_out('/Info (CGATS TR 001)');
 			$this->_out('/OutputConditionIdentifier (CGATS TR 001)');
 			$this->_out('/OutputCondition (CGATS TR 001 (SWOP))');
-			$this->_out('/RegistryName (http://www.color.org)');
+			$this->_out('/RegistryName (https://www.color.org)');
 		}
 	}
 	$this->_out('>>');
@@ -9847,17 +9847,17 @@ function _getImage(&$file, $firsttime=true, $allowvector=true, $orig_srcpath=fal
 			$gAMA=$this->_fourbytes2int(substr($data,($j+4),4));	// Gamma value times 100000
 			$gAMA /= 100000;
 
-			// http://www.libpng.org/pub/png/spec/1.2/PNG-Encoders.html
+			// https://www.libpng.org/pub/png/spec/1.2/PNG-Encoders.html
 			// "If the source file's gamma value is greater than 1.0, it is probably a display system exponent,..." 
 			// ("..and you should use its reciprocal for the PNG gamma.")
 			//if ($gAMA > 1) { $gAMA = 1/$gAMA; }
 			// (Some) Applications seem to ignore it... appearing how it was probably intended
-			// Test Case - image(s) on http://www.w3.org/TR/CSS21/intro.html  - PNG has gAMA set as 1.45454
+			// Test Case - image(s) on https://www.w3.org/TR/CSS21/intro.html  - PNG has gAMA set as 1.45454
 			// Probably unintentional as mentioned above and should be 0.45454 which is 1 / 2.2
 			// Tested on Windows PC
 			// Firefox and Opera display gray as 234 (correct, but looks wrong)
 			// IE9 and Safari display gray as 193 (incorrect but looks right)
-			// See test different gamma chunks at http://www.libpng.org/pub/png/pngsuite-all-good.html
+			// See test different gamma chunks at https://www.libpng.org/pub/png/pngsuite-all-good.html
 		}
 
 		if ($gAMA) { $gamma_correction = 1/$gAMA; }
@@ -11252,7 +11252,7 @@ function SetBasePath($str='') {
 	else { $currentPath = dirname($_SERVER['PHP_SELF']); }
 	$currentPath = str_replace("\\","/",$currentPath);
 	if ($currentPath == '/') { $currentPath = ''; }
-	if ($host) { $currpath = 'http://' . $host . $currentPath .'/'; }
+	if ($host) { $currpath = 'https://' . $host . $currentPath .'/'; }
 	else { $currpath = ''; }
 	$this->basepath = $currpath; 
 	$this->basepathIsLocal = true; 
@@ -11260,8 +11260,8 @@ function SetBasePath($str='') {
   }
   $str = preg_replace('/\?.*/','',$str);
   if (!preg_match('/(http|https|ftp):\/\/.*\//i',$str)) { $str .= '/'; } 
-  $str .= 'xxx';	// in case $str ends in / e.g. http://www.bbc.co.uk/
-  $this->basepath = dirname($str) . "/";	// returns e.g. e.g. http://www.google.com/dir1/dir2/dir3/
+  $str .= 'xxx';	// in case $str ends in / e.g. https://www.bbc.co.uk/
+  $this->basepath = dirname($str) . "/";	// returns e.g. e.g. https://www.google.com/dir1/dir2/dir3/
   $this->basepath = str_replace("\\","/",$this->basepath); //If on Windows
   $tr = parse_url($this->basepath);
   if (isset($tr['host']) && ($tr['host'] == $host)) { $this->basepathIsLocal = true; }
@@ -11274,7 +11274,7 @@ function GetFullPath(&$path,$basepath='') {
 	if (!$basepath) { $basepath = $this->basepath; }
 	//Fix path value
 	$path = str_replace("\\","/",$path); //If on Windows
-	$path = preg_replace('/^\/\//','http://',$path);	// mPDF 5.6.27
+	$path = preg_replace('/^\/\//','https://',$path);	// mPDF 5.6.27
 	$regexp = '|^./|';	// Inadvertently corrects "./path/etc" and "//www.domain.com/etc"
 	$path = preg_replace($regexp,'',$path);
 
@@ -13736,7 +13736,7 @@ function WriteFixedPosHTML($html='',$x, $y, $w, $h, $overflow='visible', $boundi
 		if ($checkinnerhtml=='' && $inner_h==='auto') { $inner_h = 0.0001; }
 		if ($checkinnerhtml=='' && $inner_w==='auto') { $inner_w = 2*$this->GetCharWidth('W',false); }
 		//================================================================
-		// Algorithm from CSS2.1  See http://www.w3.org/TR/CSS21/visudet.html#abs-non-replaced-height
+		// Algorithm from CSS2.1  See https://www.w3.org/TR/CSS21/visudet.html#abs-non-replaced-height
 		// mPD 5.3.14
 		// Special case (not CSS) if all not specified, centre vertically on page
 		if ($bbox_top==='auto' && $inner_h==='auto' && $bbox_bottom==='auto' && $bbox_mt==='auto' && $bbox_mb==='auto') {
@@ -13793,7 +13793,7 @@ function WriteFixedPosHTML($html='',$x, $y, $w, $h, $overflow='visible', $boundi
 		}
 
 		// THEN DO SAME FOR WIDTH
-		// http://www.w3.org/TR/CSS21/visudet.html#abs-non-replaced-width
+		// https://www.w3.org/TR/CSS21/visudet.html#abs-non-replaced-width
 		if ($bbox_left==='auto' && $inner_w==='auto' && $bbox_right==='auto') {
 			if ($bbox_ml==='auto') { $bbox_ml = 0; }
 			if ($bbox_mr==='auto') { $bbox_mr = 0; }
@@ -30904,7 +30904,7 @@ function WriteBarcode($code, $showtext=1, $x='', $y='', $size=1, $border=0, $pad
 
 			$fbwi = $fbw - 2;	// Full barcode width incl. light margins - 2mm - for isbn string
 
-			// cf. http://www.gs1uk.org/downloads/bar_code/Bar coding getting it right.pdf
+			// cf. https://www.gs1uk.org/downloads/bar_code/Bar coding getting it right.pdf
 			$num_height = 3 * $size;					// Height of numerals
 			$fbh = $arrcode['nom-H'] * $size * $height;		// Full barcode height incl. numerals
 			$bch = $fbh - (1.5 * $size);					// Barcode height of bars	 (3mm for numerals)

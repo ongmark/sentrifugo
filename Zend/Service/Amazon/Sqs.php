@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Amazon_Sqs
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Sqs.php 24470 2011-09-26 16:26:44Z ezimuel $
  */
 
@@ -36,9 +36,9 @@ require_once 'Zend/Crypt/Hmac.php';
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Amazon_Sqs
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @see        http://aws.amazon.com/sqs/ Amazon Simple Queue Service
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
+ * @see        https://aws.amazon.com/sqs/ Amazon Simple Queue Service
  */
 class Zend_Service_Amazon_Sqs extends Zend_Service_Amazon_Abstract
 {
@@ -146,7 +146,7 @@ class Zend_Service_Amazon_Sqs extends Zend_Service_Amazon_Abstract
      *
      * Since there is not an SQS webserive to get all possible endpoints, a hardcoded list is available.
      * For the actual region list please check:
-     * http://docs.amazonwebservices.com/AWSSimpleQueueService/2009-02-01/APIReference/index.html?QueueServiceWsdlArticle.html
+     * https://docs.amazonwebservices.com/AWSSimpleQueueService/2009-02-01/APIReference/index.html?QueueServiceWsdlArticle.html
      *
      * @param  string  $region region
      * @return array
@@ -430,7 +430,7 @@ class Zend_Service_Amazon_Sqs extends Zend_Service_Amazon_Abstract
         switch ($action) {
             case 'ListQueues':
             case 'CreateQueue':
-                $client->setUri('http://'.$this->_sqsEndpoint);
+                $client->setUri('https://'.$this->_sqsEndpoint);
                 break;
             default:
                 $client->setUri($queue_url);

@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -17,8 +17,8 @@
  * @package    Zend_Http
  * @subpackage Client_Adapter
  * @version    $Id: Curl.php 24272 2011-07-27 21:12:08Z mcleod@spaceweb.nl $
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 
 /**
@@ -37,13 +37,13 @@ require_once 'Zend/Http/Client/Adapter/Stream.php';
 
 /**
  * An adapter class for Zend_Http_Client based on the curl extension.
- * Curl requires libcurl. See for full requirements the PHP manual: http://php.net/curl
+ * Curl requires libcurl. See for full requirements the PHP manual: https://php.net/curl
  *
  * @category   Zend
  * @package    Zend_Http
  * @subpackage Client_Adapter
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Http_Client_Adapter_Curl implements Zend_Http_Client_Adapter_Interface, Zend_Http_Client_Adapter_Stream
 {
@@ -378,7 +378,7 @@ class Zend_Http_Client_Adapter_Curl implements Zend_Http_Client_Adapter_Interfac
 
         /**
          * Make sure POSTFIELDS is set after $curlMethod is set:
-         * @link http://de2.php.net/manual/en/function.curl-setopt.php#81161
+         * @link https://de2.php.net/manual/en/function.curl-setopt.php#81161
          */
         if ($method == Zend_Http_Client::POST) {
             curl_setopt($this->_curl, CURLOPT_POSTFIELDS, $body);

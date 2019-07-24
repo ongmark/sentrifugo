@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category    ZendX
  * @package     ZendX_JQuery
  * @subpackage  View
- * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
- * @license     http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license     https://framework.zend.com/license/new-bsd     New BSD License
  * @version     $Id: JQuery.php 21867 2010-04-16 07:45:34Z beberlei $
  */
 
@@ -30,8 +30,8 @@ require_once "Zend/Json.php";
  *
  * @todo       Offer convenience methods to add a tab or accordion container/pane combination.
  * @package    ZendX_JQuery
- * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
   */
 class ZendX_JQuery
 {
@@ -50,13 +50,13 @@ class ZendX_JQuery
     const DEFAULT_UI_VERSION = "1.7.1";
 
     /**
-     * @see http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery
+     * @see https://code.google.com/apis/ajaxlibs/documentation/index.html#jquery
      * @const string Base path to CDN
      */
-    const CDN_BASE_GOOGLE = 'http://ajax.googleapis.com/ajax/libs/';
+    const CDN_BASE_GOOGLE = 'https://ajax.googleapis.com/ajax/libs/';
 
     /**
-     * @see http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery
+     * @see https://code.google.com/apis/ajaxlibs/documentation/index.html#jquery
      * @const string Base path to CDN
      */
     const CDN_BASE_GOOGLE_SSL = 'https://ajax.googleapis.com/ajax/libs/';
@@ -75,7 +75,7 @@ class ZendX_JQuery
      * Always uses compressed version, because this is assumed to be the use case
      * in production enviroment. An uncompressed version has to included manually.
      *
-     * @see http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery
+     * @see https://code.google.com/apis/ajaxlibs/documentation/index.html#jquery
      * @const string File path after base and version
      */
     const CDN_JQUERY_PATH_GOOGLE = '/jquery.min.js';

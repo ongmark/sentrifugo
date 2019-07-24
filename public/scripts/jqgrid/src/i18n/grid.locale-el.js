@@ -2,10 +2,10 @@
 /**
  * jqGrid Greek (el) Translation
  * Alex Cicovic
- * http://www.alexcicovic.com
+ * https://www.alexcicovic.com
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -40,7 +40,7 @@ $.jgrid = {
 	        maxValue:"Η τιμή πρέπει να είναι μικρότερη ή ίση του ",
 	        email: "Η διεύθυνση e-mail δεν είναι έγκυρη",
 	        integer: "Το πεδίο δέχεται μόνο ακέραιους αριθμούς",
-			url: "is not a valid URL. Prefix required ('http://' or 'https://')",
+			url: "is not a valid URL. Prefix required ('https://' or 'https://')",
 			nodefined : " is not defined!",
 			novalue : " return value is required!",
 			customarray : "Custom function should return array!",

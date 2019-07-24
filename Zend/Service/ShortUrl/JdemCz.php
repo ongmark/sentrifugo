@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Service_ShortUrl
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: $
  */
 
@@ -29,8 +29,8 @@ require_once 'Zend/Service/ShortUrl/AbstractShortener.php';
  *
  * @category   Zend
  * @package    Zend_Service_ShortUrl
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_ShortUrl_JdemCz extends Zend_Service_ShortUrl_AbstractShortener
 {
@@ -39,7 +39,7 @@ class Zend_Service_ShortUrl_JdemCz extends Zend_Service_ShortUrl_AbstractShorten
      *
      * @var string
      */
-    protected $_baseUri = 'http://jdem.cz';
+    protected $_baseUri = 'https://jdem.cz';
 
     /**
      * This function shortens long url
@@ -52,7 +52,7 @@ class Zend_Service_ShortUrl_JdemCz extends Zend_Service_ShortUrl_AbstractShorten
     {
         $this->_validateUri($url);
 
-        $serviceUri = 'http://www.jdem.cz/get';
+        $serviceUri = 'https://www.jdem.cz/get';
 
         $this->getHttpClient()->setUri($serviceUri);
         $this->getHttpClient()->setParameterGet('url', $url);

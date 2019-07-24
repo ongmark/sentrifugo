@@ -54,7 +54,7 @@ class HTMLPurifier_Filter_ExtractStyleBlocks extends HTMLPurifier_Filter
 
     /**
      * Takes CSS (the stuff found in <style>) and cleans it.
-     * @warning Requires CSSTidy <http://csstidy.sourceforge.net/>
+     * @warning Requires CSSTidy <https://csstidy.sourceforge.net/>
      * @param $css     CSS styling to clean
      * @param $config  Instance of HTMLPurifier_Config
      * @param $context Instance of HTMLPurifier_Context

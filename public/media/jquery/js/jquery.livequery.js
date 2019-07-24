@@ -1,10 +1,10 @@
-/*! Copyright (c) 2010 Brandon Aaron (http://brandonaaron.net)
+/*! Copyright (c) 2010 Brandon Aaron (https://brandonaaron.net)
  * Dual licensed under the MIT (MIT_LICENSE.txt)
  * and GPL Version 2 (GPL_LICENSE.txt) licenses.
  *
  * Version: 1.1.1
  * Requires jQuery 1.3+
- * Docs: http://docs.jquery.com/Plugins/livequery
+ * Docs: https://docs.jquery.com/Plugins/livequery
  */
 
 (function($) {

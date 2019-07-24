@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Http
  * @subpackage UserAgent
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 
 require_once 'Zend/Http/UserAgent/Device.php';
@@ -27,8 +27,8 @@ require_once 'Zend/Http/UserAgent/Device.php';
  * @category   Zend
  * @package    Zend_Http
  * @subpackage UserAgent
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 abstract class Zend_Http_UserAgent_AbstractDevice
     implements Zend_Http_UserAgent_Device
@@ -403,7 +403,7 @@ abstract class Zend_Http_UserAgent_AbstractDevice
         $userAgent = trim($userAgent);
 
         /**
-         * @see http://www.texsoft.it/index.php?c=software&m=sw.php.useragent&l=it
+         * @see https://www.texsoft.it/index.php?c=software&m=sw.php.useragent&l=it
          */
         $pattern =  "(([^/\s]*)(/(\S*))?)(\s*\[[a-zA-Z][a-zA-Z]\])?\s*(\\((([^()]|(\\([^()]*\\)))*)\\))?\s*";
         preg_match("#^$pattern#", $userAgent, $match);

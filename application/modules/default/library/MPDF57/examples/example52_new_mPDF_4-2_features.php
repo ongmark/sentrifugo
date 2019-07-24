@@ -101,7 +101,7 @@ p { margin-top: 0; }
 <htmlpagefooter name="myHTMLFooter">
 <table width="100%" style="border-top: 0.1mm solid #000000; vertical-align: top; font-size: 9pt; color: #000055;"><tr>
 <td width="25%"></td>
-<td width="50%" align="center">See <a href="http://mpdf1.com/manual/index.php">documentation manual</a> for further details</td>
+<td width="50%" align="center">See <a href="https://mpdf1.com/manual/index.php">documentation manual</a> for further details</td>
 <td width="25%" align="right">Page {PAGENO} of {nbpg} pages</td>
 </tr></table>
 </htmlpagefooter>
@@ -152,8 +152,8 @@ Block elements can now use the CSS property: border(style) = double. See also th
 When writing documents with Chinese, Japanese or Korean characters, mPDF has previously required the end-user to download Adobe\'s free CJK font pack.
 The ability to embed font subsets now makes it feasible to use open license CJK fonts. 2 fonts are now available to download as an additional font-pack: 
 <ul>
-<li>zn_hannom_a -  contains all characters in the SJIS, BIG-5, and GBK codepages; original file was Han Nom A font (Hi-res version) from http://vietunicode.sourceforge.net/fonts/fonts_hannom.html</li>
-<li>unbatang_0613 - contains all the (Korean) characters in the UHC codepage; original file from from http://kldp.net/projects/unfonts/download</li>
+<li>zn_hannom_a -  contains all characters in the SJIS, BIG-5, and GBK codepages; original file was Han Nom A font (Hi-res version) from https://vietunicode.sourceforge.net/fonts/fonts_hannom.html</li>
+<li>unbatang_0613 - contains all the (Korean) characters in the UHC codepage; original file from from https://kldp.net/projects/unfonts/download</li>
 </ul>
 The following characters only added an extra 15kB to the size of this PDF file, and approximately 0.15 seconds extra to compile:<br />
 Chinese (traditional) <span style="font-family:zn_hannom_a">'."\xe6\x86\x82\xe9\xac\xb1".'</span> ; chinese (simplified) <span style="font-family:zn_hannom_a">'."\xe6\x9d\xa5\xe8\x87\xaa".'</span> ; japanese <span style="font-family:zn_hannom_a">'."\xe3\x81\x9f\xe3\x82\x90".'</span> ; korean <span style="font-family:unBatang_0613">'."\xed\x82\xa4\xec\x8a\xa4".'</span> 

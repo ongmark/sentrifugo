@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wsdl:definitions xmlns:ns="http://schemas.xmlsoap.org/soap/encoding/" xmlns:schema="http://localsearch.developer.telekom.com/schema/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy" xmlns:tns="http://localsearch.developer.telekom.com/wsdl/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="localsearch" targetNamespace="http://localsearch.developer.telekom.com/wsdl/">
+<wsdl:definitions xmlns:ns="https://schemas.xmlsoap.org/soap/encoding/" xmlns:schema="https://localsearch.developer.telekom.com/schema/" xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" xmlns:sp="https://schemas.xmlsoap.org/ws/2005/07/securitypolicy" xmlns:tns="https://localsearch.developer.telekom.com/wsdl/" xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/" xmlns:wsp="https://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="https://www.w3.org/2001/XMLSchema" name="localsearch" targetNamespace="https://localsearch.developer.telekom.com/wsdl/">
 	<wsdl:documentation>
 Local Search </wsdl:documentation>
 	<wsdl:types>
-		<xsd:schema targetNamespace="http://localsearch.developer.telekom.com/wsdl/">
-			<xsd:import namespace="http://localsearch.developer.telekom.com/schema/" schemaLocation="localsearch.xsd"/>
+		<xsd:schema targetNamespace="https://localsearch.developer.telekom.com/wsdl/">
+			<xsd:import namespace="https://localsearch.developer.telekom.com/schema/" schemaLocation="localsearch.xsd"/>
 		</xsd:schema>
 	</wsdl:types>
 	<wsdl:message name="localSearchRequest">
@@ -20,10 +20,10 @@ Local Search </wsdl:documentation>
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="localsearchHttpBinding" type="tns:localsearchPortType">
-		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<soap:binding style="document" transport="https://schemas.xmlsoap.org/soap/http"/>
 		<wsp:PolicyReference URI="#TransportBindingPolicy"/>
 		<wsdl:operation name="localSearch">
-			<soap:operation soapAction="http://localsearch.developer.telekom.com/localSearch"/>
+			<soap:operation soapAction="https://localsearch.developer.telekom.com/localSearch"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -70,7 +70,7 @@ Local Search </wsdl:documentation>
 			<wsp:All>
 				<sp:SupportingTokens>
 					<wsp:Policy>
-						<sp:SamlToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+						<sp:SamlToken sp:IncludeToken="https://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
 							<wsp:Policy>
 								<sp:WssSamlV20Token11/>
 							</wsp:Policy>

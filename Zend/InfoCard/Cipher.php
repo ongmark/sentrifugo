@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_InfoCard
  * @subpackage Zend_InfoCard_Cipher
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Cipher.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -27,30 +27,30 @@
  * @category   Zend
  * @package    Zend_InfoCard
  * @subpackage Zend_InfoCard_Cipher
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_InfoCard_Cipher
 {
     /**
      * AES 256 Encryption with CBC
      */
-    const ENC_AES256CBC      = 'http://www.w3.org/2001/04/xmlenc#aes256-cbc';
+    const ENC_AES256CBC      = 'https://www.w3.org/2001/04/xmlenc#aes256-cbc';
 
     /**
      * AES 128 Encryption with CBC
      */
-    const ENC_AES128CBC      = 'http://www.w3.org/2001/04/xmlenc#aes128-cbc';
+    const ENC_AES128CBC      = 'https://www.w3.org/2001/04/xmlenc#aes128-cbc';
 
     /**
      * RSA Public Key Encryption with OAEP Padding
      */
-    const ENC_RSA_OAEP_MGF1P = 'http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p';
+    const ENC_RSA_OAEP_MGF1P = 'https://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p';
 
     /**
      * RSA Public Key Encryption with no padding
      */
-    const ENC_RSA            = 'http://www.w3.org/2001/04/xmlenc#rsa-1_5';
+    const ENC_RSA            = 'https://www.w3.org/2001/04/xmlenc#rsa-1_5';
 
     /**
      * Constructor (disabled)

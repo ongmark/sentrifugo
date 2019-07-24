@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -45,7 +45,7 @@ class Timemanagement_Form_Expensecategory extends Zend_Form
                                     );
         $category->getValidator('Db_NoRecordExists')->setMessage('Category already exists.');	
         	
-       //http://stackoverflow.com/questions/9299012/using-for-decimals-in-zend-validator-float
+       //https://stackoverflow.com/questions/9299012/using-for-decimals-in-zend-validator-float
         $unitPrice = new Zend_Form_Element_Text('unit_price');
         $unitPrice->setAttrib('maxLength', 7);
         $unitPrice->setLabel("Unit Price");

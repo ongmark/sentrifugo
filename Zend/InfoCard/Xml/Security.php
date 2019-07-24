@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_InfoCard
  * @subpackage Zend_InfoCard_Xml_Security
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Security.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -30,8 +30,8 @@ require_once 'Zend/InfoCard/Xml/Security/Transform.php';
  * @category   Zend
  * @package    Zend_InfoCard
  * @subpackage Zend_InfoCard_Xml_Security
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_InfoCard_Xml_Security
 {
@@ -53,17 +53,17 @@ class Zend_InfoCard_Xml_Security
     /**
      * The URI for Canonical Method C14N Exclusive
      */
-    const CANONICAL_METHOD_C14N_EXC = 'http://www.w3.org/2001/10/xml-exc-c14n#';
+    const CANONICAL_METHOD_C14N_EXC = 'https://www.w3.org/2001/10/xml-exc-c14n#';
 
     /**
      * The URI for Signature Method SHA1
      */
-    const SIGNATURE_METHOD_SHA1 = 'http://www.w3.org/2000/09/xmldsig#rsa-sha1';
+    const SIGNATURE_METHOD_SHA1 = 'https://www.w3.org/2000/09/xmldsig#rsa-sha1';
 
     /**
      * The URI for Digest Method SHA1
      */
-    const DIGEST_METHOD_SHA1 = 'http://www.w3.org/2000/09/xmldsig#sha1';
+    const DIGEST_METHOD_SHA1 = 'https://www.w3.org/2000/09/xmldsig#sha1';
 
     /**
      * The Identifier for RSA Keys
@@ -226,7 +226,7 @@ class Zend_InfoCard_Xml_Security
         // The way we are doing our XML processing requires that we specifically add this
         // (even though it's in the <Signature> parent-block).. otherwise, our canonical form
         // fails signature verification
-        $sxe->Signature->SignedInfo->addAttribute('xmlns', 'http://www.w3.org/2000/09/xmldsig#');
+        $sxe->Signature->SignedInfo->addAttribute('xmlns', 'https://www.w3.org/2000/09/xmldsig#');
 
         $canonical_signedinfo = $transformer->applyTransforms($sxe->Signature->SignedInfo->asXML());
 

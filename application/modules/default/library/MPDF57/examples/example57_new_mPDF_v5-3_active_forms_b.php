@@ -20,7 +20,7 @@ select {
 <body>
 <h2>Active Forms</h2>
 
-<form action="http://127.0.0.1/MPDF1.com/common/mpdf/examples/formsubmit.php" method="post">
+<form action="https://127.0.0.1/MPDF1.com/common/mpdf/examples/formsubmit.php" method="post">
 <b>Input Text</b>
 <input type="text" size="90" name="inputfield" value="" title="The title attribute works like a tool-tip" /> 
 <br /><br />

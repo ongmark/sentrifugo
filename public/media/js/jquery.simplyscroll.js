@@ -1,9 +1,9 @@
 /*
  * simplyScroll 2 - a scroll-tastic jQuery plugin
  *
- * http://logicbox.net/jquery/simplyscroll/
+ * https://logicbox.net/jquery/simplyscroll/
  *
- * Copyright (c) 2009-2012 Will Kelly - http://logicbox.net
+ * Copyright (c) 2009-2012 Will Kelly - https://logicbox.net
  *
  * Dual licensed under the MIT and GPL licenses.
  *

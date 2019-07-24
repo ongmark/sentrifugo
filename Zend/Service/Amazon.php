@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Amazon
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Amazon.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -30,8 +30,8 @@ require_once 'Zend/Rest/Client.php';
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Amazon
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_Amazon
 {
@@ -57,12 +57,12 @@ class Zend_Service_Amazon
      *
      * @var array
      */
-    protected $_baseUriList = array('US' => 'http://webservices.amazon.com',
-                                    'UK' => 'http://webservices.amazon.co.uk',
-                                    'DE' => 'http://webservices.amazon.de',
-                                    'JP' => 'http://webservices.amazon.co.jp',
-                                    'FR' => 'http://webservices.amazon.fr',
-                                    'CA' => 'http://webservices.amazon.ca');
+    protected $_baseUriList = array('US' => 'https://webservices.amazon.com',
+                                    'UK' => 'https://webservices.amazon.co.uk',
+                                    'DE' => 'https://webservices.amazon.de',
+                                    'JP' => 'https://webservices.amazon.co.jp',
+                                    'FR' => 'https://webservices.amazon.fr',
+                                    'CA' => 'https://webservices.amazon.ca');
 
     /**
      * Reference to REST client object
@@ -104,7 +104,7 @@ class Zend_Service_Amazon
      * @param  array $options Options to use for the Search Query
      * @throws Zend_Service_Exception
      * @return Zend_Service_Amazon_ResultSet
-     * @see http://www.amazon.com/gp/aws/sdk/main.html/102-9041115-9057709?s=AWSEcommerceService&v=2005-10-05&p=ApiReference/ItemSearchOperation
+     * @see https://www.amazon.com/gp/aws/sdk/main.html/102-9041115-9057709?s=AWSEcommerceService&v=2005-10-05&p=ApiReference/ItemSearchOperation
      */
     public function itemSearch(array $options)
     {
@@ -142,7 +142,7 @@ class Zend_Service_Amazon
      *
      * @param  string $asin    Amazon ASIN ID
      * @param  array  $options Query Options
-     * @see http://www.amazon.com/gp/aws/sdk/main.html/102-9041115-9057709?s=AWSEcommerceService&v=2005-10-05&p=ApiReference/ItemLookupOperation
+     * @see https://www.amazon.com/gp/aws/sdk/main.html/102-9041115-9057709?s=AWSEcommerceService&v=2005-10-05&p=ApiReference/ItemLookupOperation
      * @throws Zend_Service_Exception
      * @return Zend_Service_Amazon_Item|Zend_Service_Amazon_ResultSet
      */
@@ -171,7 +171,7 @@ class Zend_Service_Amazon
         $dom->loadXML($response->getBody());
         self::_checkErrors($dom);
         $xpath = new DOMXPath($dom);
-        $xpath->registerNamespace('az', 'http://webservices.amazon.com/AWSECommerceService/2005-10-05');
+        $xpath->registerNamespace('az', 'https://webservices.amazon.com/AWSECommerceService/2005-10-05');
         $items = $xpath->query('//az:Items/az:Item');
 
         if ($items->length == 1) {
@@ -286,7 +286,7 @@ class Zend_Service_Amazon
         }
 
         return sprintf("GET\n%s\n/onca/xml\n%s",
-            str_replace('http://', '', $baseUri),
+            str_replace('https://', '', $baseUri),
             implode("&", $params)
         );
     }
@@ -302,7 +302,7 @@ class Zend_Service_Amazon
     protected static function _checkErrors(DOMDocument $dom)
     {
         $xpath = new DOMXPath($dom);
-        $xpath->registerNamespace('az', 'http://webservices.amazon.com/AWSECommerceService/2005-10-05');
+        $xpath->registerNamespace('az', 'https://webservices.amazon.com/AWSECommerceService/2005-10-05');
 
         if ($xpath->query('//az:Error')->length >= 1) {
             $code = $xpath->query('//az:Error/az:Code/text()')->item(0)->data;

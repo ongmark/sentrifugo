@@ -385,18 +385,18 @@ mpdf-->
 
 <div>
 <h5>Useful links</h5>
-<p><a href="http://www.adams1.com">http://www.adams1.com</a></p>
-<p><a href="http://www.tec-it.com/Download/PDF/Barcode_Reference_EN.pdf">http://www.tec-it.com/Download/PDF/Barcode_Reference_EN.pdf</a></p>
-<p><a href="http://www.tec-it.com/en/support/knowbase/symbologies/barcode-overview/linear/Default.aspx">http://www.tec-it.com/en/support/knowbase/symbologies/barcode-overview/linear/Default.aspx</a></p>
-<p><a href="http://www.gs1uk.org/downloads/bar_code/Bar%20coding%20getting%20it%20right.pdf">http://www.gs1uk.org/downloads/bar_code/Bar%20coding%20getting%20it%20right.pdf</a></p>
-<p><a href="http://web.archive.org/web/19990501035133/http://www.uc-council.org/d36-d.htm">http://web.archive.org/web/19990501035133/http://www.uc-council.org/d36-d.htm (EAN2 and EAN5)</a></p>
-<p><a href="http://www.barcodeisland.com/ean13.phtml">http://www.barcodeisland.com/ean13.phtml (UPC-A)</a></p>
-<p><a href="http://www.idautomation.com/fonts/postnet/#Specifications">http://www.idautomation.com/fonts/postnet/#Specifications</a></p>
-<p><a href="http://www.outputlinks.com/sites/AFP/ibm_bcocafaq.pdf">http://www.outputlinks.com/sites/AFP/ibm_bcocafaq.pdf</a></p>
+<p><a href="https://www.adams1.com">https://www.adams1.com</a></p>
+<p><a href="https://www.tec-it.com/Download/PDF/Barcode_Reference_EN.pdf">https://www.tec-it.com/Download/PDF/Barcode_Reference_EN.pdf</a></p>
+<p><a href="https://www.tec-it.com/en/support/knowbase/symbologies/barcode-overview/linear/Default.aspx">https://www.tec-it.com/en/support/knowbase/symbologies/barcode-overview/linear/Default.aspx</a></p>
+<p><a href="https://www.gs1uk.org/downloads/bar_code/Bar%20coding%20getting%20it%20right.pdf">https://www.gs1uk.org/downloads/bar_code/Bar%20coding%20getting%20it%20right.pdf</a></p>
+<p><a href="https://web.archive.org/web/19990501035133/https://www.uc-council.org/d36-d.htm">https://web.archive.org/web/19990501035133/https://www.uc-council.org/d36-d.htm (EAN2 and EAN5)</a></p>
+<p><a href="https://www.barcodeisland.com/ean13.phtml">https://www.barcodeisland.com/ean13.phtml (UPC-A)</a></p>
+<p><a href="https://www.idautomation.com/fonts/postnet/#Specifications">https://www.idautomation.com/fonts/postnet/#Specifications</a></p>
+<p><a href="https://www.outputlinks.com/sites/AFP/ibm_bcocafaq.pdf">https://www.outputlinks.com/sites/AFP/ibm_bcocafaq.pdf</a></p>
 <p><a href="https://ribbs.usps.gov/intelligentmail_mailpieces/documents/tech_guides/USPSIMB_Tech_Resource_Guide.pdf">https://ribbs.usps.gov/intelligentmail_mailpieces/documents/tech_guides/USPSIMB_Tech_Resource_Guide.pdf (Intelligent Mail)</a></p>
-<p><a href="http://www.mailsorttechnical.com/downloads_mailsort_user_guide.cfm">http://www.mailsorttechnical.com/downloads_mailsort_user_guide.cfm</a></p>
+<p><a href="https://www.mailsorttechnical.com/downloads_mailsort_user_guide.cfm">https://www.mailsorttechnical.com/downloads_mailsort_user_guide.cfm</a></p>
 
-<p><a href="http://www.mailsorttechnical.com/docs/mug_jun_2009/MUG_10_2008_Mailsort_700.pdf">http://www.mailsorttechnical.com/docs/mug_jun_2009/MUG_10_2008_Mailsort_700.pdf</a>  page 20</p>
+<p><a href="https://www.mailsorttechnical.com/docs/mug_jun_2009/MUG_10_2008_Mailsort_700.pdf">https://www.mailsorttechnical.com/docs/mug_jun_2009/MUG_10_2008_Mailsort_700.pdf</a>  page 20</p>
  
 
 </div>

@@ -1,12 +1,12 @@
 /*! Copyright 
- *  (c) 2010, Brandon Aaron (http://brandonaaron.net)
- *  (c) 2012 - 2013, Alexander Zaytsev (http://hazzik.ru/en)
+ *  (c) 2010, Brandon Aaron (https://brandonaaron.net)
+ *  (c) 2012 - 2013, Alexander Zaytsev (https://hazzik.ru/en)
  * Dual licensed under the MIT (MIT_LICENSE.txt)
  * and GPL Version 2 (GPL_LICENSE.txt) licenses.
  *
  * Version: 1.3.4
  * Requires jQuery 1.3+
- * Docs: http://docs.jquery.com/Plugins/livequery
+ * Docs: https://docs.jquery.com/Plugins/livequery
  * 
  * Downloaded on 07-aug-2013 by k.rama krishna
  */

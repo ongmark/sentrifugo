@@ -1,8 +1,8 @@
 <?php
-//HTML2PDF by Clément Lavoillotte
+//HTML2PDF by Clï¿½ment Lavoillotte
 //ac.lavoillotte@noos.fr
 //webmaster@streetpc.tk
-//http://www.streetpc.tk
+//https://www.streetpc.tk
 
 require('../application/modules/default/library/FPDF/fpdf.php');
 
@@ -64,8 +64,8 @@ function WriteHTML($html)
 {
     //HTML parser
     $html=strip_tags($html,"<b><u><i><a><img><p><br><strong><em><font><tr><blockquote>"); //supprime tous les tags sauf ceux reconnus
-    $html=str_replace("\n",' ',$html); //remplace retour à la ligne par un espace
-    $a=preg_split('/<(.*)>/U',$html,-1,PREG_SPLIT_DELIM_CAPTURE); //éclate la chaîne avec les balises
+    $html=str_replace("\n",' ',$html); //remplace retour ï¿½ la ligne par un espace
+    $a=preg_split('/<(.*)>/U',$html,-1,PREG_SPLIT_DELIM_CAPTURE); //ï¿½clate la chaï¿½ne avec les balises
     foreach($a as $i=>$e)
     {
         if($i%2==0)

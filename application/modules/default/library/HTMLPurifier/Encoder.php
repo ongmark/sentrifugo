@@ -32,7 +32,7 @@ class HTMLPurifier_Encoder
      *       UTF-8 representations.
      *
      * @note Fallback code adapted from utf8ToUnicode by Henri Sivonen and
-     *       hsivonen@iki.fi at <http://iki.fi/hsivonen/php-utf8/> under the
+     *       hsivonen@iki.fi at <https://iki.fi/hsivonen/php-utf8/> under the
      *       LGPL license.  Notes on what changed are inside, but in general,
      *       the original code transformed UTF-8 text into an array of integer
      *       Unicode codepoints. Understandably, transforming that back to
@@ -200,7 +200,7 @@ class HTMLPurifier_Encoder
     /**
      * Translates a Unicode codepoint into its corresponding UTF-8 character.
      * @note Based on Feyd's function at
-     *       <http://forums.devnetwork.net/viewtopic.php?p=191404#191404>,
+     *       <https://forums.devnetwork.net/viewtopic.php?p=191404#191404>,
      *       which is in public domain.
      * @note While we're going to do code point parsing anyway, a good
      *       optimization would be to refuse to translate code points that

@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -577,7 +577,7 @@ class Default_ServicerequestsController extends Zend_Controller_Action
         $disp_arr = array('Closed' => 'Closed','Rejected' => 'Rejected');
         $display_status = (!array_key_exists($status,$disp_arr))?"Open":$disp_arr[$status];
         $view = $this->getHelper('ViewRenderer')->view;
-        $base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+        $base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
         $this->view->base_url=$base_url;
         $this->view->message = $message;                
         $this->view->data = $summary_data;
@@ -637,7 +637,7 @@ class Default_ServicerequestsController extends Zend_Controller_Action
         {
             foreach($req_receivers as $rec)
             {
-                $base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+                $base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
                 $view = $this->getHelper('ViewRenderer')->view;
                 
                 $this->view->base_url=$base_url;
@@ -663,7 +663,7 @@ class Default_ServicerequestsController extends Zend_Controller_Action
         {
             foreach($cc as $rec)
             {
-                $base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+                $base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
                 $view = $this->getHelper('ViewRenderer')->view;
                 
                 $this->view->base_url=$base_url;

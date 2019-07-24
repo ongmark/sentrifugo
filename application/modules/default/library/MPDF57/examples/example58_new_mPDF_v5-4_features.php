@@ -149,12 +149,12 @@ $this->bookmarkStyles = array(<br />
 
 <h3>Embedded SVG code<bookmark content="Embedded SVG code" level="0" /></h3>
 <p>SVG Images can be embedded in your HTML code. This is formally part of the XHTML specification and is supported by IE9+ and most other browsers.</p>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 400 200" width="400" height="200"> 
+<svg xmlns="https://www.w3.org/2000/svg" version="1.1" viewBox="0 0 400 200" width="400" height="200"> 
   <circle cx="130" cy="100" r="80" stroke="black" stroke-width="1" fill="red" />
   <circle cx="200" cy="100" r="80" stroke="black" stroke-width="1" fill="blue" />
 </svg>
 <p class="code">
-&lt;svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 200" width="200" height="200"&gt; <br />
+&lt;svg xmlns="https://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 200" width="200" height="200"&gt; <br />
 &nbsp;  &lt;circle cx="100" cy="50" r="40" stroke="black" stroke-width="1" fill="red" /&gt;<br />
 &nbsp;  &lt;circle cx="130" cy="50" r="40" stroke="black" stroke-width="1" fill="blue" /&gt;<br />
 &lt;/svg&gt;

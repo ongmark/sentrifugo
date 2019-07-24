@@ -2,10 +2,10 @@
 /**
  * jqGrid Swedish Translation
  * Harald Normann harald.normann@wts.se, harald.normann@gmail.com
- * http://www.worldteamsoftware.com 
+ * https://www.worldteamsoftware.com 
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -15,12 +15,12 @@ $.jgrid = {
 		pgtext : "Sida {0} av {1}"
 	},
 	search : {
-		caption: "Sök Poster - Ange sökvillkor",
-		Find: "Sök",
-		Reset: "Nollställ Villkor",
-		odata : ['lika', 'ej lika', 'mindre', 'mindre eller lika','större','större eller lika', 'börjar med','börjar inte med','tillhör','tillhör inte','slutar med','slutar inte med','innehåller','innehåller inte'],
+		caption: "Sï¿½k Poster - Ange sï¿½kvillkor",
+		Find: "Sï¿½k",
+		Reset: "Nollstï¿½ll Villkor",
+		odata : ['lika', 'ej lika', 'mindre', 'mindre eller lika','stï¿½rre','stï¿½rre eller lika', 'bï¿½rjar med','bï¿½rjar inte med','tillhï¿½r','tillhï¿½r inte','slutar med','slutar inte med','innehï¿½ller','innehï¿½ller inte'],
 		groupOps: [	{ op: "AND", text: "alla" },	{ op: "OR",  text: "eller" }	],
-		matchText: " träff",
+		matchText: " trï¿½ff",
 		rulesText: " regler"
 	},
 	edit : {
@@ -28,29 +28,29 @@ $.jgrid = {
 		editCaption: "Redigera Post",
 		bSubmit: "Spara",
 		bCancel: "Avbryt",
-		bClose: "Stäng",
-		saveData: "Data har ändrats! Spara förändringar?",
+		bClose: "Stï¿½ng",
+		saveData: "Data har ï¿½ndrats! Spara fï¿½rï¿½ndringar?",
 		bYes : "Ja",
 		bNo : "Nej",
 		bExit : "Avbryt",
 		msg: {
-	        required:"Fältet är obligatoriskt",
-	        number:"Välj korrekt nummer",
-	        minValue:"värdet måste vara större än eller lika med",
-	        maxValue:"värdet måste vara mindre än eller lika med",
-	        email: "är inte korrekt e-post adress",
+	        required:"Fï¿½ltet ï¿½r obligatoriskt",
+	        number:"Vï¿½lj korrekt nummer",
+	        minValue:"vï¿½rdet mï¿½ste vara stï¿½rre ï¿½n eller lika med",
+	        maxValue:"vï¿½rdet mï¿½ste vara mindre ï¿½n eller lika med",
+	        email: "ï¿½r inte korrekt e-post adress",
 	        integer: "Var god ange korrekt heltal",
 	        date: "Var god ange korrekt datum",
-	        url: "är inte en korrekt URL. Prefix måste anges ('http://' or 'https://')",
-	        nodefined : " är inte definierad!",
-	        novalue : " returvärde måste anges!",
-	        customarray : "Custom funktion måste returnera en vektor!",
-			customfcheck : "Custom funktion måste finnas om Custom kontroll sker!"
+	        url: "ï¿½r inte en korrekt URL. Prefix mï¿½ste angehttps://p://' or 'https://')",
+	        nodefined : " ï¿½r inte definierad!",
+	        novalue : " returvï¿½rde mï¿½ste anges!",
+	        customarray : "Custom funktion mï¿½ste returnera en vektor!",
+			customfcheck : "Custom funktion mï¿½ste finnas om Custom kontroll sker!"
 		}
 	},
 	view : {
 		caption: "Visa Post",
-		bClose: "Stäng"
+		bClose: "Stï¿½ng"
 	},
 	del : {
 		caption: "Radera",
@@ -66,16 +66,16 @@ $.jgrid = {
 		deltext: "",
 		deltitle: "Radera markerad rad",
 		searchtext: "",
-		searchtitle: "Sök poster",
+		searchtitle: "Sï¿½k poster",
 		refreshtext: "",
 		refreshtitle: "Uppdatera data",
 		alertcap: "Varning",
-		alerttext: "Ingen rad är markerad",
+		alerttext: "Ingen rad ï¿½r markerad",
 		viewtext: "",
 		viewtitle: "Visa markerad rad"
 	},
 	col : {
-		caption: "Välj Kolumner",
+		caption: "Vï¿½lj Kolumner",
 		bSubmit: "OK",
 		bCancel: "Avbryt"
 	},
@@ -91,8 +91,8 @@ $.jgrid = {
 		currency : {decimalSeparator:",", thousandsSeparator: " ", decimalPlaces: 2, prefix: "", suffix:"Kr", defaultValue: '0,00'},
 		date : {
 			dayNames:   [
-				"Sön", "Mån", "Tis", "Ons", "Tor", "Fre", "Lör",
-				"Söndag", "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag"
+				"Sï¿½n", "Mï¿½n", "Tis", "Ons", "Tor", "Fre", "Lï¿½r",
+				"Sï¿½ndag", "Mï¿½ndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lï¿½rdag"
 			],
 			monthNames: [
 				"Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec",

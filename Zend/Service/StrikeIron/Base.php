@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage StrikeIron
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Base.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -31,8 +31,8 @@ require_once 'Zend/Service/StrikeIron/Decorator.php';
  * @category   Zend
  * @package    Zend_Service
  * @subpackage StrikeIron
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_StrikeIron_Base
 {
@@ -161,7 +161,7 @@ class Zend_Service_StrikeIron_Base
 
         // add default LicenseInfo header if a custom one was not supplied
         if (! $foundLicenseInfo) {
-            $this->_options['headers'][] = new SoapHeader('http://ws.strikeiron.com',
+            $this->_options['headers'][] = new SoapHeader('https://ws.strikeiron.com',
                             'LicenseInfo',
                             array('RegisteredUser' => array('UserID'   => $this->_options['username'],
                                                             'Password' => $this->_options['password'])));

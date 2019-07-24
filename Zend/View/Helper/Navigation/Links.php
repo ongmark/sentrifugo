@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_View
  * @subpackage Helper
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Links.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -31,8 +31,8 @@ require_once 'Zend/View/Helper/Navigation/HelperAbstract.php';
  * @category   Zend
  * @package    Zend_View
  * @subpackage Helper
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_View_Helper_Navigation_Links
     extends Zend_View_Helper_Navigation_HelperAbstract
@@ -343,7 +343,7 @@ class Zend_View_Helper_Navigation_Links
      * Searches the root container for the forward 'start' relation of the given
      * $page
      *
-     * From {@link http://www.w3.org/TR/html4/types.html#type-links}:
+     * From {@link https://www.w3.org/TR/html4/types.html#type-links}:
      * Refers to the first document in a collection of documents. This link type
      * tells search engines which document is considered by the author to be the
      * starting point of the collection.
@@ -370,7 +370,7 @@ class Zend_View_Helper_Navigation_Links
      * Searches the root container for the forward 'next' relation of the given
      * $page
      *
-     * From {@link http://www.w3.org/TR/html4/types.html#type-links}:
+     * From {@link https://www.w3.org/TR/html4/types.html#type-links}:
      * Refers to the next document in a linear sequence of documents. User
      * agents may choose to preload the "next" document, to reduce the perceived
      * load time.
@@ -404,7 +404,7 @@ class Zend_View_Helper_Navigation_Links
      * Searches the root container for the forward 'prev' relation of the given
      * $page
      *
-     * From {@link http://www.w3.org/TR/html4/types.html#type-links}:
+     * From {@link https://www.w3.org/TR/html4/types.html#type-links}:
      * Refers to the previous document in an ordered series of documents. Some
      * user agents also support the synonym "Previous".
      *
@@ -437,7 +437,7 @@ class Zend_View_Helper_Navigation_Links
      * Searches the root container for forward 'chapter' relations of the given
      * $page
      *
-     * From {@link http://www.w3.org/TR/html4/types.html#type-links}:
+     * From {@link https://www.w3.org/TR/html4/types.html#type-links}:
      * Refers to a document serving as a chapter in a collection of documents.
      *
      * @param  Zend_Navigation_Page $page       page to find relation for
@@ -479,7 +479,7 @@ class Zend_View_Helper_Navigation_Links
      * Searches the root container for forward 'section' relations of the given
      * $page
      *
-     * From {@link http://www.w3.org/TR/html4/types.html#type-links}:
+     * From {@link https://www.w3.org/TR/html4/types.html#type-links}:
      * Refers to a document serving as a section in a collection of documents.
      *
      * @param  Zend_Navigation_Page $page       page to find relation for
@@ -512,7 +512,7 @@ class Zend_View_Helper_Navigation_Links
      * Searches the root container for forward 'subsection' relations of the
      * given $page
      *
-     * From {@link http://www.w3.org/TR/html4/types.html#type-links}:
+     * From {@link https://www.w3.org/TR/html4/types.html#type-links}:
      * Refers to a document serving as a subsection in a collection of
      * documents.
      *
@@ -551,7 +551,7 @@ class Zend_View_Helper_Navigation_Links
      * Searches the root container for the reverse 'section' relation of the
      * given $page
      *
-     * From {@link http://www.w3.org/TR/html4/types.html#type-links}:
+     * From {@link https://www.w3.org/TR/html4/types.html#type-links}:
      * Refers to a document serving as a section in a collection of documents.
      *
      * @param  Zend_Navigation_Page $page  page to find relation for
@@ -575,7 +575,7 @@ class Zend_View_Helper_Navigation_Links
      * Searches the root container for the reverse 'section' relation of the
      * given $page
      *
-     * From {@link http://www.w3.org/TR/html4/types.html#type-links}:
+     * From {@link https://www.w3.org/TR/html4/types.html#type-links}:
      * Refers to a document serving as a subsection in a collection of
      * documents.
      *
@@ -722,7 +722,7 @@ class Zend_View_Helper_Navigation_Links
         }
 
         // TODO: add more attribs
-        // http://www.w3.org/TR/html401/struct/links.html#h-12.2
+        // https://www.w3.org/TR/html401/struct/links.html#h-12.2
         $attribs = array(
             $attrib  => $relation,
             'href'   => $href,

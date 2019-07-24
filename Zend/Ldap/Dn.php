@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Ldap
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Dn.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -24,8 +24,8 @@
  *
  * @category   Zend
  * @package    Zend_Ldap
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Ldap_Dn implements ArrayAccess
 {
@@ -500,7 +500,7 @@ class Zend_Ldap_Dn implements ArrayAccess
      * are preceeded by ba backslash. Control characters with an ASCII code < 32 are represented as \hexpair.
      * Finally all leading and trailing spaces are converted to sequences of \20.
      * @see Net_LDAP2_Util::escape_dn_value() from Benedikt Hallinger <beni@php.net>
-     * @link http://pear.php.net/package/Net_LDAP2
+     * @link https://pear.php.net/package/Net_LDAP2
      * @author Benedikt Hallinger <beni@php.net>
      *
      * @param  string|array $values An array containing the DN values that should be escaped
@@ -542,7 +542,7 @@ class Zend_Ldap_Dn implements ArrayAccess
      * Any escape sequence starting with a baskslash - hexpair or special character -
      * will be transformed back to the corresponding character.
      * @see Net_LDAP2_Util::escape_dn_value() from Benedikt Hallinger <beni@php.net>
-     * @link http://pear.php.net/package/Net_LDAP2
+     * @link https://pear.php.net/package/Net_LDAP2
      * @author Benedikt Hallinger <beni@php.net>
      *
      * @param  string|array $values Array of DN Values

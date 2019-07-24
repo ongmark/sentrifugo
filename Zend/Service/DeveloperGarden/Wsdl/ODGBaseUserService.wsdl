@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-	xmlns:tns="http://odg.tonline.de/ODGBaseUserService/" 
-	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ODGBaseUserService"
-	targetNamespace="http://odg.tonline.de/ODGBaseUserService/">
+<wsdl:definitions xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:tns="https://odg.tonline.de/ODGBaseUserService/" 
+	xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="https://www.w3.org/2001/XMLSchema" name="ODGBaseUserService"
+	targetNamespace="https://odg.tonline.de/ODGBaseUserService/">
 	<wsdl:types>
 		<xsd:schema
-			targetNamespace="http://odg.tonline.de/ODGBaseUserService/"
+			targetNamespace="https://odg.tonline.de/ODGBaseUserService/"
 			elementFormDefault="unqualified"
 			attributeFormDefault="unqualified">
 			<xsd:include schemaLocation="ODGBaseUserService.xsd" />			
@@ -52,11 +52,11 @@
 		type="tns:ODGBaseUserService">
 
 		<soap:binding style="document"
-			transport="http://schemas.xmlsoap.org/soap/http" />
+			transport="https://schemas.xmlsoap.org/soap/http" />
 		<wsdl:operation name="changeQuotaPool">
 
 			<soap:operation
-				soapAction="http://odg.tonline.de/ODGBaseUserService/changeQuotaPool" />
+				soapAction="https://odg.tonline.de/ODGBaseUserService/changeQuotaPool" />
 			<wsdl:input>
 
 				<soap:body use="literal" />
@@ -69,7 +69,7 @@
 		<wsdl:operation name="getQuotaInformation">
 
 			<soap:operation
-				soapAction="http://odg.tonline.de/ODGBaseUserService/getQuotaInformation" />
+				soapAction="https://odg.tonline.de/ODGBaseUserService/getQuotaInformation" />
 			<wsdl:input>
 
 				<soap:body use="literal" />
@@ -82,7 +82,7 @@
 		<wsdl:operation name="getAccountBalance">
 
 			<soap:operation
-				soapAction="http://odg.tonline.de/ODGBaseUserService/getAccountBalance" />
+				soapAction="https://odg.tonline.de/ODGBaseUserService/getAccountBalance" />
 			<wsdl:input>
 
 				<soap:body use="literal" />

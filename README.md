@@ -59,7 +59,7 @@ Installing Sentrifugo Version 3.1.1
 
 Sentrifugo comes with its own web-installer to help guide you through the installation process. 
 
-Note: You can also find these steps in http://www.sentrifugo.com/home/installationguide
+Note: You can also find these steps in https://www.sentrifugo.com/home/installationguide
 
 Table of Contents:
 
@@ -93,7 +93,7 @@ Table of Contents:
 		Web Installer  
 		-------------
 		- XAMPP users; the AMP stack for Windows needs to be started manually.
-		- Using a JavaScript enabled browser go to http://<webhost>/sentrifugo/; Where <webhost> is localhost if it is installed in the machine you are
+		- Using a JavaScript enabled browser go to https://<webhost>/sentrifugo/; Where <webhost> is localhost if it is installed in the machine you are
 		currently working on, IP address if it is remotely hosted 
 		
 		Pre-requisites
@@ -101,7 +101,7 @@ Table of Contents:
 		The system requirements for installing Sentrifugo are described below. Make sure your system meets these requirements.
 
 		a. PHP 5.3 or later
-			You can download PHP 5.3 or later by visiting http://windows.php.net/download/
+			You can download PHP 5.3 or later by visiting https://windows.php.net/download/
 
 		b. PDO MySQL (for MySQL connection) 
 			To install Sentrifugo on windows, you need to enable the PDO and PDO_MYSQL extensions in your php.ini file. You can add the following
@@ -130,7 +130,7 @@ Table of Contents:
 			1. extension = php_gd2.dll
 		
 		e. Open SSL (For SSL and TSL Protocols)
-			Download the installer for OpenSSL 1.0.1e from http://www.openssl.org/related/binaries.html
+			Download the installer for OpenSSL 1.0.1e from https://www.openssl.org/related/binaries.html
 
 			If OpenSSL is already installed in your system, to enable this extension in your php.ini file, you can add the following line in your php.ini
 			file:
@@ -159,7 +159,7 @@ Table of Contents:
 		Web Installer  
 		-------------
 		- XAMPP users; the AMP stack for Linux needs to be started manually.
-		- Using a JavaScript enabled browser go to http://<webhost>/sentrifugo/; Where <webhost> is localhost if it is installed in the machine you are 
+		- Using a JavaScript enabled browser go to https://<webhost>/sentrifugo/; Where <webhost> is localhost if it is installed in the machine you are 
 		currently working on, IP address if it is remotely hosted 
 		
 		Pre-requisites
@@ -170,7 +170,7 @@ Table of Contents:
 			To install PHP 5.3 on Linux, please follow the below links:
 
 			For Ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu
-			For Redhat and CentOS: http://www.thetechnicalstuff.com/install-php5-3-in-centos-and-redhat/
+			For Redhat and CentOS: https://www.thetechnicalstuff.com/install-php5-3-in-centos-and-redhat/
 
 		b. PDO MySQL (for MySQL connection) 
 			To install Sentrifugo on Linux, you can compile php with --with-pdo-mysql in your php.ini, and add the following lines:
@@ -192,7 +192,7 @@ Table of Contents:
 			1. #apt-get install php5-gd
 		
 		e. Open SSL (For SSL and TSL Protocols)
-			Download the OpenSSL 1.0.1c tarball archive from the OpenSSL web site at http://www.openssl.org/source/
+			Download the OpenSSL 1.0.1c tarball archive from the OpenSSL web site at https://www.openssl.org/source/
 
 	4. MAC Installation Guide
 	=========================
@@ -217,7 +217,7 @@ Table of Contents:
 		Web Installer  
 		-------------
 		- MAMP users; the AMP stack for MAC needs to be started manually.
-		- Using a JavaScript enabled browser go to http://<webhost>/sentrifugo/; Where <webhost> is localhost if it is installed in the machine you are 
+		- Using a JavaScript enabled browser go to https://<webhost>/sentrifugo/; Where <webhost> is localhost if it is installed in the machine you are 
 		currently working on, IP address if it is remotely hosted
 		
 		Pre-requisites
@@ -225,7 +225,7 @@ Table of Contents:
 		The system requirements for installing Sentrifugo are described below. Make sure your system meets these requirements.
 
 		a. PHP 5.3 or later
-			You can download PHP 5.3 or later by visiting http://php.net/downloads.php
+			You can download PHP 5.3 or later by visiting https://php.net/downloads.php
 
 		b. PDO MySQL (for MySQL connection) 
 			To install Sentrifugo on MAC, you need to enable the PDO and PDO_MYSQL extensions in your php.ini file. You can add the following lines in 
@@ -248,7 +248,7 @@ Table of Contents:
 			1. extension = gd.so
 		
 		e. Open SSL (For SSL and TSL Protocols)
-			Download the installer for OpenSSL from http://www.openssl.org/source/
+			Download the installer for OpenSSL from https://www.openssl.org/source/
 
 	5. Upgrading your application code with patches
 	=====================================================

@@ -21,7 +21,7 @@ Version: 3.3.2 Timestamp: Mon Mar 25 12:14:18 PDT 2013
     Force border-box so that % widths fit the parent
     container without overlap because of margin/padding.
 
-    More Info : http://www.quirksmode.org/css/box.html
+    More Info : https://www.quirksmode.org/css/box.html
   */
   -webkit-box-sizing: border-box; /* webkit */
    -khtml-box-sizing: border-box; /* konqueror */

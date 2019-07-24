@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Health
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: ActivityEntry.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -44,18 +44,18 @@ require_once 'Zend/Gdata/Extension/Rating.php';
 /**
  * A concrete class for working with YouTube user activity entries.
  *
- * @link http://code.google.com/apis/youtube/
+ * @link https://code.google.com/apis/youtube/
  *
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage YouTube
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Gdata_YouTube_ActivityEntry extends Zend_Gdata_Entry
 {
     const ACTIVITY_CATEGORY_SCHEME =
-        'http://gdata.youtube.com/schemas/2007/userevents.cat';
+        'https://gdata.youtube.com/schemas/2007/userevents.cat';
 
     /**
      * The classname for individual user activity entry elements.
@@ -204,7 +204,7 @@ class Zend_Gdata_YouTube_ActivityEntry extends Zend_Gdata_Entry
      * Return the activity type that was performed.
      *
      * Convenience method that inspects category where scheme is
-     * http://gdata.youtube.com/schemas/2007/userevents.cat.
+     * https://gdata.youtube.com/schemas/2007/userevents.cat.
      *
      * @return string|null The activity category if found.
      */

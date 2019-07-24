@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Pdf
  * @subpackage FileParser
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: OpenType.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -38,15 +38,15 @@ require_once 'Zend/Pdf/FileParser/Font.php';
  *
  * The full TrueType and OpenType specifications can be found at:
  * <ul>
- *  <li>{@link http://developer.apple.com/textfonts/TTRefMan/}
- *  <li>{@link http://www.microsoft.com/typography/OTSPEC/}
- *  <li>{@link http://partners.adobe.com/public/developer/opentype/index_spec.html}
+ *  <li>{@link https://developer.apple.com/textfonts/TTRefMan/}
+ *  <li>{@link https://www.microsoft.com/typography/OTSPEC/}
+ *  <li>{@link https://partners.adobe.com/public/developer/opentype/index_spec.html}
  * </ul>
  *
  * @package    Zend_Pdf
  * @subpackage FileParser
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 abstract class Zend_Pdf_FileParser_Font_OpenType extends Zend_Pdf_FileParser_Font
 {
@@ -619,7 +619,7 @@ abstract class Zend_Pdf_FileParser_Font_OpenType extends Zend_Pdf_FileParser_Fon
 
         /* Describes the class of font: serif, sans serif, script. etc. These
          * values are defined here:
-         *   http://www.microsoft.com/OpenType/OTSpec/ibmfc.htm
+         *   https://www.microsoft.com/OpenType/OTSpec/ibmfc.htm
          */
         $familyClass = ($this->readUInt(2) >> 8);    // don't care about subclass
         $this->_debugLog('Font family class: %d', $familyClass);
@@ -1042,7 +1042,7 @@ abstract class Zend_Pdf_FileParser_Font_OpenType extends Zend_Pdf_FileParser_Fon
             /* The low-order bytes specify the language, the high-order bytes
              * specify the dialect. We just care about the language. For the
              * complete list, see:
-             *   http://www.microsoft.com/globaldev/reference/lcid-all.mspx
+             *   https://www.microsoft.com/globaldev/reference/lcid-all.mspx
              */
             $languageID &= 0xff;
             switch ($languageID) {

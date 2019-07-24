@@ -2,10 +2,10 @@
 /**
  * jqGrid Polish Translation
  * Łukasz Schab
- * http://FreeTree.pl
+ * https://FreeTree.pl
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -41,7 +41,7 @@ $.jgrid = {
 	        email: "nie jest adresem e-mail",
 	        integer: "Proszę wpisać poprawną liczbę",
 			date: "Proszę podaj poprawną datę",
-			url: "jest niew\u0142aściwym adresem URL. Pamiętaj o prefiksie ('http://' lub 'https://')",
+			url: "jest niew\u0142aściwym adresem URL. Pamiętaj o prefiksie ('https://' lub 'https://')",
 			nodefined : " is not defined!",
 			novalue : " return value is required!",
 			customarray : "Custom function should return array!",

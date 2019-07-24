@@ -3,10 +3,10 @@
 **
  * jqGrid extension - Tree Grid
  * Tony Tomov tony@trirand.com
- * http://trirand.com/blog/ 
+ * https://trirand.com/blog/ 
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/ 
 $.jgrid.extend({
 	setTreeNode : function(rd, row){

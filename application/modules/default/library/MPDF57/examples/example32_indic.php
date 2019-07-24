@@ -127,8 +127,8 @@ Malayalam
 </p>
 
 <h3 style=\"font-family:ind_gu_1_001\">Gujarati (gu)</h3>
-<p style=\"font-family:ind_gu_1_001\">Examples at: http://in.gujarati.yahoo.com/</p>
-<p style=\"font-family:ind_gu_1_001\">http://gujarati.webdunia.com/entertainment/bollywood/filmreview/0910/17/1091017017_1.htm</p>
+<p style=\"font-family:ind_gu_1_001\">Examples at: https://in.gujarati.yahoo.com/</p>
+<p style=\"font-family:ind_gu_1_001\">https://gujarati.webdunia.com/entertainment/bollywood/filmreview/0910/17/1091017017_1.htm</p>
 <p style=\"font-family:ind_gu_1_001\">
 &#xa86; &#xab5;&#xabe;&#xaa4; &#xab9;&#xa9c;&#xabe;&#xab0; &#xab5;&#xabe;&#xab0; &#xa95;&#xab9;&#xac7;&#xab5;&#xabe;&#xaae;&#xabe;&#xa82; &#xa86;&#xab5;&#xac0; &#xa9b;&#xac7; &#xa95;&#xac7; &#xaab;&#xabf;&#xab2;&#xacd;&#xaae; &#xaac;&#xaa8;&#xabe;&#xab5;&#xaa4;&#xac0; &#xab5;&#xa96;&#xac7;&#xaa4; &#xab9;&#xa82;&#xaae;&#xac7;&#xab6;&#xabe; &#xab8;&#xacc;&#xaa5;&#xac0; &#xab5;&#xaa7;&#xac1; &#xaa7;&#xacd;&#xaaf;&#xabe;&#xaa8; &#xab5;&#xabe;&#xab0;&#xacd;&#xaa4;&#xabe; &#xa85;&#xaa8;&#xac7; &#xab8;&#xacd;&#xa95;&#xacd;&#xab0;&#xac0;&#xaa8;&#xaaa;&#xacd;&#xab2;&#xac7; &#xaaa;&#xab0; &#xa86;&#xaaa;&#xab5;&#xac1; &#xa9c;&#xacb;&#xa88;&#xa8f;. &#xa95;&#xabe;&#xab0;&#xaa3; &#xa95;&#xac7; &#xa86; &#xa95;&#xacb;&#xa88; &#xaaa;&#xaa3; &#xaab;&#xabf;&#xab2;&#xacd;&#xaae;&#xaa8;&#xac0; &#xab8;&#xaab;&#xab3;&#xaa4;&#xabe;&#xaa8;&#xacb; &#xaae;&#xac1;&#xa96;&#xacd;&#xaaf; &#xa86;&#xaa7;&#xabe;&#xab0; &#xab9;&#xacb;&#xaaf; &#xa9b;&#xac7;.
 <br />

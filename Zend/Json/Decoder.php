@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Json
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Decoder.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -29,8 +29,8 @@ require_once 'Zend/Json.php';
  *
  * @category   Zend
  * @package    Zend_Json
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Json_Decoder
 {
@@ -466,8 +466,8 @@ class Zend_Json_Decoder
      * This algorithm was originally developed for the
      * Solar Framework by Paul M. Jones
      *
-     * @link   http://solarphp.com/
-     * @link   http://svn.solarphp.com/core/trunk/Solar/Json.php
+     * @link   https://solarphp.com/
+     * @link   https://svn.solarphp.com/core/trunk/Solar/Json.php
      * @param  string $value
      * @return string
      */
@@ -495,31 +495,31 @@ class Zend_Json_Decoder
                     break;
                 case ($ord_chrs_c & 0xE0) == 0xC0:
                     // characters U-00000080 - U-000007FF, mask 110XXXXX
-                    //see http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
+                    //see https://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
                     $utf8 .= substr($chrs, $i, 2);
                     ++$i;
                     break;
                 case ($ord_chrs_c & 0xF0) == 0xE0:
                     // characters U-00000800 - U-0000FFFF, mask 1110XXXX
-                    // see http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
+                    // see https://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
                     $utf8 .= substr($chrs, $i, 3);
                     $i += 2;
                     break;
                 case ($ord_chrs_c & 0xF8) == 0xF0:
                     // characters U-00010000 - U-001FFFFF, mask 11110XXX
-                    // see http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
+                    // see https://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
                     $utf8 .= substr($chrs, $i, 4);
                     $i += 3;
                     break;
                 case ($ord_chrs_c & 0xFC) == 0xF8:
                     // characters U-00200000 - U-03FFFFFF, mask 111110XX
-                    // see http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
+                    // see https://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
                     $utf8 .= substr($chrs, $i, 5);
                     $i += 4;
                     break;
                 case ($ord_chrs_c & 0xFE) == 0xFC:
                     // characters U-04000000 - U-7FFFFFFF, mask 1111110X
-                    // see http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
+                    // see https://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
                     $utf8 .= substr($chrs, $i, 6);
                     $i += 5;
                     break;
@@ -538,7 +538,7 @@ class Zend_Json_Decoder
      *
      * This method is from the Solar Framework by Paul M. Jones
      *
-     * @link   http://solarphp.com
+     * @link   https://solarphp.com
      * @param  string $utf16 UTF-16 character
      * @return string UTF-8 character
      */
@@ -554,18 +554,18 @@ class Zend_Json_Decoder
         switch (true) {
             case ((0x7F & $bytes) == $bytes):
                 // this case should never be reached, because we are in ASCII range
-                // see: http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
+                // see: https://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
                 return chr(0x7F & $bytes);
 
             case (0x07FF & $bytes) == $bytes:
                 // return a 2-byte UTF-8 character
-                // see: http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
+                // see: https://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
                 return chr(0xC0 | (($bytes >> 6) & 0x1F))
                      . chr(0x80 | ($bytes & 0x3F));
 
             case (0xFFFF & $bytes) == $bytes:
                 // return a 3-byte UTF-8 character
-                // see: http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
+                // see: https://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8
                 return chr(0xE0 | (($bytes >> 12) & 0x0F))
                      . chr(0x80 | (($bytes >> 6) & 0x3F))
                      . chr(0x80 | ($bytes & 0x3F));

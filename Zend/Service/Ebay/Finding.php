@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Ebay
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Finding.php 22824 2010-08-09 18:59:54Z renanbr $
  */
 
@@ -29,8 +29,8 @@ require_once 'Zend/Service/Ebay/Abstract.php';
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Ebay
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @uses       Zend_Service_Ebay_Abstract
  */
 class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
@@ -39,7 +39,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
     const SERVICE_VERSION      = '1.0.0';
     const RESPONSE_DATA_FORMAT = 'XML';
 
-    const ENDPOINT_URI  = 'http://svcs.ebay.com';
+    const ENDPOINT_URI  = 'https://svcs.ebay.com';
     const ENDPOINT_PATH = 'services/search/FindingService/v1';
 
     const XMLNS_FINDING = 'e';
@@ -49,8 +49,8 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      * @var array
      */
     protected static $_xmlNamespaces = array(
-        self::XMLNS_FINDING => 'http://www.ebay.com/marketplace/search/v1/services',
-        self::XMLNS_MS      => 'http://www.ebay.com/marketplace/services'
+        self::XMLNS_FINDING => 'https://www.ebay.com/marketplace/search/v1/services',
+        self::XMLNS_MS      => 'https://www.ebay.com/marketplace/services'
     );
 
     /**
@@ -139,7 +139,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      * @param  boolean           $descriptionSearch
      * @param  integer           $categoryId
      * @param  Zend_Config|array $options
-     * @link   http://developer.ebay.com/DevZone/finding/CallRef/findItemsAdvanced.html
+     * @link   https://developer.ebay.com/DevZone/finding/CallRef/findItemsAdvanced.html
      * @return Zend_Service_Ebay_Finding_Response_Items
      */
     public function findItemsAdvanced($keywords, $descriptionSearch = true, $categoryId = null, $options = null)
@@ -161,7 +161,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      *
      * @param  integer           $categoryId
      * @param  Zend_Config|array $options
-     * @link   http://developer.ebay.com/DevZone/finding/CallRef/findItemsByCategory.html
+     * @link   https://developer.ebay.com/DevZone/finding/CallRef/findItemsByCategory.html
      * @return Zend_Service_Ebay_Finding_Response_Items
      */
     public function findItemsByCategory($categoryId, $options = null)
@@ -180,7 +180,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      *
      * @param  string            $keywords
      * @param  Zend_Config|array $options
-     * @link   http://developer.ebay.com/DevZone/finding/CallRef/findItemsByKeywords.html
+     * @link   https://developer.ebay.com/DevZone/finding/CallRef/findItemsByKeywords.html
      * @return Zend_Service_Ebay_Finding_Response_Items
      */
     public function findItemsByKeywords($keywords, $options = null)
@@ -199,7 +199,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      * @param  integer           $productId
      * @param  string            $productIdType Default value is ReferenceID
      * @param  Zend_Config|array $options
-     * @link   http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html
+     * @link   https://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html
      * @return Zend_Service_Ebay_Finding_Response_Items
      */
     public function findItemsByProduct($productId, $productIdType = null, $options = null)
@@ -223,7 +223,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      *
      * @param  string            $storeName
      * @param  Zend_Config|array $options
-     * @link   http://developer.ebay.com/DevZone/finding/CallRef/findItemsIneBayStores.html
+     * @link   https://developer.ebay.com/DevZone/finding/CallRef/findItemsIneBayStores.html
      * @return Zend_Service_Ebay_Finding_Response_Items
      */
     public function findItemsInEbayStores($storeName, $options = null)
@@ -268,7 +268,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      *
      * @param  integer           $categoryId
      * @param  Zend_Config|array $options
-     * @link   http://developer.ebay.com/DevZone/finding/CallRef/getHistograms.html
+     * @link   https://developer.ebay.com/DevZone/finding/CallRef/getHistograms.html
      * @return Zend_Service_Ebay_Finding_Response_Histograms
      */
     public function getHistograms($categoryId, $options = null)
@@ -296,7 +296,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      *
      * @param  string            $keywords
      * @param  Zend_Config|array $options
-     * @link   http://developer.ebay.com/DevZone/finding/CallRef/getSearchKeywordsRecommendation.html
+     * @link   https://developer.ebay.com/DevZone/finding/CallRef/getSearchKeywordsRecommendation.html
      * @return Zend_Service_Ebay_Finding_Response_Keywords
      */
     public function getSearchKeywordsRecommendation($keywords, $options = null)
@@ -321,7 +321,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
     /**
      * @param  string $operation
      * @param  array  $options
-     * @link   http://developer.ebay.com/DevZone/finding/Concepts/MakingACall.html#StandardURLParameters
+     * @link   https://developer.ebay.com/DevZone/finding/Concepts/MakingACall.html#StandardURLParameters
      * @return DOMDocument
      */
     protected function _request($operation, array $options = null)
@@ -355,7 +355,7 @@ class Zend_Service_Ebay_Finding extends Zend_Service_Ebay_Abstract
      * DOMXPath object as "ebayFindingXPath" attribute.
      *
      * @param  Zend_Http_Response $response
-     * @link   http://developer.ebay.com/DevZone/finding/CallRef/types/ErrorSeverity.html
+     * @link   https://developer.ebay.com/DevZone/finding/CallRef/types/ErrorSeverity.html
      * @see    Zend_Service_Ebay_Finding_Abstract::_initXPath()
      * @throws Zend_Service_Ebay_Finding_Exception When any error occurrs during request
      * @return DOMDocument

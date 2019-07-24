@@ -1,16 +1,16 @@
 /*
 * jQuery File Download Plugin v1.4.2 
 *
-* http://www.johnculviner.com
+* https://www.johnculviner.com
 *
 * Copyright (c) 2013 - John Culviner
 *
 * Licensed under the MIT license:
-*   http://www.opensource.org/licenses/mit-license.php
+*   https://www.opensource.org/licenses/mit-license.php
 *
 * !!!!NOTE!!!!
 * You must also write a cookie in conjunction with using this plugin as mentioned in the orignal post:
-* http://johnculviner.com/jquery-file-download-plugin-for-ajax-like-feature-rich-file-downloads/
+* https://johnculviner.com/jquery-file-download-plugin-for-ajax-like-feature-rich-file-downloads/
 * !!!!NOTE!!!!
 */
 
@@ -47,7 +47,7 @@ $.extend({
             failMessageHtml: null,
 
             //
-            //the stock android browser straight up doesn't support file downloads initiated by a non GET: http://code.google.com/p/android/issues/detail?id=1780
+            //the stock android browser straight up doesn't support file downloads initiated by a non GET: https://code.google.com/p/android/issues/detail?id=1780
             //specify a message here to display if a user tries with an android browser
             //if jQuery UI is installed this will be a dialog, otherwise it will be an alert
             //
@@ -130,7 +130,7 @@ $.extend({
 
         var deferred = new $.Deferred();
 
-        //Setup mobile browser detection: Partial credit: http://detectmobilebrowser.com/
+        //Setup mobile browser detection: Partial credit: https://detectmobilebrowser.com/
         var userAgent = (navigator.userAgent || navigator.vendor || window.opera).toLowerCase();
 
         var isIos;                  //has full support of features in iOS 4.0+, uses a new window to accomplish this.
@@ -154,7 +154,7 @@ $.extend({
         var httpMethodUpper = settings.httpMethod.toUpperCase();
 
         if (isAndroid && httpMethodUpper !== "GET") {
-            //the stock android browser straight up doesn't support file downloads initiated by non GET requests: http://code.google.com/p/android/issues/detail?id=1780
+            //the stock android browser straight up doesn't support file downloads initiated by non GET requests: https://code.google.com/p/android/issues/detail?id=1780
 
             if ($().dialog) {
                 $("<div>").html(settings.androidPostUnsupportedMessageHtml).dialog(settings.dialogOptions);

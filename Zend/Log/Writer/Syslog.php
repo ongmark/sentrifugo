@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Log
  * @subpackage Writer
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Syslog.php 23953 2011-05-03 05:47:39Z ralph $
  */
 
@@ -32,8 +32,8 @@ require_once 'Zend/Log/Writer/Abstract.php';
  * @category   Zend
  * @package    Zend_Log
  * @subpackage Writer
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Log_Writer_Syslog extends Zend_Log_Writer_Abstract
 {
@@ -196,7 +196,7 @@ class Zend_Log_Writer_Syslog extends Zend_Log_Writer_Abstract
 
         if (!in_array($facility, $this->_validFacilities)) {
             require_once 'Zend/Log/Exception.php';
-            throw new Zend_Log_Exception('Invalid log facility provided; please see http://php.net/openlog for a list of valid facility values');
+            throw new Zend_Log_Exception('Invalid log facility provided; please see https://php.net/openlog for a list of valid facility values');
         }
 
         if ('WIN' == strtoupper(substr(PHP_OS, 0, 3))

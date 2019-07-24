@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category     Zend
  * @package      Zend_Gdata
  * @subpackage   Spreadsheets
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Spreadsheets.php 23805 2011-03-16 00:55:40Z tjohns $
  */
 
@@ -84,21 +84,21 @@ require_once('Zend/Gdata/Spreadsheets/CellQuery.php');
 /**
  * Gdata Spreadsheets
  *
- * @link http://code.google.com/apis/gdata/spreadsheets.html
+ * @link https://code.google.com/apis/gdata/spreadsheets.html
  *
  * @category     Zend
  * @package      Zend_Gdata
  * @subpackage   Spreadsheets
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Gdata_Spreadsheets extends Zend_Gdata
 {
     const SPREADSHEETS_FEED_URI = 'https://spreadsheets.google.com/feeds/spreadsheets';
     const SPREADSHEETS_POST_URI = 'https://spreadsheets.google.com/feeds/spreadsheets/private/full';
-    const WORKSHEETS_FEED_LINK_URI = 'http://schemas.google.com/spreadsheets/2006#worksheetsfeed';
-    const LIST_FEED_LINK_URI = 'http://schemas.google.com/spreadsheets/2006#listfeed';
-    const CELL_FEED_LINK_URI = 'http://schemas.google.com/spreadsheets/2006#cellsfeed';
+    const WORKSHEETS_FEED_LINK_URI = 'https://schemas.google.com/spreadsheets/2006#worksheetsfeed';
+    const LIST_FEED_LINK_URI = 'https://schemas.google.com/spreadsheets/2006#listfeed';
+    const CELL_FEED_LINK_URI = 'https://schemas.google.com/spreadsheets/2006#cellsfeed';
     const AUTH_SERVICE_NAME = 'wise';
 
     /**
@@ -107,9 +107,9 @@ class Zend_Gdata_Spreadsheets extends Zend_Gdata
      * @var array
      */
     public static $namespaces = array(
-        array('gs', 'http://schemas.google.com/spreadsheets/2006', 1, 0),
+        array('gs', 'https://schemas.google.com/spreadsheets/2006', 1, 0),
         array(
-            'gsx', 'http://schemas.google.com/spreadsheets/2006/extended', 1, 0)
+            'gsx', 'https://schemas.google.com/spreadsheets/2006/extended', 1, 0)
     );
 
     /**
@@ -331,7 +331,7 @@ class Zend_Gdata_Spreadsheets extends Zend_Gdata
         $query->setWorksheetId($wkshtId);
 
         $feed = $this->getListFeed($query);
-        $editLink = $feed->getLink('http://schemas.google.com/g/2005#post');
+        $editLink = $feed->getLink('https://schemas.google.com/g/2005#post');
 
         return $this->insertEntry($newEntry->saveXML(), $editLink->href, 'Zend_Gdata_Spreadsheets_ListEntry');
     }
@@ -393,7 +393,7 @@ class Zend_Gdata_Spreadsheets extends Zend_Gdata
      * the array is an associative array with a 'value' and a 'function'.
      * Only non-empty cells are returned by default.  'range' is the
      * value of the 'range' query parameter specified at:
-     * http://code.google.com/apis/spreadsheets/reference.html#cells_Parameters
+     * https://code.google.com/apis/spreadsheets/reference.html#cells_Parameters
      *
      * @param mixed $location A CellQuery, WorksheetEntry or a URL (w/o query string) specifying the feed location.
      * @param string $range The range of cells to retrieve

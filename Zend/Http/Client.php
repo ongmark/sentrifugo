@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -17,8 +17,8 @@
  * @package    Zend_Http
  * @subpackage Client
  * @version    $Id: Client.php 24461 2011-09-11 19:25:08Z padraic $
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 
 /**
@@ -60,8 +60,8 @@ require_once 'Zend/Http/Response/Stream.php';
  * @package    Zend_Http
  * @subpackage Client
  * @throws     Zend_Http_Client_Exception
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Http_Client
 {
@@ -578,7 +578,7 @@ class Zend_Http_Client
      * $this->setAuth(false);
      * </code>
      *
-     * @see http://www.faqs.org/rfcs/rfc2617.html
+     * @see https://www.faqs.org/rfcs/rfc2617.html
      * @param string|false $user User name or false disable authentication
      * @param string $password Password
      * @param string $type Authentication type
@@ -1477,7 +1477,7 @@ class Zend_Http_Client
      * Create a HTTP authentication "Authorization:" header according to the
      * specified user, password and authentication method.
      *
-     * @see http://www.faqs.org/rfcs/rfc2617.html
+     * @see https://www.faqs.org/rfcs/rfc2617.html
      * @param string $user
      * @param string $password
      * @param string $type

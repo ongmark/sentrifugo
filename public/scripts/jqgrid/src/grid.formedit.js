@@ -2,10 +2,10 @@
 /**
  * jqGrid extension for form editing Grid Data
  * Tony Tomov tony@trirand.com
- * http://trirand.com/blog/ 
+ * https://trirand.com/blog/ 
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/ 
 var rp_ge = null;
 $.jgrid.extend({

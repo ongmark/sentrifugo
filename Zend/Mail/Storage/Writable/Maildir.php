@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Mail
  * @subpackage Storage
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Maildir.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -36,8 +36,8 @@ require_once 'Zend/Mail/Storage/Writable/Interface.php';
  * @category   Zend
  * @package    Zend_Mail
  * @subpackage Storage
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Mail_Storage_Writable_Maildir extends    Zend_Mail_Storage_Folder_Maildir
                                          implements Zend_Mail_Storage_Writable_Interface
@@ -860,7 +860,7 @@ class Zend_Mail_Storage_Writable_Maildir extends    Zend_Mail_Storage_Folder_Mai
     }
 
     /**
-     * @see http://www.inter7.com/courierimap/README.maildirquota.html "Calculating maildirsize"
+     * @see https://www.inter7.com/courierimap/README.maildirquota.html "Calculating maildirsize"
      */
     protected function _calculateMaildirsize() {
         $timestamps = array();
@@ -956,7 +956,7 @@ class Zend_Mail_Storage_Writable_Maildir extends    Zend_Mail_Storage_Folder_Mai
     }
 
     /**
-     * @see http://www.inter7.com/courierimap/README.maildirquota.html "Calculating the quota for a Maildir++"
+     * @see https://www.inter7.com/courierimap/README.maildirquota.html "Calculating the quota for a Maildir++"
      */
     protected function _calculateQuota($forceRecalc = false) {
         $fh = null;

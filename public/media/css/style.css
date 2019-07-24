@@ -13,7 +13,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -4173,7 +4173,7 @@ color: #828282; padding:0 8px; -webkit-box-shadow: inset 1px 1px 1px 0px rgba(0,
 .tm_grid{ width:98% !important; margin:0 auto; float:none; border:1px solid #bbbbbb; }
 #idviewProjTaskcontent, #idviewEmpProjcontent{ margin-top:20px;}
 .tm_grid th.tm_grid_header, .tm_grid td.tm_grid_header{ text-align:left; font-weight:normal; padding:10px 0 10px 10px !important; 
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,eeeeee+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,eeeeee+100 */
 background: #ffffff; /* Old browsers */
 background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
@@ -4336,7 +4336,7 @@ ul.toggle_ul li .step_round {    margin: 25px 11px 100px;}
     -ms-transition: background .5s;
     transition: background .5s;
     font-family: 'Roboto Regular';
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
      /* Old browsers */
      /* FF3.6-15 */
      /* Chrome10-25,Safari5.1-6 */

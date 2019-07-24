@@ -2,10 +2,10 @@
 /**
  * jqGrid Chinese Translation for v3.6
  * waiting 2009.11.19
- * http://waiting.javaeye.com/admin/blogs
+ * https://waiting.javaeye.com/admin/blogs
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -41,7 +41,7 @@ $.jgrid = {
 			email: "这不是有效的e-mail地址",
 			integer: "请输入有效整数",
 			date: "请输入有效时间",
-			url: "无效网址。前缀必须为 ('http://' 或 'https://')",
+			url: "无效网址。前缀必须为 ('https://' 或 'https://')",
 			nodefined : " 未定义！",
 			novalue : " 需要返回值！",
 			customarray : "自定义函数需要返回数组！",

@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -517,7 +517,7 @@ class Default_RolesController extends Zend_Controller_Action
         	$headerText = 'updated';	
         foreach($emp_arr as $empdata)
         {
-            $base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+            $base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
         
             $view = $this->getHelper('ViewRenderer')->view;
             $this->view->emp_name = $empdata['userfullname'];                           

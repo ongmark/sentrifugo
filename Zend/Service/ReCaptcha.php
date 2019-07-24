@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage ReCaptcha
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 
 /** @see Zend_Service_Abstract */
@@ -34,8 +34,8 @@ require_once 'Zend/Service/ReCaptcha/Response.php';
  * @category   Zend
  * @package    Zend_Service
  * @subpackage ReCaptcha
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: ReCaptcha.php 24224 2011-07-12 17:45:49Z matthew $
  */
 class Zend_Service_ReCaptcha extends Zend_Service_Abstract
@@ -45,7 +45,7 @@ class Zend_Service_ReCaptcha extends Zend_Service_Abstract
      *
      * @var string
      */
-    const API_SERVER = 'http://www.google.com/recaptcha/api';
+    const API_SERVER = 'https://www.google.com/recaptcha/api';
 
     /**
      * URI to the secure API
@@ -59,7 +59,7 @@ class Zend_Service_ReCaptcha extends Zend_Service_Abstract
      *
      * @var string
      */
-    const VERIFY_SERVER = 'http://www.google.com/recaptcha/api/verify';
+    const VERIFY_SERVER = 'https://www.google.com/recaptcha/api/verify';
 
     /**
      * Public key used when displaying the captcha
@@ -98,7 +98,7 @@ class Zend_Service_ReCaptcha extends Zend_Service_Abstract
     /**
      * Options for tailoring reCaptcha
      *
-     * See the different options on http://recaptcha.net/apidocs/captcha/client.html
+     * See the different options on https://recaptcha.net/apidocs/captcha/client.html
      *
      * @var array
      */

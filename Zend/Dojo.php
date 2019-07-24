@@ -7,23 +7,23 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Dojo
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 
 /**
  * Enable Dojo components
  *
  * @package    Zend_Dojo
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Dojo.php 23775 2011-03-01 17:25:24Z ralph $
  */
 class Zend_Dojo
@@ -31,7 +31,7 @@ class Zend_Dojo
     /**
      * Base path to AOL CDN
      */
-    const CDN_BASE_AOL = 'http://o.aolcdn.com/dojo/';
+    const CDN_BASE_AOL = 'https://o.aolcdn.com/dojo/';
 
     /**
      * Path to dojo on AOL CDN (following version string)
@@ -41,7 +41,7 @@ class Zend_Dojo
     /**
      * Base path to Google CDN
      */
-    const CDN_BASE_GOOGLE = 'http://ajax.googleapis.com/ajax/libs/dojo/';
+    const CDN_BASE_GOOGLE = 'https://ajax.googleapis.com/ajax/libs/dojo/';
 
     /**
      * Path to dojo on Google CDN (following version string)

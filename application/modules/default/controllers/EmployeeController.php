@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -365,7 +365,7 @@ class Default_EmployeeController extends Zend_Controller_Action
 							$result = sapp_Global::logManager($menuID,$actionflag,$loginUserId,$tableid);
 							$db->commit();
 							//Start sending mails to Management Employee
-							$base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+							$base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 							$view = $this->getHelper('ViewRenderer')->view;
 							$this->view->emp_name = $userfullname;
 							$this->view->password = $emppassword;
@@ -703,7 +703,7 @@ class Default_EmployeeController extends Zend_Controller_Action
 						//start of mailing to send username and password for new employee
 						if($selectedtab == 2)
 						{
-							$base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+							$base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 							$view = $this->getHelper('ViewRenderer')->view;
 							$this->view->emp_name = $userfullname;
 							$this->view->password = $emppassword;
@@ -2031,7 +2031,7 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 				else
 				{
 					//start of mailing
-					$base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+					$base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 					$view = $this->getHelper('ViewRenderer')->view;
 					$this->view->emp_name = $emp_name;
 					$this->view->password = $emppassword;
@@ -2166,7 +2166,7 @@ public function editappraisal($id,$performanceflag,$ff_flag)
         $mail_arr[2]['type'] = 'Raise';
         for($ii =0;$ii<count($mail_arr);$ii++)
         {
-            $base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+            $base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
             $view = $this->getHelper('ViewRenderer')->view;
             $this->view->emp_name = $mail_arr[$ii]['name'];                           
             $this->view->base_url=$base_url;
@@ -2785,7 +2785,7 @@ public function editappraisal($id,$performanceflag,$ff_flag)
 					$this->view->managementUsersData = $opt;
 					
 					/* Send Mail to the user */
-					$base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+					$base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 					$view = $this->getHelper('ViewRenderer')->view;
 					$this->view->emp_name = $userfullname;
 					$this->view->password = $emppassword;

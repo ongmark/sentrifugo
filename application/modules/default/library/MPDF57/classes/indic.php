@@ -132,7 +132,7 @@ function substituteIndic($earr, $lang, $font) {
 		// Chillus - old forms - remove ZWNJ after
 		// This font Volt rules recognises e.g. "Na Halant(Virama)" as ChilluN 
 		$vstr = preg_replace('/(0D23 0D4D|0D28 0D4D|0D30 0D4D|0D32 0D4D|0D33 0D4D) 200D/','\\1', $vstr);
-		// See Chillus in Unicode [http://en.wikipedia.org/wiki/Malayalam_script]
+		// See Chillus in Unicode [https://en.wikipedia.org/wiki/Malayalam_script]
 		$vstr = str_replace('0D7A','0D23 0D4D', $vstr);	// [mlymChilluNn] 
 		$vstr = str_replace('0D7B','0D28 0D4D', $vstr);	// [mlymChilluN] 
 		$vstr = str_replace('0D7C','0D30 0D4D', $vstr);	// [mlymChilluR] 

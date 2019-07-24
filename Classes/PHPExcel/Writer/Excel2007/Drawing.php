@@ -20,8 +20,8 @@
  *
  * @category   PHPExcel
  * @package    PHPExcel_Writer_Excel2007
- * @copyright  Copyright (c) 2006 - 2014 PHPExcel (http://www.codeplex.com/PHPExcel)
- * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+ * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https://www.codeplex.com/PHPExcel)
+ * @license    https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
  * @version    ##VERSION##, ##DATE##
  */
 
@@ -31,7 +31,7 @@
  *
  * @category   PHPExcel
  * @package    PHPExcel_Writer_Excel2007
- * @copyright  Copyright (c) 2006 - 2014 PHPExcel (http://www.codeplex.com/PHPExcel)
+ * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https://www.codeplex.com/PHPExcel)
  */
 class PHPExcel_Writer_Excel2007_Drawing extends PHPExcel_Writer_Excel2007_WriterPart
 {
@@ -59,8 +59,8 @@ class PHPExcel_Writer_Excel2007_Drawing extends PHPExcel_Writer_Excel2007_Writer
 
 		// xdr:wsDr
 		$objWriter->startElement('xdr:wsDr');
-		$objWriter->writeAttribute('xmlns:xdr', 'http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing');
-		$objWriter->writeAttribute('xmlns:a', 'http://schemas.openxmlformats.org/drawingml/2006/main');
+		$objWriter->writeAttribute('xmlns:xdr', 'https://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing');
+		$objWriter->writeAttribute('xmlns:a', 'https://schemas.openxmlformats.org/drawingml/2006/main');
 
 			// Loop through images and write drawings
 			$i = 1;
@@ -145,10 +145,10 @@ class PHPExcel_Writer_Excel2007_Drawing extends PHPExcel_Writer_Excel2007_Writer
 
 				$objWriter->startElement('a:graphic');
 					$objWriter->startElement('a:graphicData');
-						$objWriter->writeAttribute('uri', 'http://schemas.openxmlformats.org/drawingml/2006/chart');
+						$objWriter->writeAttribute('uri', 'https://schemas.openxmlformats.org/drawingml/2006/chart');
 						$objWriter->startElement('c:chart');
-							$objWriter->writeAttribute('xmlns:c', 'http://schemas.openxmlformats.org/drawingml/2006/chart');
-							$objWriter->writeAttribute('xmlns:r', 'http://schemas.openxmlformats.org/officeDocument/2006/relationships');
+							$objWriter->writeAttribute('xmlns:c', 'https://schemas.openxmlformats.org/drawingml/2006/chart');
+							$objWriter->writeAttribute('xmlns:r', 'https://schemas.openxmlformats.org/officeDocument/2006/relationships');
 							$objWriter->writeAttribute('r:id', 'rId'.$pRelationId);
 						$objWriter->endElement();
 					$objWriter->endElement();
@@ -222,7 +222,7 @@ class PHPExcel_Writer_Excel2007_Drawing extends PHPExcel_Writer_Excel2007_Writer
 
 						// a:blip
 						$objWriter->startElement('a:blip');
-						$objWriter->writeAttribute('xmlns:r', 'http://schemas.openxmlformats.org/officeDocument/2006/relationships');
+						$objWriter->writeAttribute('xmlns:r', 'https://schemas.openxmlformats.org/officeDocument/2006/relationships');
 						$objWriter->writeAttribute('r:embed', 'rId' . $pRelationId);
 						$objWriter->endElement();
 

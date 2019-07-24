@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category  Zend
  * @package   Zend_Uri
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license   https://framework.zend.com/license/new-bsd     New BSD License
  * @version   $Id: Http.php 23970 2011-05-03 15:46:57Z ralph $
  */
 
@@ -35,8 +35,8 @@ require_once 'Zend/Validate/Hostname.php';
  * @category  Zend
  * @package   Zend_Uri
  * @uses      Zend_Uri
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license   https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Uri_Http extends Zend_Uri
 {
@@ -161,9 +161,9 @@ class Zend_Uri_Http extends Zend_Uri
      * Creates a Zend_Uri_Http from the given string
      *
      * @param  string $uri String to create URI from, must start with
-     *                     'http://' or 'https://'
+     *                     'https://' or 'https://'
      * @throws InvalidArgumentException  When the given $uri is not a string or
-     *                                   does not start with http:// or https://
+     *                                   does not start with https:// or https://
      * @throws Zend_Uri_Exception        When the given $uri is invalid
      * @return Zend_Uri_Http
      */
@@ -298,7 +298,7 @@ class Zend_Uri_Http extends Zend_Uri
      * @param  string $username The HTTP username
      * @throws Zend_Uri_Exception When username validation fails
      * @return boolean
-     * @link   http://www.faqs.org/rfcs/rfc2396.html
+     * @link   https://www.faqs.org/rfcs/rfc2396.html
      */
     public function validateUsername($username = null)
     {
@@ -360,7 +360,7 @@ class Zend_Uri_Http extends Zend_Uri
      * @param  string $password The HTTP password
      * @throws Zend_Uri_Exception When password validation fails
      * @return boolean
-     * @link   http://www.faqs.org/rfcs/rfc2396.html
+     * @link   https://www.faqs.org/rfcs/rfc2396.html
      */
     public function validatePassword($password = null)
     {
@@ -611,7 +611,7 @@ class Zend_Uri_Http extends Zend_Uri
      * @param  string $query The query to validate
      * @throws Zend_Uri_Exception When query validation fails
      * @return boolean
-     * @link   http://www.faqs.org/rfcs/rfc2396.html
+     * @link   https://www.faqs.org/rfcs/rfc2396.html
      */
     public function validateQuery($query = null)
     {
@@ -719,7 +719,7 @@ class Zend_Uri_Http extends Zend_Uri
      * @param  string $fragment Fragment of an URI
      * @throws Zend_Uri_Exception When fragment validation fails
      * @return boolean
-     * @link   http://www.faqs.org/rfcs/rfc2396.html
+     * @link   https://www.faqs.org/rfcs/rfc2396.html
      */
     public function validateFragment($fragment = null)
     {

@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -1272,7 +1272,7 @@ class Default_AgencylistController extends Zend_Controller_Action
 					}else{
 						$salutation = 'Dear Management,';
 					}
-					$custom_base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+					$custom_base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 					$options['message'] = '<div>
 												<div>'.$salutation.' </div>
 												<div></div>	
@@ -1384,7 +1384,7 @@ class Default_AgencylistController extends Zend_Controller_Action
 				$options['toEmail'] = trim($pocdata[0]['email']);
 				$options['toName'] = $pocdata[0]['userfullname'];
 				$salutation = 'Dear '.$pocdata[0]['first_name'].',';
-				$custom_base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+				$custom_base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 				$options['message'] = '<div>
 										<div>'.$salutation.' </div>
 										<div></div>	

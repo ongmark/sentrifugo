@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Ldap
  * @subpackage Ldif
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Encoder.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -26,8 +26,8 @@
  * @category   Zend
  * @package    Zend_Ldap
  * @subpackage Ldif
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Ldap_Ldif_Encoder
 {
@@ -172,7 +172,7 @@ class Zend_Ldap_Ldif_Encoder
     /**
      * Encodes $string according to RFC2849
      *
-     * @link http://www.faqs.org/rfcs/rfc2849.html
+     * @link https://www.faqs.org/rfcs/rfc2849.html
      *
      * @param  string $string
      * @param  boolen $base64
@@ -230,7 +230,7 @@ class Zend_Ldap_Ldif_Encoder
     /**
      * Encodes an attribute with $name and $value according to RFC2849
      *
-     * @link http://www.faqs.org/rfcs/rfc2849.html
+     * @link https://www.faqs.org/rfcs/rfc2849.html
      *
      * @param  string       $name
      * @param  array|string $value
@@ -268,7 +268,7 @@ class Zend_Ldap_Ldif_Encoder
     /**
      * Encodes a collection of attributes according to RFC2849
      *
-     * @link http://www.faqs.org/rfcs/rfc2849.html
+     * @link https://www.faqs.org/rfcs/rfc2849.html
      *
      * @param  array $attributes
      * @return string

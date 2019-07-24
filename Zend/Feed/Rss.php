@@ -8,15 +8,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Feed
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Rss.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -43,8 +43,8 @@ require_once 'Zend/Feed/Entry/Rss.php';
  *
  * @category   Zend
  * @package    Zend_Feed
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Feed_Rss extends Zend_Feed_Abstract
 {
@@ -80,7 +80,7 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
         parent::__wakeup();
 
         // Find the base channel element and create an alias to it.
-        $rdfTags = $this->_element->getElementsByTagNameNS('http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'RDF');
+        $rdfTags = $this->_element->getElementsByTagNameNS('https://www.w3.org/1999/02/22-rdf-syntax-ns#', 'RDF');
         if ($rdfTags->length != 0) {
             $this->_element = $rdfTags->item(0);
         } else  {
@@ -202,7 +202,7 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
             $channel->appendChild($language);
         }
 
-        $doc = $this->_element->createElement('docs', 'http://blogs.law.harvard.edu/tech/rss');
+        $doc = $this->_element->createElement('docs', 'https://blogs.law.harvard.edu/tech/rss');
         $channel->appendChild($doc);
 
         if (isset($array->cloud)) {
@@ -274,7 +274,7 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
             $author = $array->author;
         }
         if (!empty($author)) {
-            $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:author', $author);
+            $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:author', $author);
             $root->appendChild($node);
         }
 
@@ -296,13 +296,13 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
             $email = $array->email;
         }
         if (!empty($author) || !empty($email)) {
-            $owner = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:owner');
+            $owner = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:owner');
             if (!empty($author)) {
-                $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:name', $author);
+                $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:name', $author);
                 $owner->appendChild($node);
             }
             if (!empty($email)) {
-                $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:email', $email);
+                $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:email', $email);
                 $owner->appendChild($node);
             }
             $root->appendChild($owner);
@@ -314,7 +314,7 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
             $image = $array->image;
         }
         if (!empty($image)) {
-            $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:image');
+            $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:image');
             $node->setAttribute('href', $image);
             $root->appendChild($node);
         }
@@ -325,7 +325,7 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
             $subtitle = $array->description;
         }
         if (!empty($subtitle)) {
-            $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:subtitle', $subtitle);
+            $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:subtitle', $subtitle);
             $root->appendChild($node);
         }
         $summary = '';
@@ -335,39 +335,39 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
             $summary = $array->description;
         }
         if (!empty($summary)) {
-            $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:summary', $summary);
+            $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:summary', $summary);
             $root->appendChild($node);
         }
         if (isset($array->itunes->block)) {
-            $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:block', $array->itunes->block);
+            $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:block', $array->itunes->block);
             $root->appendChild($node);
         }
         if (isset($array->itunes->explicit)) {
-            $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:explicit', $array->itunes->explicit);
+            $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:explicit', $array->itunes->explicit);
             $root->appendChild($node);
         }
         if (isset($array->itunes->keywords)) {
-            $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:keywords', $array->itunes->keywords);
+            $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:keywords', $array->itunes->keywords);
             $root->appendChild($node);
         }
         if (isset($array->itunes->new_feed_url)) {
-            $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:new-feed-url', $array->itunes->new_feed_url);
+            $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:new-feed-url', $array->itunes->new_feed_url);
             $root->appendChild($node);
         }
         if (isset($array->itunes->category)) {
             foreach ($array->itunes->category as $i => $category) {
-                $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:category');
+                $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:category');
                 $node->setAttribute('text', $category['main']);
                 $root->appendChild($node);
                 $add_end_category = false;
                 if (!empty($category['sub'])) {
                     $add_end_category = true;
-                    $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:category');
+                    $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:category');
                     $node->setAttribute('text', $category['sub']);
                     $root->appendChild($node);
                 }
                 if ($i > 0 || $add_end_category) {
-                    $node = $this->_element->createElementNS('http://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:category');
+                    $node = $this->_element->createElementNS('https://www.itunes.com/DTDs/Podcast-1.0.dtd', 'itunes:category');
                     $root->appendChild($node);
                 }
             }
@@ -392,7 +392,7 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
      */
     protected function _mapFeedEntries(DOMElement $root, $array)
     {
-        Zend_Feed::registerNamespace('content', 'http://purl.org/rss/1.0/modules/content/');
+        Zend_Feed::registerNamespace('content', 'https://purl.org/rss/1.0/modules/content/');
 
         foreach ($array as $dataentry) {
             $item = $this->_element->createElement('item');
@@ -452,7 +452,7 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
                 $item->appendChild($comments);
             }
             if (isset($dataentry->commentRss)) {
-                $comments = $this->_element->createElementNS('http://wellformedweb.org/CommentAPI/',
+                $comments = $this->_element->createElementNS('https://wellformedweb.org/CommentAPI/',
                                                              'wfw:commentRss',
                                                              $dataentry->commentRss);
                 $item->appendChild($comments);
@@ -493,7 +493,7 @@ class Zend_Feed_Rss extends Zend_Feed_Abstract
         $root->setAttribute('version', '2.0');
 
         // Content namespace
-        $root->setAttributeNS('http://www.w3.org/2000/xmlns/', 'xmlns:content', 'http://purl.org/rss/1.0/modules/content/');
+        $root->setAttributeNS('https://www.w3.org/2000/xmlns/', 'xmlns:content', 'https://purl.org/rss/1.0/modules/content/');
         $root->appendChild($doc->importNode($this->_element, true));
 
         // Append root node

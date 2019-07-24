@@ -3,8 +3,8 @@
  * jqGrid Italian Translation
  * Vincenzo Solomita vincenzosolomita@gmail.com
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -40,7 +40,7 @@ $.jgrid = {
 	        email: "e-mail non corretta",
 			integer: "Per favore, inserisci un numero intero valido",
 			date: "Per favore, inserisci una data valisa",
-			url: "URL non valido. Prefisso richiesto ('http://' or 'https://')",
+			url: "URL non valido. Prefisso richiesto ('https://' or 'https://')",
 			nodefined : " is not defined!",
 			novalue : " return value is required!",
 			customarray : "Custom function should return array!",

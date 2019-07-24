@@ -17,9 +17,9 @@ have actually intended it for free public use.
 Converted by Matthew Skala from Metafont format to Postscript and TrueType
 formats, July 28, 2006, using mftrace 1.2.4 by Paul Vojta, which is
 available from
-   http://www.xs4all.nl/~hanwen/mftrace/
+   https://www.xs4all.nl/~hanwen/mftrace/
 and Autotrace 0.31.1 available from
-   http://autotrace.sourceforge.net/
+   https://autotrace.sourceforge.net/
 
 The Metafont files (not included - see notes below) were coded by Norbert
 Schwarz in the 1980s, based on German standards documents.  He has attached
@@ -57,4 +57,4 @@ called ocrb-complete.zip wherever you found this one.
 
 Matthew Skala
 mskala@ansuz.sooke.bc.ca
-http://ansuz.sooke.bc.ca/
+https://ansuz.sooke.bc.ca/

@@ -10,9 +10,9 @@ open-source or free-use fonts. Many of these were included with earlier versions
 
 General collections
 -------------------
-- DejaVu font collection from: http://dejavu-fonts.org/wiki/Main_Page (included in the release)
-- GNU FreeFont from: http://www.gnu.org/software/freefont/
-- Linux Libertine from: http://www.linuxlibertine.org (use the .ttf files - not the .otf)
+- DejaVu font collection from: https://dejavu-fonts.org/wiki/Main_Page (included in the release)
+- GNU FreeFont from: https://www.gnu.org/software/freefont/
+- Linux Libertine from: https://www.linuxlibertine.org (use the .ttf files - not the .otf)
 - Liberation Fonts from: https://fedorahosted.org/liberation-fonts/ or directly https://fedorahosted.org/releases/l/i/liberation-fonts/
 
 Thai fonts
@@ -22,55 +22,55 @@ Thai fonts
 
 OCR-B
 -----
-OCRB (ocrb10) font: http://ansuz.sooke.bc.ca/software/ocrb.php
+OCRB (ocrb10) font: https://ansuz.sooke.bc.ca/software/ocrb.php
 	Useful for barcodes (included in the release)
 
 Pan-Unicode fonts (fonts containing most characters defined in Unicode)
 -----------------------------------------------------------------------
-- BitStream Cyberbit from: http://aol-4.vo.llnwd.net/pub/communicator/extras/fonts/windows/
+- BitStream Cyberbit from: https://aol-4.vo.llnwd.net/pub/communicator/extras/fonts/windows/
 	Cyberbit.ZIP (or just Google it)
 	(NB if run with $debug_fonts gives warning of invalid table checksum - just turn it off!)
-- Code2000 (NB shareware) from: http://www.code2000.net/code2000_page.htm
-- Quivira from: http://www.quivira-font.com/ (combining diacritics are not placed correctly, but has a very full set of glyphs)
+- Code2000 (NB shareware) from: https://www.code2000.net/code2000_page.htm
+- Quivira from: https://www.quivira-font.com/ (combining diacritics are not placed correctly, but has a very full set of glyphs)
 
 
 CJK (Chinese-Japanese-Korean)
 -----------------------------
-HanNomA and B from: http://vietunicode.sourceforge.net/fonts/fonts_hannom.html
-unBatang_0613 from: http://people.ktug.or.kr/~nomos/mine/UnBatang_0613.ttf
-Sun-ExtA and Sun-ExtB from: http://www.alanwood.net/unicode/fonts-east-asian.html
-	(http://www.alanwood.net/downloads/index.html)
+HanNomA and B from: https://vietunicode.sourceforge.net/fonts/fonts_hannom.html
+unBatang_0613 from: https://people.ktug.or.kr/~nomos/mine/UnBatang_0613.ttf
+Sun-ExtA and Sun-ExtB from: https://www.alanwood.net/unicode/fonts-east-asian.html
+	(https://www.alanwood.net/downloads/index.html)
 Fonts which contain both Unicode BMP and SIP (Supplementary Ideographic Plane) 
 	characters in one file e.g. "AR PL UMing" and "AR PL UKai" 
-	from: http://www.freedesktop.org  
-	http://www.freedesktop.org/wiki/Software/CJKUnifonts/Download
+	from: https://www.freedesktop.org  
+	https://www.freedesktop.org/wiki/Software/CJKUnifonts/Download
 [MS Windows fonts such as MS Mincho and MingLiU also work] 
-Japanese IPA fonts: http://ossipedia.ipa.go.jp/ipafont/index.html
+Japanese IPA fonts: https://ossipedia.ipa.go.jp/ipafont/index.html
 
 Arabic/Eastern fonts
 --------------------
-- XW Zar fonts can be downloaded from: http://www.redlers.com/downloadfont.html
+- XW Zar fonts can be downloaded from: https://www.redlers.com/downloadfont.html
 	(2 of these fonts are included in the release)
-	(original site in Farsi: http://wiki.irmug.org/index.php/XWZar)
+	(original site in Farsi: https://wiki.irmug.org/index.php/XWZar)
 - See below for more details and font names of the fonts used in mPDF 4.x
 
 
 Other sources
 -------------
-http://www.unifont.org/fontguide/
-http://www.alanwood.net/unicode/fonts.html
-http://cooltext.com (e.g. http://cooltext.com/Fonts-Unicode+Arabic)
-ApparatusSIL, DoulosSIL, Padauk from SIL: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&cat_id=FontDownloads
+https://www.unifont.org/fontguide/
+https://www.alanwood.net/unicode/fonts.html
+https://cooltext.com (e.g. https://cooltext.com/Fonts-Unicode+Arabic)
+ApparatusSIL, DoulosSIL, Padauk from SIL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&cat_id=FontDownloads
 DaiBanna (Tai Le) 
 
 Mediaeval & Ancient Scripts
 ---------------------------
-Junicode: http://junicode.sourceforge.net/
-Cardo: http://scholarsfonts.net/cardofnt.html
+Junicode: https://junicode.sourceforge.net/
+Cardo: https://scholarsfonts.net/cardofnt.html
 
 Syriac fonts
 ------------
-http://www.bethmardutho.org/meltho/
+https://www.bethmardutho.org/meltho/
 
 
 
@@ -79,7 +79,7 @@ http://www.bethmardutho.org/meltho/
 ARABIC FONTS
 ============
 You can use any appropriate Unicode-encoded .ttf or .ttc font file for arabic text, but
-the font file must include the Arabic Presentation Forms-B (U+FE70–U+FEFF).
+the font file must include the Arabic Presentation Forms-B (U+FE70ï¿½U+FEFF).
 2 of the XW Zar fonts are included in the release.
 
 
@@ -92,7 +92,7 @@ cannot therefore use any standard .ttf font files with mPDF.
 
 A set of fonts has been adapted to use specifically with mPDF. They are based on a set of fonts from:
 
-http://www.cdacmumbai.in/projects/indix/e_introduction.shtml
+https://www.cdacmumbai.in/projects/indix/e_introduction.shtml
 
 NB These fonts are released under GNU GPL Version 2 license
 

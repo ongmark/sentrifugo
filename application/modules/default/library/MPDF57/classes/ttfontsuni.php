@@ -9,7 +9,7 @@
 * License:  LGPL                                                               *
 * Copyright (c) Ian Back, 2010                                                 *
 * This class is based on The ReportLab Open Source PDF library                 *
-* written in Python - http://www.reportlab.com/software/opensource/            *
+* written in Python - https://www.reportlab.com/software/opensource/            *
 * together with ideas from the OpenOffice source code and others.              * 
 * This header must be retained in any redistribution or                        *
 * modification of the file.                                                    *

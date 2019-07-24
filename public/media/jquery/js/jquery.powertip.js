@@ -1,7 +1,7 @@
 /*!
  PowerTip - v1.2.0 - 2013-04-03
- http://stevenbenner.github.com/jquery-powertip/
- Copyright (c) 2013 Steven Benner (http://stevenbenner.com/).
+ https://stevenbenner.github.com/jquery-powertip/
+ Copyright (c) 2013 Steven Benner (https://stevenbenner.com/).
  Released under MIT license.
  https://raw.github.com/stevenbenner/jquery-powertip/master/LICENSE.txt
 */

@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Service_WindowsAzure
  * @subpackage Storage
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://todo     name_todo
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://todo     name_todo
  * @version    $Id: Queue.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -65,8 +65,8 @@ require_once 'Zend/Service/WindowsAzure/Exception.php';
  * @category   Zend
  * @package    Zend_Service_WindowsAzure
  * @subpackage Storage
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_Storage
 {
@@ -109,7 +109,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
 			throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
 		}
 		if (!self::isValidQueueName($queueName)) {
-		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
 		}
 			
 		// List queues
@@ -137,7 +137,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
 			throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
 		}
 		if (!self::isValidQueueName($queueName)) {
-		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
 		}
 			
 		// Create metadata headers
@@ -169,7 +169,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
 			throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
 		}
 		if (!self::isValidQueueName($queueName)) {
-		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
 		}
 		
 		// Perform request
@@ -203,7 +203,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
 			throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
 		}
 		if (!self::isValidQueueName($queueName)) {
-		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
 		}
 			
 	    return $this->getQueue($queueName)->Metadata;
@@ -224,7 +224,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
 			throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
 		}
 		if (!self::isValidQueueName($queueName)) {
-		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
 		}
 		if (count($metadata) == 0) {
 		    return;
@@ -254,7 +254,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
             throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
         }
         if (!self::isValidQueueName($queueName)) {
-            throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+            throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
         }
             
         // Perform request
@@ -338,7 +338,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
 			throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
 		}
 		if (!self::isValidQueueName($queueName)) {
-		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
 		}
 		if (strlen($message) > self::MAX_MESSAGE_SIZE) {
 		    throw new Zend_Service_WindowsAzure_Exception('Message is too big. Message content should be < 8KB.');
@@ -387,7 +387,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
 			throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
 		}
 		if (!self::isValidQueueName($queueName)) {
-		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
 		}
 		if ($numOfMessages < 1 || $numOfMessages > 32 || intval($numOfMessages) != $numOfMessages) {
 		    throw new Zend_Service_WindowsAzure_Exception('Invalid number of messages to retrieve.');
@@ -469,7 +469,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
 			throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
 		}
 		if (!self::isValidQueueName($queueName)) {
-		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+		    throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
 		}
 
         // Perform request
@@ -492,7 +492,7 @@ class Zend_Service_WindowsAzure_Storage_Queue extends Zend_Service_WindowsAzure_
             throw new Zend_Service_WindowsAzure_Exception('Queue name is not specified.');
         }
         if (!self::isValidQueueName($queueName)) {
-            throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See http://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
+            throw new Zend_Service_WindowsAzure_Exception('Queue name does not adhere to queue naming conventions. See https://msdn.microsoft.com/en-us/library/dd179349.aspx for more information.');
         }
         if ($message->PopReceipt == '') {
             throw new Zend_Service_WindowsAzure_Exception('A message retrieved using "peekMessages" can NOT be deleted! Use "getMessages" instead.');

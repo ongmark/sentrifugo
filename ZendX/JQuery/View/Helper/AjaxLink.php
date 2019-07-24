@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category    ZendX
  * @package     ZendX_JQuery
  * @subpackage  View
- * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
- * @license     http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license     https://framework.zend.com/license/new-bsd     New BSD License
  * @version     $Id: AjaxLink.php 21865 2010-04-16 07:26:51Z beberlei $
  */
 
@@ -31,8 +31,8 @@ include_once "Zend/View/Helper/HtmlElement.php";
  * @uses 	   Zend_Json
  * @package    ZendX_JQuery
  * @subpackage View
- * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class ZendX_JQuery_View_Helper_AjaxLink extends Zend_View_Helper_HtmlElement
 {
@@ -76,7 +76,7 @@ class ZendX_JQuery_View_Helper_AjaxLink extends Zend_View_Helper_HtmlElement
      * Possible shortcuts are 'fadeOut', 'fadeOutSlow', 'hide', 'hideSlow', 'slideUp', 'flash',
      * @example $options = array('beforeSend' => 'hideSlow', 'complete' => 'show');
      *
-     * @link   http://docs.jquery.com/Ajax
+     * @link   https://docs.jquery.com/Ajax
      * @param  String $label Urls Title
      * @param  String $url Link to Point to
      * @param  Array $options

@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Validate
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: EmailAddress.php 24304 2011-07-30 01:12:35Z adamlundrigan $
  */
 
@@ -32,8 +32,8 @@ require_once 'Zend/Validate/Hostname.php';
 /**
  * @category   Zend
  * @package    Zend_Validate
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Validate_EmailAddress extends Zend_Validate_Abstract
 {
@@ -63,7 +63,7 @@ class Zend_Validate_EmailAddress extends Zend_Validate_Abstract
     );
 
     /**
-     * @see http://en.wikipedia.org/wiki/IPv4
+     * @see https://en.wikipedia.org/wiki/IPv4
      * @var array
      */
     protected $_invalidIp = array(
@@ -510,8 +510,8 @@ class Zend_Validate_EmailAddress extends Zend_Validate_Abstract
      * Returns true if and only if $value is a valid email address
      * according to RFC2822
      *
-     * @link   http://www.ietf.org/rfc/rfc2822.txt RFC2822
-     * @link   http://www.columbia.edu/kermit/ascii.html US-ASCII characters
+     * @link   https://www.ietf.org/rfc/rfc2822.txt RFC2822
+     * @link   https://www.columbia.edu/kermit/ascii.html US-ASCII characters
      * @param  string $value
      * @return boolean
      */

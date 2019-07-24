@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -2096,7 +2096,7 @@ class Expenses_ExpensesController extends Zend_Controller_Action
 				 
 				//send email to reporting manager while submitting expense
 			
-				$base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+				$base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 				$view = $this->getHelper('ViewRenderer')->view;
 				$this->view->from_name = $from_name;
 				$this->view->to_name = $to_name;
@@ -2222,7 +2222,7 @@ class Expenses_ExpensesController extends Zend_Controller_Action
 				
 				$link = BASE_URL.'expenses/myemployeeexpenses/view/id/'.$expense_id;
 				
-				$base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+				$base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 				$view = $this->getHelper('ViewRenderer')->view;
 				$this->view->from_name = $from_name;
 				$this->view->to_name = $to_name;

@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Gbase
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: ItemQuery.php 23805 2011-03-16 00:55:40Z tjohns $
  */
 
@@ -35,13 +35,13 @@ require_once('Zend/Gdata/Gbase/Query.php');
 /**
  * Assists in constructing queries for Google Base Customer Items Feed
  *
- * @link http://code.google.com/apis/base/
+ * @link https://code.google.com/apis/base/
  *
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Gbase
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Gdata_Gbase_ItemQuery extends Zend_Gdata_Gbase_Query
 {

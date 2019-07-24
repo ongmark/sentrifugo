@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_View
  * @subpackage Helper
- * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (https://www.zend.com)
  * @version    $Id: Doctype.php 16971 2009-07-22 18:05:45Z mikaelkael $
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 
 /** Zend_View_Helper_HtmlElement */
@@ -28,9 +28,9 @@ require_once 'Zend/View/Helper/HtmlElement.php';
  *
  * @package    Zend_View
  * @subpackage Helper
- * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @link http://pl.gravatar.com/site/implement/url
+ * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
+ * @link https://pl.gravatar.com/site/implement/url
  */
 class Zend_View_Helper_Gravatar extends Zend_View_Helper_HtmlElement
 {
@@ -38,7 +38,7 @@ class Zend_View_Helper_Gravatar extends Zend_View_Helper_HtmlElement
     /**
      * URL to gravatar service
      */
-    const GRAVATAR_URL = 'http://www.gravatar.com/avatar';
+    const GRAVATAR_URL = 'https://www.gravatar.com/avatar';
     /**
      * Secure URL to gravatar service
      */
@@ -96,8 +96,8 @@ class Zend_View_Helper_Gravatar extends Zend_View_Helper_HtmlElement
      * - 'rating' string rating parameter for avatar
      * - 'secure' bool load from the SSL or Non-SSL location
      *
-     * @see    http://pl.gravatar.com/site/implement/url
-     * @see    http://pl.gravatar.com/site/implement/url More information about gravatar's service.
+     * @see    https://pl.gravatar.com/site/implement/url
+     * @see    https://pl.gravatar.com/site/implement/url More information about gravatar's service.
      * @param  string|null $email Email adress.
      * @param  null|array $options Options
      * @param  array $attribs Attributes for image tag (title, alt etc.)
@@ -166,7 +166,7 @@ class Zend_View_Helper_Gravatar extends Zend_View_Helper_HtmlElement
      * Can be either an absolute URL to an image, or one of the DEFAULT_* constants
      *
      * @param string $defaultImg
-     * @link http://pl.gravatar.com/site/implement/url More information about default image.
+     * @link https://pl.gravatar.com/site/implement/url More information about default image.
      * @return Zend_View_Helper_Gravatar
      */
     public function setDefaultImg($defaultImg)
@@ -181,7 +181,7 @@ class Zend_View_Helper_Gravatar extends Zend_View_Helper_HtmlElement
      * Must be one of the RATING_* constants
      *
      * @param string $rating Value for rating. Allowed values are: g, px, r,x
-     * @link http://pl.gravatar.com/site/implement/url More information about rating.
+     * @link https://pl.gravatar.com/site/implement/url More information about rating.
      * @throws Zend_View_Exception
      */
     public function setRating($rating)

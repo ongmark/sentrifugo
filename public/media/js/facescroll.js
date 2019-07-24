@@ -1,5 +1,5 @@
 /*
- * FaceScroll v1.0: http://www.dynamicdrive.com/dynamicindex11/facescroll/index.htm
+ * FaceScroll v1.0: https://www.dynamicdrive.com/dynamicindex11/facescroll/index.htm
  *
  * Depends:
  *  jquery.ui.widget.js

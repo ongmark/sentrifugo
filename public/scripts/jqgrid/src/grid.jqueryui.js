@@ -4,8 +4,8 @@
  * jqGrid addons using jQuery UI 
  * Author: Mark Williams
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
  * depends on jQuery UI sortable
 **/
 if ($.browser.msie && $.browser.version==8) {

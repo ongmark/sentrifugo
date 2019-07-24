@@ -2,10 +2,10 @@
 /**
  * jqGrid Czech Translation
  * Pavel Jirak pavel.jirak@jipas.cz
- * http://trirand.com/blog/ 
+ * https://trirand.com/blog/ 
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -41,7 +41,7 @@ $.jgrid = {
 		    email: "není validní e-mail",
 		    integer: "Prosím, vložte celé číslo",
 			date: "Prosím, vložte validní datum",
-			url: "is not a valid URL. Prefix required ('http://' or 'https://')",
+			url: "is not a valid URL. Prefix required ('https://' or 'https://')",
 			nodefined : " is not defined!",
 			novalue : " return value is required!",
 			customarray : "Custom function should return array!",

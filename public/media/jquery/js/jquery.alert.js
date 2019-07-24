@@ -3,10 +3,10 @@
 // Version 1.1
 //
 // Cory S.N. LaViska
-// A Beautiful Site (http://abeautifulsite.net/)
+// A Beautiful Site (https://abeautifulsite.net/)
 // 14 May 2009
 //
-// Website: http://abeautifulsite.net/blog/2008/12/jquery-alert-dialogs/
+// Website: https://abeautifulsite.net/blog/2008/12/jquery-alert-dialogs/
 //
 // Usage:
 //		jAlert( message, [title, callback] )

@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -334,7 +334,7 @@ class sapp_Global
          */
 	public static function _getHostBaseURL(){
 		$request = Zend_Controller_Front::getInstance()->getRequest();
-		return "http://".$request->getHttpHost() . $request->getBaseUrl().'/';
+		return "https://".$request->getHttpHost() . $request->getBaseUrl().'/';
 
 	}
         /**

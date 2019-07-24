@@ -12,7 +12,7 @@
  * @copyright 2013 Marcus Bointon
  * @copyright 2004 - 2008 Andy Prevost
  * @copyright 2010 - 2012 Jim Jagielski
- * @license   http://www.gnu.org/copyleft/lesser.html Distributed under the Lesser General Public License (LGPL)
+ * @license   https://www.gnu.org/copyleft/lesser.html Distributed under the Lesser General Public License (LGPL)
  */
 
 /**
@@ -28,7 +28,7 @@
  * @link     https://github.com/PHPMailer/PHPMailer/blob/master/class.smtp.php
  * @author   Chris Ryan <unknown@example.com>
  * @author   Marcus Bointon <phpmailer@synchromedia.co.uk>
- * @license  http://www.gnu.org/copyleft/lesser.html Distributed under the Lesser General Public License (LGPL)
+ * @license  https://www.gnu.org/copyleft/lesser.html Distributed under the Lesser General Public License (LGPL)
  */
 
 class SMTP
@@ -329,8 +329,8 @@ class SMTP
                  * Bundled with Permission
                  *
                  * How to telnet in windows:
-                 * http://technet.microsoft.com/en-us/library/aa995718%28EXCHG.65%29.aspx
-                 * PROTOCOL Docs http://curl.haxx.se/rfc/ntlm.html#ntlmSmtpAuthentication
+                 * https://technet.microsoft.com/en-us/library/aa995718%28EXCHG.65%29.aspx
+                 * PROTOCOL Docs https://curl.haxx.se/rfc/ntlm.html#ntlmSmtpAuthentication
                  */
                 require_once 'extras/ntlm_sasl_client.php';
                 $temp = new stdClass();
@@ -409,7 +409,7 @@ class SMTP
         }
 
         // The following borrowed from
-        // http://php.net/manual/en/function.mhash.php#27225
+        // https://php.net/manual/en/function.mhash.php#27225
 
         // RFC 2104 HMAC implementation for php.
         // Creates an md5 HMAC.

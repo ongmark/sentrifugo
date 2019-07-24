@@ -3,8 +3,8 @@
  * jqGrid Norwegian Translation
  * KEM
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {};
 
@@ -34,7 +34,7 @@ $.jgrid.edit = {
         email: "er ikke en gyldig e-post adresse",
         integer: "Legg inn et gyldig heltall",
 		date: "Legg inn en gyldig dato",
-		url: "is not a valid URL. Prefix required ('http://' or 'https://')",
+		url: "is not a valid URL. Prefix required ('https://' or 'https://')",
 		nodefined : " is not defined!",
 		novalue : " return value is required!",
 		customarray : "Custom function should return array!",

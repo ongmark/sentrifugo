@@ -1,13 +1,13 @@
 /*
 * jQuery timepicker addon
-* By: Trent Richardson [http://trentrichardson.com]
+* By: Trent Richardson [https://trentrichardson.com]
 * Version 0.9.3
 * Last Modified: 02/05/2011
 * 
 * Copyright 2010 Trent Richardson
 * Dual licensed under the MIT and GPL licenses.
-* http://trentrichardson.com/Impromptu/GPL-LICENSE.txt
-* http://trentrichardson.com/Impromptu/MIT-LICENSE.txt
+* https://trentrichardson.com/Impromptu/GPL-LICENSE.txt
+* https://trentrichardson.com/Impromptu/MIT-LICENSE.txt
 * 
 * HERES THE CSS:
 * .ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
@@ -692,7 +692,7 @@ $.fn.extend({
 
 //########################################################################
 // the bad hack :/ override datepicker so it doesnt close on select
-// inspired: http://stackoverflow.com/questions/1252512/jquery-datepicker-prevent-closing-picker-when-clicking-a-date/1762378#1762378
+// inspired: https://stackoverflow.com/questions/1252512/jquery-datepicker-prevent-closing-picker-when-clicking-a-date/1762378#1762378
 //########################################################################
 $.datepicker._base_selectDate = $.datepicker._selectDate;
 $.datepicker._selectDate = function (id, dateStr) {

@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Simpy
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Simpy.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -30,9 +30,9 @@ require_once 'Zend/Http/Client.php';
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Simpy
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @link       http://www.simpy.com/doc/api/rest/
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
+ * @link       https://www.simpy.com/doc/api/rest/
  */
 class Zend_Service_Simpy
 {
@@ -41,7 +41,7 @@ class Zend_Service_Simpy
      *
      * @var string
      */
-    protected $_baseUri = 'http://simpy.com/simpy/api/rest/';
+    protected $_baseUri = 'https://simpy.com/simpy/api/rest/';
 
     /**
      * HTTP client for use in making web service calls
@@ -128,7 +128,7 @@ class Zend_Service_Simpy
      * decreasing order
      *
      * @param  int $limit Limits the number of tags returned (optional)
-     * @link   http://www.simpy.com/doc/api/rest/GetTags
+     * @link   https://www.simpy.com/doc/api/rest/GetTags
      * @throws Zend_Service_Exception
      * @return Zend_Service_Simpy_TagSet
      */
@@ -151,7 +151,7 @@ class Zend_Service_Simpy
      * Removes a tag.
      *
      * @param  string $tag Tag to be removed
-     * @link   http://www.simpy.com/doc/api/rest/RemoveTag
+     * @link   https://www.simpy.com/doc/api/rest/RemoveTag
      * @return Zend_Service_Simpy Provides a fluent interface
      */
     public function removeTag($tag)
@@ -170,7 +170,7 @@ class Zend_Service_Simpy
      *
      * @param  string $fromTag Tag to be renamed
      * @param  string $toTag   New tag name
-     * @link   http://www.simpy.com/doc/api/rest/RenameTag
+     * @link   https://www.simpy.com/doc/api/rest/RenameTag
      * @return Zend_Service_Simpy Provides a fluent interface
      */
     public function renameTag($fromTag, $toTag)
@@ -191,7 +191,7 @@ class Zend_Service_Simpy
      * @param  string $fromTag1 First tag to merge.
      * @param  string $fromTag2 Second tag to merge.
      * @param  string $toTag    Tag to merge the two tags into.
-     * @link   http://www.simpy.com/doc/api/rest/MergeTags
+     * @link   https://www.simpy.com/doc/api/rest/MergeTags
      * @return Zend_Service_Simpy Provides a fluent interface
      */
     public function mergeTags($fromTag1, $fromTag2, $toTag)
@@ -213,7 +213,7 @@ class Zend_Service_Simpy
      * @param  string $tag    Tag to split
      * @param  string $toTag1 First tag to split into
      * @param  string $toTag2 Second tag to split into
-     * @link   http://www.simpy.com/doc/api/rest/SplitTag
+     * @link   https://www.simpy.com/doc/api/rest/SplitTag
      * @return Zend_Service_Simpy Provides a fluent interface
      */
     public function splitTag($tag, $toTag1, $toTag2)
@@ -273,7 +273,7 @@ class Zend_Service_Simpy
      * @param  string $note        Free text note (optional)
      * @link   Zend_Service_Simpy::ACCESSTYPE_PUBLIC
      * @link   Zend_Service_Simpy::ACCESSTYPE_PRIVATE
-     * @link   http://www.simpy.com/doc/api/rest/SaveLink
+     * @link   https://www.simpy.com/doc/api/rest/SaveLink
      * @return Zend_Service_Simpy Provides a fluent interface
      */
     public function saveLink($title, $href, $accessType, $tags = null, $urlNickname = null, $note = null)
@@ -300,7 +300,7 @@ class Zend_Service_Simpy
      * Deletes a given link.
      *
      * @param  string $href URL of the bookmark to delete
-     * @link   http://www.simpy.com/doc/api/rest/DeleteLink
+     * @link   https://www.simpy.com/doc/api/rest/DeleteLink
      * @return Zend_Service_Simpy Provides a fluent interface
      */
     public function deleteLink($href)
@@ -318,7 +318,7 @@ class Zend_Service_Simpy
      * Return a list of watchlists and their meta-data, including the number
      * of new links added to each watchlist since last login.
      *
-     * @link   http://www.simpy.com/doc/api/rest/GetWatchlists
+     * @link   https://www.simpy.com/doc/api/rest/GetWatchlists
      * @return Zend_Service_Simpy_WatchlistSet
      */
     public function getWatchlists()
@@ -336,7 +336,7 @@ class Zend_Service_Simpy
      * Returns the meta-data for a given watchlist.
      *
      * @param  int $watchlistId ID of the watchlist to retrieve
-     * @link   http://www.simpy.com/doc/api/rest/GetWatchlist
+     * @link   https://www.simpy.com/doc/api/rest/GetWatchlist
      * @return Zend_Service_Simpy_Watchlist
      */
     public function getWatchlist($watchlistId)
@@ -361,9 +361,9 @@ class Zend_Service_Simpy
      * @param  string $q     Query string formatted using Simpy search syntax
      *                       and search fields (optional)
      * @param  int    $limit Limits the number notes returned (optional)
-     * @link   http://www.simpy.com/doc/api/rest/GetNotes
-     * @link   http://www.simpy.com/simpy/FAQ.do#searchSyntax
-     * @link   http://www.simpy.com/simpy/FAQ.do#searchFieldsLinks
+     * @link   https://www.simpy.com/doc/api/rest/GetNotes
+     * @link   https://www.simpy.com/simpy/FAQ.do#searchSyntax
+     * @link   https://www.simpy.com/simpy/FAQ.do#searchFieldsLinks
      * @return Zend_Service_Simpy_NoteSet
      */
     public function getNotes($q = null, $limit = null)
@@ -392,7 +392,7 @@ class Zend_Service_Simpy
      * @param  string $description Free-text note (optional)
      * @param  int    $noteId      Unique identifier for an existing note to
      *                             update (optional)
-     * @link   http://www.simpy.com/doc/api/rest/SaveNote
+     * @link   https://www.simpy.com/doc/api/rest/SaveNote
      * @return Zend_Service_Simpy Provides a fluent interface
      */
     public function saveNote($title, $tags = null, $description = null, $noteId = null)
@@ -417,7 +417,7 @@ class Zend_Service_Simpy
      * Deletes a given note.
      *
      * @param  int $noteId ID of the note to delete
-     * @link   http://www.simpy.com/doc/api/rest/DeleteNote
+     * @link   https://www.simpy.com/doc/api/rest/DeleteNote
      * @return Zend_Service_Simpy Provides a fluent interface
      */
     public function deleteNote($noteId)

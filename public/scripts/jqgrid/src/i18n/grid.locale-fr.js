@@ -2,10 +2,10 @@
 /**
  * jqGrid French Translation
  * Tony Tomov tony@trirand.com
- * http://trirand.com/blog/ 
+ * https://trirand.com/blog/ 
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -40,7 +40,7 @@ $.jgrid = {
 			maxValue: "La valeur doit être inférieure ou égal à 0",
 			email: "n'est pas un email correct",
 			integer: "Saisissez un entier correct",
-			url: "n'est pas une adresse correcte. Préfixe requis ('http://' or 'https://')",
+			url: "n'est pas une adresse correcte. Préfixe requis ('https://' or 'https://')",
 			nodefined : " is not defined!",
 			novalue : " return value is required!",
 			customarray : "Custom function should return array!",

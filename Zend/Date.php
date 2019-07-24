@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category  Zend
  * @package   Zend_Date
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license   https://framework.zend.com/license/new-bsd     New BSD License
  * @version   $Id: Date.php 24108 2011-06-04 00:09:27Z freak $
  */
 
@@ -30,8 +30,8 @@ require_once 'Zend/Locale/Math.php';
 /**
  * @category  Zend
  * @package   Zend_Date
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license   https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Date extends Zend_Date_DateObject
 {
@@ -123,7 +123,7 @@ class Zend_Date extends Zend_Date_DateObject
     /**
      * Generates the standard date object, could be a unix timestamp, localized date,
      * string, integer, array and so on. Also parts of dates or time are supported
-     * Always set the default timezone: http://php.net/date_default_timezone_set
+     * Always set the default timezone: https://php.net/date_default_timezone_set
      * For example, in your bootstrap: date_default_timezone_set('America/Los_Angeles');
      * For detailed instructions please look in the docu.
      *

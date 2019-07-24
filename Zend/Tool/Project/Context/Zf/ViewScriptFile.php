@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Tool
  * @subpackage Framework
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: ViewScriptFile.php 23789 2011-03-02 16:10:36Z ralph $
  */
 
@@ -49,8 +49,8 @@ require_once 'Zend/Filter/StringToLower.php';
  *
  * @category   Zend
  * @package    Zend_Tool
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Tool_Project_Context_Zf_ViewScriptFile extends Zend_Tool_Project_Context_Filesystem_File
 {
@@ -144,8 +144,8 @@ class Zend_Tool_Project_Context_Zf_ViewScriptFile extends Zend_Tool_Project_Cont
         
         if ($this->_filesystemName == 'error.phtml') {  // should also check that the above directory is forController=error
             $contents .= <<<EOS
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Zend Framework Default Application</title>
@@ -193,7 +193,7 @@ EOS;
     div#welcome
     {
         color: #FFFFFF;
-        background-image: url(http://framework.zend.com/images/bkg_header.jpg);
+        background-image: url(https://framework.zend.com/images/bkg_header.jpg);
         width:  600px;
         height: 400px;
         border: 2px solid #444444;
@@ -203,7 +203,7 @@ EOS;
 
     div#more-information
     {
-        background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
+        background-image: url(https://framework.zend.com/images/bkg_body-bottom.gif);
         height: 100%;
     }
 </style>
@@ -213,11 +213,11 @@ EOS;
     <h3>This is your project's main page</h3>
 
     <div id="more-information">
-        <p><img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" /></p>
+        <p><img src="https://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" /></p>
         <p>
             Helpful Links: <br />
-            <a href="http://framework.zend.com/">Zend Framework Website</a> |
-            <a href="http://framework.zend.com/manual/en/">Zend Framework Manual</a>
+            <a href="https://framework.zend.com/">Zend Framework Website</a> |
+            <a href="https://framework.zend.com/manual/en/">Zend Framework Manual</a>
         </p>
     </div>
 </div>

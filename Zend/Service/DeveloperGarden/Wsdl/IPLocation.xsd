@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:tns="http://iplocation.developer.telekom.com/schema/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://iplocation.developer.telekom.com/schema/" elementFormDefault="qualified" attributeFormDefault="qualified" version="1.0">
+<xsd:schema xmlns:tns="https://iplocation.developer.telekom.com/schema/" xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://iplocation.developer.telekom.com/schema/" elementFormDefault="qualified" attributeFormDefault="qualified" version="1.0">
 	<xsd:simpleType name="EnvironmentType">
 		<xsd:restriction base="xsd:int">
 			<xsd:minInclusive value="1"/>

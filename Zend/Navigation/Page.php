@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category  Zend
  * @package   Zend_Navigation
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license   https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Page.php 24455 2011-09-11 12:51:54Z padraic $
  */
 
@@ -29,8 +29,8 @@ require_once 'Zend/Navigation/Container.php';
  *
  * @category  Zend
  * @package   Zend_Navigation
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license   https://framework.zend.com/license/new-bsd     New BSD License
  */
 abstract class Zend_Navigation_Page extends Zend_Navigation_Container
 {
@@ -47,9 +47,9 @@ abstract class Zend_Navigation_Page extends Zend_Navigation_Container
      * The fragment identifier (anchor identifier) pointing to an anchor within 
      * a resource that is subordinate to another, primary resource.
      * The fragment identifier introduced by a hash mark "#".
-     * Example: http://www.example.org/foo.html#bar ("bar" is the fragment identifier)
+     * Example: https://www.example.org/foo.html#bar ("bar" is the fragment identifier)
      * 
-     * @link http://www.w3.org/TR/html401/intro/intro.html#fragment-uri
+     * @link https://www.w3.org/TR/html401/intro/intro.html#fragment-uri
      * 
      * @var string|null
      */
@@ -89,7 +89,7 @@ abstract class Zend_Navigation_Page extends Zend_Navigation_Container
      * This attribute assigns an access key to an element. An access key is a
      * single character from the document character set.
      *
-     * @link http://www.w3.org/TR/html401/interact/forms.html#access-keys
+     * @link https://www.w3.org/TR/html401/interact/forms.html#access-keys
      *
      * @var string|null
      */
@@ -98,7 +98,7 @@ abstract class Zend_Navigation_Page extends Zend_Navigation_Container
     /**
      * Forward links to other pages
      *
-     * @link http://www.w3.org/TR/html4/struct/links.html#h-12.3.1
+     * @link https://www.w3.org/TR/html4/struct/links.html#h-12.3.1
      *
      * @var array
      */
@@ -107,7 +107,7 @@ abstract class Zend_Navigation_Page extends Zend_Navigation_Container
     /**
      * Reverse links to other pages
      *
-     * @link http://www.w3.org/TR/html4/struct/links.html#h-12.3.1
+     * @link https://www.w3.org/TR/html4/struct/links.html#h-12.3.1
      *
      * @var array
      */

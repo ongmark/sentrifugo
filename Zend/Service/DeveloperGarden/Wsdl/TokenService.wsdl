@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wsdl:definitions xmlns:schema="http://sts.idm.telekom.com/schema/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy" xmlns:tns="http://sts.idm.telekom.com/wsdl/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="sts" targetNamespace="http://sts.idm.telekom.com/wsdl/">
+<wsdl:definitions xmlns:schema="https://sts.idm.telekom.com/schema/" xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" xmlns:sp="https://schemas.xmlsoap.org/ws/2005/07/securitypolicy" xmlns:tns="https://sts.idm.telekom.com/wsdl/" xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/" xmlns:wsp="https://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="https://www.w3.org/2001/XMLSchema" name="sts" targetNamespace="https://sts.idm.telekom.com/wsdl/">
 	<wsdl:types>
-		<xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://sts.idm.telekom.com/schema/" version="0.1" xmlns:tns="http://sts.idm.telekom.com/schema/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="https://sts.idm.telekom.com/schema/" version="0.1" xmlns:tns="https://sts.idm.telekom.com/schema/" xmlns:xsd="https://www.w3.org/2001/XMLSchema">
 			<xsd:complexType name="FaultResponse">
 				<xsd:sequence>
 					<xsd:element maxOccurs="1" minOccurs="1" name="code" nillable="false" type="xsd:string"/>
@@ -219,10 +219,10 @@
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="SecurityTokenServiceSOAPBinding" type="tns:SecurityTokenServiceWS">
-		<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+		<soap:binding transport="https://schemas.xmlsoap.org/soap/http"/>
 		<wsp:PolicyReference URI="#TransportBindingPolicy"/>
 		<wsdl:operation name="login">
-			<soap:operation soapAction="http://sts.idm.telekom.com/wsdl/login"/>
+			<soap:operation soapAction="https://sts.idm.telekom.com/wsdl/login"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#UsernameTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -235,7 +235,7 @@
 			</wsdl:fault>
 		</wsdl:operation>
 		<wsdl:operation name="getTokens">
-			<soap:operation soapAction="http://sts.idm.telekom.com/wsdl/getTokens"/>
+			<soap:operation soapAction="https://sts.idm.telekom.com/wsdl/getTokens"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#SAMLTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -248,7 +248,7 @@
 			</wsdl:fault>
 		</wsdl:operation>
 		<wsdl:operation name="getTokensForSession">
-			<soap:operation soapAction="http://sts.idm.telekom.com/wsdl/getTokensForSession"/>
+			<soap:operation soapAction="https://sts.idm.telekom.com/wsdl/getTokensForSession"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#SAMLTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -261,7 +261,7 @@
 			</wsdl:fault>
 		</wsdl:operation>
 		<wsdl:operation name="getTokensForUserId">
-			<soap:operation soapAction="http://sts.idm.telekom.com/wsdl/getTokensForUserId"/>
+			<soap:operation soapAction="https://sts.idm.telekom.com/wsdl/getTokensForUserId"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#SAMLTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -274,7 +274,7 @@
 			</wsdl:fault>
 		</wsdl:operation>
 		<wsdl:operation name="getTokensForUserIdAndProfile">
-			<soap:operation soapAction="http://sts.idm.telekom.com/wsdl/getTokensForUserIdAndProfile"/>
+			<soap:operation soapAction="https://sts.idm.telekom.com/wsdl/getTokensForUserIdAndProfile"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#SAMLTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -295,7 +295,7 @@
 	<wsp:Policy wsu:Id="TransportBindingPolicy">
 		<wsp:ExactlyOne>
 			<wsp:All>
-				<wsaws:UsingAddressing xmlns:wsaws="http://www.w3.org/2006/05/addressing/wsdl"/>
+				<wsaws:UsingAddressing xmlns:wsaws="https://www.w3.org/2006/05/addressing/wsdl"/>
 				<sp:TransportBinding>
 					<wsp:Policy>
 						<sp:TransportToken>
@@ -325,7 +325,7 @@
 			<wsp:All>
 				<sp:SupportingTokens>
 					<wsp:Policy>
-						<sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+						<sp:UsernameToken sp:IncludeToken="https://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
 							<wsp:Policy>
 								<sp:WssUsernameToken11/>
 							</wsp:Policy>
@@ -340,7 +340,7 @@
 			<wsp:All>
 				<sp:SupportingTokens>
 					<wsp:Policy>
-						<sp:SamlToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+						<sp:SamlToken sp:IncludeToken="https://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
 							<wsp:Policy>
 								<sp:WssSamlV20Token11/>
 							</wsp:Policy>

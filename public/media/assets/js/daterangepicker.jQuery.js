@@ -2,8 +2,8 @@
  * --------------------------------------------------------------------
  * jQuery-Plugin "daterangepicker.jQuery.js"
  * by Scott Jehl, scott@filamentgroup.com
- * reference article: http://www.filamentgroup.com/lab/update_date_range_picker_with_jquery_ui/
- * demo page: http://www.filamentgroup.com/examples/daterangepicker/
+ * reference article: https://www.filamentgroup.com/lab/update_date_range_picker_with_jquery_ui/
+ * demo page: https://www.filamentgroup.com/examples/daterangepicker/
  * 
  * Copyright (c) 2010 Filament Group, Inc
  * Dual licensed under the MIT (filamentgroup.com/examples/mit-license.txt) and GPL (filamentgroup.com/examples/gpl-license.txt) licenses.
@@ -48,7 +48,7 @@ jQuery.fn.daterangepicker = function(settings){
 		latestDate: Date.parse('+15years'), //latest date allowed 
 		constrainDates: false,
 		rangeSplitter: '-', //string to use between dates in single input
-		dateFormat: 'mm-dd-yy', // date formatting. Available formats: http://docs.jquery.com/UI/Datepicker/%24.datepicker.formatDate
+		dateFormat: 'mm-dd-yy', // date formatting. Available formats: https://docs.jquery.com/UI/Datepicker/%24.datepicker.formatDate
 		closeOnSelect: true, //if a complete selection is made, close the menu
 		arrows: false,
 		appendTo: 'body',

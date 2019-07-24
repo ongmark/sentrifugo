@@ -8,15 +8,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_OpenId
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: OpenId.php 24379 2011-08-14 12:01:10Z padraic $
  */
 
@@ -35,8 +35,8 @@ require_once "Zend/Controller/Response/Abstract.php";
  *
  * @category   Zend
  * @package    Zend_OpenId
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_OpenId
 {
@@ -54,7 +54,7 @@ class Zend_OpenId
      * OpenID 2.0 namespace. All OpenID 2.0 messages MUST contain variable
      * openid.ns with its value.
      */
-    const NS_2_0 = 'http://specs.openid.net/auth/2.0';
+    const NS_2_0 = 'https://specs.openid.net/auth/2.0';
 
     /**
      * Allows enable/disable stoping execution of PHP script after redirect()
@@ -117,7 +117,7 @@ class Zend_OpenId
                 $port = '';
             }
         } else {
-            $url = 'http://' . $url;
+            $url = 'https://' . $url;
             if ($port == ':80') {
                 $port = '';
             }
@@ -369,7 +369,7 @@ class Zend_OpenId
      *    treated as an XRI.
      * 3. Otherwise, the input SHOULD be treated as an http URL; if it does
      *    not include a "http" or "https" scheme, the Identifier MUST be
-     *    prefixed with the string "http://".
+     *    prefixed with the string "https://".
      * 4. URL identifiers MUST then be further normalized by both following
      *    redirects when retrieving their content and finally applying the
      *    rules in Section 6 of [RFC3986] to the final destination URL.
@@ -403,7 +403,7 @@ class Zend_OpenId
 
         // 7.2.3
         if (strpos($id, "://") === false) {
-            $id = 'http://' . $id;
+            $id = 'https://' . $id;
         }
 
         // 7.2.4

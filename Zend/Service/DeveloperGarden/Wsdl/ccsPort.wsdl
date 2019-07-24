@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wsdl:definitions xmlns:ns="http://schemas.xmlsoap.org/soap/encoding/" xmlns:schema="http://ccs.developer.telekom.com/schema/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy" xmlns:tns="http://ccs.developer.telekom.com/wsdl/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ccs" targetNamespace="http://ccs.developer.telekom.com/wsdl/">
+<wsdl:definitions xmlns:ns="https://schemas.xmlsoap.org/soap/encoding/" xmlns:schema="https://ccs.developer.telekom.com/schema/" xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" xmlns:sp="https://schemas.xmlsoap.org/ws/2005/07/securitypolicy" xmlns:tns="https://ccs.developer.telekom.com/wsdl/" xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/" xmlns:wsp="https://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="https://www.w3.org/2001/XMLSchema" name="ccs" targetNamespace="https://ccs.developer.telekom.com/wsdl/">
 	<wsdl:documentation>
 CCS </wsdl:documentation>
 	<wsdl:types>
-		<xsd:schema targetNamespace="http://ccs.developer.telekom.com/wsdl/">
-			<xsd:import namespace="http://ccs.developer.telekom.com/schema/" schemaLocation="ccsPort.xsd"/>
+		<xsd:schema targetNamespace="https://ccs.developer.telekom.com/wsdl/">
+			<xsd:import namespace="https://ccs.developer.telekom.com/schema/" schemaLocation="ccsPort.xsd"/>
 		</xsd:schema>
 	</wsdl:types>
 	<wsdl:message name="createConferenceIn">
@@ -210,10 +210,10 @@ CCS </wsdl:documentation>
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="ccsHttpBinding" type="tns:ccsPortType">
-		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<soap:binding style="document" transport="https://schemas.xmlsoap.org/soap/http"/>
 		<wsp:PolicyReference URI="#TransportBindingPolicy"/>
 		<wsdl:operation name="createConference">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/createConference"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/createConference"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -223,7 +223,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="commitConference">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/commitConference"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/commitConference"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -233,7 +233,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="getConferenceStatus">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/getConferenceStatus"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/getConferenceStatus"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -243,7 +243,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="getRunningConference">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/getRunningConference"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/getRunningConference"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -253,7 +253,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="updateConference">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/updateConference"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/updateConference"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -263,7 +263,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="getParticipantStatus">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/getParticipantStatus"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/getParticipantStatus"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -273,7 +273,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="newParticipant">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/newParticipant"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/newParticipant"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -283,7 +283,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="removeParticipant">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/removeParticipant"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/removeParticipant"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -293,7 +293,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="updateParticipant">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/updateParticipant"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/updateParticipant"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -303,7 +303,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="removeConference">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/removeConference"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/removeConference"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -313,7 +313,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="getConferenceList">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/getConferenceList"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/getConferenceList"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -323,7 +323,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="createConferenceTemplate">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/createConferenceTemplate"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/createConferenceTemplate"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -333,7 +333,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="getConferenceTemplate">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/getConferenceTemplate"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/getConferenceTemplate"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -343,7 +343,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="updateConferenceTemplate">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/updateConferenceTemplate"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/updateConferenceTemplate"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -353,7 +353,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="removeConferenceTemplate">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/removeConferenceTemplate"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/removeConferenceTemplate"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -363,7 +363,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="getConferenceTemplateList">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/getConferenceTemplateList"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/getConferenceTemplateList"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -373,7 +373,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="addConferenceTemplateParticipant">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/addConferenceTemplateParticipant"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/addConferenceTemplateParticipant"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -383,7 +383,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="getConferenceTemplateParticipant">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/getConferenceTemplateParticipant"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/getConferenceTemplateParticipant"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -393,7 +393,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="updateConferenceTemplateParticipant">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/updateConferenceTemplateParticipant"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/updateConferenceTemplateParticipant"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -403,7 +403,7 @@ CCS </wsdl:documentation>
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="removeConferenceTemplateParticipant">
-			<soap:operation soapAction="http://ccs.developer.telekom.com/removeConferenceTemplateParticipant"/>
+			<soap:operation soapAction="https://ccs.developer.telekom.com/removeConferenceTemplateParticipant"/>
 			<wsdl:input>
 				<wsp:PolicyReference URI="#STSTokenPolicy"/>
 				<soap:body use="literal"/>
@@ -450,7 +450,7 @@ CCS </wsdl:documentation>
 			<wsp:All>
 				<sp:SupportingTokens>
 					<wsp:Policy>
-						<sp:SamlToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+						<sp:SamlToken sp:IncludeToken="https://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
 							<wsp:Policy>
 								<sp:WssSamlV20Token11/>
 							</wsp:Policy>

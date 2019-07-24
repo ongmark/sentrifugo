@@ -170,7 +170,7 @@ class HTMLPurifier_Generator
      */
     public function generateScriptFromToken($token) {
         if (!$token instanceof HTMLPurifier_Token_Text) return $this->generateFromToken($token);
-        // Thanks <http://lachy.id.au/log/2005/05/script-comments>
+        // Thanks <https://lachy.id.au/log/2005/05/script-comments>
         $data = preg_replace('#//\s*$#', '', $token->data);
         return '<!--//--><![CDATA[//><!--' . "\n" . trim($data) . "\n" . '//--><!]]>';
     }
@@ -244,7 +244,7 @@ class HTMLPurifier_Generator
      */
     public function escape($string, $quote = null) {
         // Workaround for APC bug on Mac Leopard reported by sidepodcast
-        // http://htmlpurifier.org/phorum/read.php?3,4823,4846
+        // https://htmlpurifier.org/phorum/read.php?3,4823,4846
         if ($quote === null) $quote = ENT_COMPAT;
         return htmlspecialchars($string, $quote, 'UTF-8');
     }

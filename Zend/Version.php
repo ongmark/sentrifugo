@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Version
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Version.php 24483 2011-09-29 15:31:19Z matthew $
  */
 
@@ -24,8 +24,8 @@
  *
  * @category   Zend
  * @package    Zend_Version
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 final class Zend_Version
 {
@@ -61,7 +61,7 @@ final class Zend_Version
     /**
      * Fetches the version of the latest stable release
      *
-     * @link http://framework.zend.com/download/latest
+     * @link https://framework.zend.com/download/latest
      * @return string
      */
     public static function getLatest()
@@ -69,7 +69,7 @@ final class Zend_Version
         if (null === self::$_latestVersion) {
             self::$_latestVersion = 'not available';
 
-            $handle = fopen('http://framework.zend.com/api/zf-version', 'r');
+            $handle = fopen('https://framework.zend.com/api/zf-version', 'r');
             if (false !== $handle) {
                 self::$_latestVersion = stream_get_contents($handle);
                 fclose($handle);

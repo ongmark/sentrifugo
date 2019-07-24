@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsd:schema 
-	xmlns="http://odg.tonline.de/ODGBaseUserService/"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-	xmlns:tns="http://odg.tonline.de/ODGBaseUserService/"
-	targetNamespace="http://odg.tonline.de/ODGBaseUserService/"
+	xmlns="https://odg.tonline.de/ODGBaseUserService/"
+	xmlns:xsd="https://www.w3.org/2001/XMLSchema" 
+	xmlns:tns="https://odg.tonline.de/ODGBaseUserService/"
+	targetNamespace="https://odg.tonline.de/ODGBaseUserService/"
 	elementFormDefault="unqualified" 
 	attributeFormDefault="unqualified" version="1.1">
 	

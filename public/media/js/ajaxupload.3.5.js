@@ -1,8 +1,8 @@
 /**
  * Ajax upload
- * Project page - http://valums.com/ajax-upload/
- * Copyright (c) 2008 Andris Valums, http://valums.com
- * Licensed under the MIT license (http://valums.com/mit-license/)
+ * Project page - https://valums.com/ajax-upload/
+ * Copyright (c) 2008 Andris Valums, https://valums.com
+ * Licensed under the MIT license (https://valums.com/mit-license/)
  * Version 3.5 (23.06.2009)
  */
 
@@ -13,7 +13,7 @@
  * 3. Fixed IE "mixed content" issue when used with secure connections
  * 
  * For the full changelog please visit: 
- * http://valums.com/ajax-upload-changelog/
+ * https://valums.com/ajax-upload-changelog/
  */
 
 (function(){
@@ -68,10 +68,10 @@ function removeClass(ele,cls) {
 	ele.className=ele.className.replace(reg,' ');
 }
 
-// getOffset function copied from jQuery lib (http://jquery.com/)
+// getOffset function copied from jQuery lib (https://jquery.com/)
 if (document.documentElement["getBoundingClientRect"]){
 	// Get Offset using getBoundingClientRect
-	// http://ejohn.org/blog/getboundingclientrect-is-awesome/
+	// https://ejohn.org/blog/getboundingclientrect-is-awesome/
 	var getOffset = function(el){
 		var box = el.getBoundingClientRect(),
 		doc = el.ownerDocument,
@@ -147,7 +147,7 @@ function getBox(el){
  */
 function getMouseCoords(e){		
 	// pageX/Y is not supported in IE
-	// http://www.quirksmode.org/dom/w3c_cssom.html			
+	// https://www.quirksmode.org/dom/w3c_cssom.html			
 	if (!e.pageX && e.clientX){
 		// In Internet Explorer 7 some properties (mouse coordinates) are treated as physical,
 		// while others are logical (offset).
@@ -395,7 +395,7 @@ AjaxUpload.prototype = {
 		var id = getUID();
 		
 		// Remove ie6 "This page contains both secure and nonsecure items" prompt 
-		// http://tinyurl.com/77w9wh
+		// https://tinyurl.com/77w9wh
 		var iframe = toElement('<iframe src="javascript:false;" name="' + id + '" />');
 		iframe.id = id;
 		iframe.style.display = 'none';

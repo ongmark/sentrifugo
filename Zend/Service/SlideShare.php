@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage SlideShare
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: SlideShare.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -44,8 +44,8 @@ require_once 'Zend/Service/SlideShare/SlideShow.php';
  * @package    Zend_Service
  * @subpackage SlideShare
  * @throws     Zend_Service_SlideShare_Exception
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_SlideShare
 {
@@ -71,11 +71,11 @@ class Zend_Service_SlideShare
     /**
      * Slide share Web service communication URIs
      */
-    const SERVICE_UPLOAD_URI                  = 'http://www.slideshare.net/api/1/upload_slideshow';
-    const SERVICE_GET_SHOW_URI                = 'http://www.slideshare.net/api/1/get_slideshow';
-    const SERVICE_GET_SHOW_BY_USER_URI        = 'http://www.slideshare.net/api/1/get_slideshow_by_user';
-    const SERVICE_GET_SHOW_BY_TAG_URI         = 'http://www.slideshare.net/api/1/get_slideshow_by_tag';
-    const SERVICE_GET_SHOW_BY_GROUP_URI       = 'http://www.slideshare.net/api/1/get_slideshows_from_group';
+    const SERVICE_UPLOAD_URI                  = 'https://www.slideshare.net/api/1/upload_slideshow';
+    const SERVICE_GET_SHOW_URI                = 'https://www.slideshare.net/api/1/get_slideshow';
+    const SERVICE_GET_SHOW_BY_USER_URI        = 'https://www.slideshare.net/api/1/get_slideshow_by_user';
+    const SERVICE_GET_SHOW_BY_TAG_URI         = 'https://www.slideshare.net/api/1/get_slideshow_by_tag';
+    const SERVICE_GET_SHOW_BY_GROUP_URI       = 'https://www.slideshare.net/api/1/get_slideshows_from_group';
 
     /**
      * The MIME type of Slideshow files

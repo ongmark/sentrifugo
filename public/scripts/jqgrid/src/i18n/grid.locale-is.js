@@ -3,14 +3,14 @@
  * jqGrid Icelandic Translation
  * jtm@hi.is Univercity of Iceland
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
 		recordtext: "View {0} - {1} of {2}",
 	    emptyrecords: "No records to view",
-		loadtext: "Hleður...",
+		loadtext: "Hleï¿½ur...",
 		pgtext : "Page {0} of {1}"
 	},
 	search : {
@@ -26,21 +26,21 @@ $.jgrid = {
 	    addCaption: "Add Record",
 	    editCaption: "Edit Record",
 	    bSubmit: "Vista",
-	    bCancel: "Hætta við",
+	    bCancel: "Hï¿½tta viï¿½",
 		bClose: "Loka",
 		saveData: "Data has been changed! Save changes?",
 		bYes : "Yes",
 		bNo : "No",
 		bExit : "Cancel",
 	    msg: {
-	        required:"Reitur er nauðsynlegur",
-	        number:"Vinsamlega settu inn tölu",
-	        minValue:"gildi verður að vera meira en eða jafnt og ",
-	        maxValue:"gildi verður að vera minna en eða jafnt og ",
-	        email: "er ekki löglegt email",
-	        integer: "Vinsamlega settu inn tölu",
+	        required:"Reitur er nauï¿½synlegur",
+	        number:"Vinsamlega settu inn tï¿½lu",
+	        minValue:"gildi verï¿½ur aï¿½ vera meira en eï¿½a jafnt og ",
+	        maxValue:"gildi verï¿½ur aï¿½ vera minna en eï¿½a jafnt og ",
+	        email: "er ekki lï¿½glegt email",
+	        integer: "Vinsamlega settu inn tï¿½lu",
 			date: "Please, enter valid date value",
-			url: "is not a valid URL. Prefix required ('http://' or 'https://')",
+			url: "is not a valid URL. Prefix required ('https://' or 'https://')",
 			nodefined : " is not defined!",
 			novalue : " return value is required!",
 			customarray : "Custom function should return array!",
@@ -52,36 +52,36 @@ $.jgrid = {
 	    bClose: "Close"
 	},
 	del : {
-	    caption: "Eyða",
-	    msg: "Eyða völdum færslum ?",
-	    bSubmit: "Eyða",
-	    bCancel: "Hætta við"
+	    caption: "Eyï¿½a",
+	    msg: "Eyï¿½a vï¿½ldum fï¿½rslum ?",
+	    bSubmit: "Eyï¿½a",
+	    bCancel: "Hï¿½tta viï¿½"
 	},
 	nav : {
 		edittext: " ",
-	    edittitle: "Breyta færslu",
+	    edittitle: "Breyta fï¿½rslu",
 		addtext:" ",
-	    addtitle: "Ný færsla",
+	    addtitle: "Nï¿½ fï¿½rsla",
 	    deltext: " ",
-	    deltitle: "Eyða færslu",
+	    deltitle: "Eyï¿½a fï¿½rslu",
 	    searchtext: " ",
 	    searchtitle: "Leita",
 	    refreshtext: "",
-	    refreshtitle: "Endurhlaða",
-	    alertcap: "Viðvörun",
-	    alerttext: "Vinsamlega veldu færslu",
+	    refreshtitle: "Endurhlaï¿½a",
+	    alertcap: "Viï¿½vï¿½run",
+	    alerttext: "Vinsamlega veldu fï¿½rslu",
 		viewtext: "",
 		viewtitle: "View selected row"
 	},
 	col : {
-	    caption: "Sýna / fela dálka",
+	    caption: "Sï¿½na / fela dï¿½lka",
 	    bSubmit: "Vista",
-	    bCancel: "Hætta við"	
+	    bCancel: "Hï¿½tta viï¿½"	
 	},
 	errors : {
 		errcap : "Villa",
-		nourl : "Vantar slóð",
-		norecords: "Engar færslur valdar",
+		nourl : "Vantar slï¿½ï¿½",
+		norecords: "Engar fï¿½rslur valdar",
 	    model : "Length of colNames <> colModel!"
 	},
 	formatter : {

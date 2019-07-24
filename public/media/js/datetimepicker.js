@@ -1,7 +1,7 @@
 //Javascript name: My Date Time Picker
 //Date created: 16-Nov-2003 23:19
 //Scripter: TengYong Ng
-//Website: http://www.rainforestnet.com
+//Website: https://www.rainforestnet.com
 //Copyright (c) 2003 TengYong Ng
 //FileName: DateTimePicker.js
 //Version: 0.8

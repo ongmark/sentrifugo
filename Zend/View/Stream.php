@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_View
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Stream.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -24,18 +24,18 @@
  * include().
  *
  * Based in large part on the example at
- * http://www.php.net/manual/en/function.stream-wrapper-register.php
+ * https://www.php.net/manual/en/function.stream-wrapper-register.php
  *
  * As well as the example provided at:
- *     http://mikenaberezny.com/2006/02/19/symphony-templates-ruby-erb/
+ *     https://mikenaberezny.com/2006/02/19/symphony-templates-ruby-erb/
  * written by
- *     Mike Naberezny (@link http://mikenaberezny.com)
- *     Paul M. Jones  (@link http://paul-m-jones.com)
+ *     Mike Naberezny (@link https://mikenaberezny.com)
+ *     Paul M. Jones  (@link https://paul-m-jones.com)
  *
  * @category   Zend
  * @package    Zend_View
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_View_Stream
 {

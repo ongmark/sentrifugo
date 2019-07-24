@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Gdata
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Gdata.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -33,13 +33,13 @@ require_once 'Zend/Gdata/App.php';
  * As the Google data API protocol is based upon the Atom Publishing Protocol
  * (APP), Gdata functionality extends the appropriate Zend_Gdata_App classes
  *
- * @link http://code.google.com/apis/gdata/overview.html
+ * @link https://code.google.com/apis/gdata/overview.html
  *
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Gdata
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Gdata extends Zend_Gdata_App
 {
@@ -76,10 +76,10 @@ class Zend_Gdata extends Zend_Gdata_App
      * @var array
      */
     public static $namespaces = array(
-        array('gd', 'http://schemas.google.com/g/2005', 1, 0),
-        array('openSearch', 'http://a9.com/-/spec/opensearchrss/1.0/', 1, 0),
-        array('openSearch', 'http://a9.com/-/spec/opensearch/1.1/', 2, 0),
-        array('rss', 'http://blogs.law.harvard.edu/tech/rss', 1, 0)
+        array('gd', 'https://schemas.google.com/g/2005', 1, 0),
+        array('openSearch', 'https://a9.com/-/spec/opensearchrss/1.0/', 1, 0),
+        array('openSearch', 'https://a9.com/-/spec/opensearch/1.1/', 2, 0),
+        array('rss', 'https://blogs.law.harvard.edu/tech/rss', 1, 0)
     );
 
     /**

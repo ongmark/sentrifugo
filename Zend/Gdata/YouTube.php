@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage YouTube
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: YouTube.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -74,13 +74,13 @@ require_once 'Zend/Gdata/YouTube/InboxFeed.php';
 
 /**
  * Service class for interacting with the YouTube Data API.
- * @link http://code.google.com/apis/youtube/
+ * @link https://code.google.com/apis/youtube/
  *
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage YouTube
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Gdata_YouTube extends Zend_Gdata_Media
 {
@@ -88,34 +88,34 @@ class Zend_Gdata_YouTube extends Zend_Gdata_Media
     const AUTH_SERVICE_NAME = 'youtube';
     const CLIENTLOGIN_URL = 'https://www.google.com/youtube/accounts/ClientLogin';
 
-    const STANDARD_TOP_RATED_URI = 'http://gdata.youtube.com/feeds/api/standardfeeds/top_rated';
-    const STANDARD_MOST_VIEWED_URI = 'http://gdata.youtube.com/feeds/api/standardfeeds/most_viewed';
-    const STANDARD_RECENTLY_FEATURED_URI = 'http://gdata.youtube.com/feeds/api/standardfeeds/recently_featured';
-    const STANDARD_WATCH_ON_MOBILE_URI = 'http://gdata.youtube.com/feeds/api/standardfeeds/watch_on_mobile';
+    const STANDARD_TOP_RATED_URI = 'https://gdata.youtube.com/feeds/api/standardfeeds/top_rated';
+    const STANDARD_MOST_VIEWED_URI = 'https://gdata.youtube.com/feeds/api/standardfeeds/most_viewed';
+    const STANDARD_RECENTLY_FEATURED_URI = 'https://gdata.youtube.com/feeds/api/standardfeeds/recently_featured';
+    const STANDARD_WATCH_ON_MOBILE_URI = 'https://gdata.youtube.com/feeds/api/standardfeeds/watch_on_mobile';
 
     const STANDARD_TOP_RATED_URI_V2 =
-        'http://gdata.youtube.com/feeds/api/standardfeeds/top_rated';
+        'https://gdata.youtube.com/feeds/api/standardfeeds/top_rated';
     const STANDARD_MOST_VIEWED_URI_V2 =
-        'http://gdata.youtube.com/feeds/api/standardfeeds/most_viewed';
+        'https://gdata.youtube.com/feeds/api/standardfeeds/most_viewed';
     const STANDARD_RECENTLY_FEATURED_URI_V2 =
-        'http://gdata.youtube.com/feeds/api/standardfeeds/recently_featured';
+        'https://gdata.youtube.com/feeds/api/standardfeeds/recently_featured';
     const STANDARD_WATCH_ON_MOBILE_URI_V2 =
-        'http://gdata.youtube.com/feeds/api/standardfeeds/watch_on_mobile';
+        'https://gdata.youtube.com/feeds/api/standardfeeds/watch_on_mobile';
 
-    const USER_URI = 'http://gdata.youtube.com/feeds/api/users';
-    const VIDEO_URI = 'http://gdata.youtube.com/feeds/api/videos';
-    const PLAYLIST_REL = 'http://gdata.youtube.com/schemas/2007#playlist';
-    const USER_UPLOADS_REL = 'http://gdata.youtube.com/schemas/2007#user.uploads';
-    const USER_PLAYLISTS_REL = 'http://gdata.youtube.com/schemas/2007#user.playlists';
-    const USER_SUBSCRIPTIONS_REL = 'http://gdata.youtube.com/schemas/2007#user.subscriptions';
-    const USER_CONTACTS_REL = 'http://gdata.youtube.com/schemas/2007#user.contacts';
-    const USER_FAVORITES_REL = 'http://gdata.youtube.com/schemas/2007#user.favorites';
-    const VIDEO_RESPONSES_REL = 'http://gdata.youtube.com/schemas/2007#video.responses';
-    const VIDEO_RATINGS_REL = 'http://gdata.youtube.com/schemas/2007#video.ratings';
-    const VIDEO_COMPLAINTS_REL = 'http://gdata.youtube.com/schemas/2007#video.complaints';
-    const ACTIVITY_FEED_URI = 'http://gdata.youtube.com/feeds/api/events';
+    const USER_URI = 'https://gdata.youtube.com/feeds/api/users';
+    const VIDEO_URI = 'https://gdata.youtube.com/feeds/api/videos';
+    const PLAYLIST_REL = 'https://gdata.youtube.com/schemas/2007#playlist';
+    const USER_UPLOADS_REL = 'https://gdata.youtube.com/schemas/2007#user.uploads';
+    const USER_PLAYLISTS_REL = 'https://gdata.youtube.com/schemas/2007#user.playlists';
+    const USER_SUBSCRIPTIONS_REL = 'https://gdata.youtube.com/schemas/2007#user.subscriptions';
+    const USER_CONTACTS_REL = 'https://gdata.youtube.com/schemas/2007#user.contacts';
+    const USER_FAVORITES_REL = 'https://gdata.youtube.com/schemas/2007#user.favorites';
+    const VIDEO_RESPONSES_REL = 'https://gdata.youtube.com/schemas/2007#video.responses';
+    const VIDEO_RATINGS_REL = 'https://gdata.youtube.com/schemas/2007#video.ratings';
+    const VIDEO_COMPLAINTS_REL = 'https://gdata.youtube.com/schemas/2007#video.complaints';
+    const ACTIVITY_FEED_URI = 'https://gdata.youtube.com/feeds/api/events';
     const FRIEND_ACTIVITY_FEED_URI =
-        'http://gdata.youtube.com/feeds/api/users/default/friendsactivity';
+        'https://gdata.youtube.com/feeds/api/users/default/friendsactivity';
 
     /**
      * The URI of the in-reply-to schema for comments in reply to
@@ -124,7 +124,7 @@ class Zend_Gdata_YouTube extends Zend_Gdata_Media
      * @var string
      */
      const IN_REPLY_TO_SCHEME =
-         'http://gdata.youtube.com/schemas/2007#in-reply-to';
+         'https://gdata.youtube.com/schemas/2007#in-reply-to';
 
     /**
      * The URI of the inbox feed for the currently authenticated user.
@@ -132,7 +132,7 @@ class Zend_Gdata_YouTube extends Zend_Gdata_Media
      * @var string
      */
     const INBOX_FEED_URI =
-        'http://gdata.youtube.com/feeds/api/users/default/inbox';
+        'https://gdata.youtube.com/feeds/api/users/default/inbox';
 
     /**
      * The maximum number of users for which activity can be requested for,
@@ -183,10 +183,10 @@ class Zend_Gdata_YouTube extends Zend_Gdata_Media
      * @var array
      */
     public static $namespaces = array(
-        array('yt', 'http://gdata.youtube.com/schemas/2007', 1, 0),
-        array('georss', 'http://www.georss.org/georss', 1, 0),
-        array('gml', 'http://www.opengis.net/gml', 1, 0),
-        array('media', 'http://search.yahoo.com/mrss/', 1, 0)
+        array('yt', 'https://gdata.youtube.com/schemas/2007', 1, 0),
+        array('georss', 'https://www.georss.org/georss', 1, 0),
+        array('gml', 'https://www.opengis.net/gml', 1, 0),
+        array('media', 'https://search.yahoo.com/mrss/', 1, 0)
     );
 
     /**
@@ -697,7 +697,7 @@ class Zend_Gdata_YouTube extends Zend_Gdata_Media
      * @return array An array containing a token and URL
      */
     public function getFormUploadToken($videoEntry,
-        $url='http://gdata.youtube.com/action/GetUploadToken')
+        $url='https://gdata.youtube.com/action/GetUploadToken')
     {
         if ($url != null && is_string($url)) {
             // $response is a Zend_Http_response object
@@ -834,7 +834,7 @@ class Zend_Gdata_YouTube extends Zend_Gdata_Media
             $messageEntry->setSummary($this->newSummary($body));
         }
 
-        $insertUrl = 'http://gdata.youtube.com/feeds/api/users/' .
+        $insertUrl = 'https://gdata.youtube.com/feeds/api/users/' .
             $recipientUserName . '/inbox';
         $response = $this->insertEntry($messageEntry, $insertUrl,
             'Zend_Gdata_YouTube_InboxEntry');

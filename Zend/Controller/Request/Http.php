@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Controller
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Http.php 24008 2011-05-04 18:11:15Z ralph $
  */
 
@@ -133,7 +133,7 @@ class Zend_Controller_Request_Http extends Zend_Controller_Request_Abstract
      * Access values contained in the superglobals as public members
      * Order of precedence: 1. GET, 2. POST, 3. COOKIE, 4. SERVER, 5. ENV
      *
-     * @see http://msdn.microsoft.com/en-us/library/system.web.httprequest.item.aspx
+     * @see https://msdn.microsoft.com/en-us/library/system.web.httprequest.item.aspx
      * @param string $key
      * @return mixed
      */
@@ -456,8 +456,8 @@ class Zend_Controller_Request_Http extends Zend_Controller_Request_Abstract
      *
      * Do not use the full URI when providing the base. The following are
      * examples of what not to use:
-     * - http://example.com/admin (should be just /admin)
-     * - http://example.com/subdir/index.php (should be just /subdir/index.php)
+     * - https://example.com/admin (should be just /admin)
+     * - https://example.com/subdir/index.php (should be just /subdir/index.php)
      *
      * If no $baseUrl is provided, attempts to determine the base URL from the
      * environment, using SCRIPT_FILENAME, SCRIPT_NAME, PHP_SELF, and

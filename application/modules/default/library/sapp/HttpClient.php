@@ -14,14 +14,14 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
  
 class sapp_HttpClient
 {
-	const URI = 'http://localhost/stubstats/services/services';
+	const URI = 'https://localhost/stubstats/services/services';
 	const HTTP_METHOD = 'POST';
 	
 	protected $client;
@@ -36,7 +36,7 @@ class sapp_HttpClient
 	}
 	public function call($method,$args)
 	{
-		//http://localhost/stubstats/services/test/
+		//https://localhost/stubstats/services/test/
 		
 		//echo self::URI ."/". $method;exit;
 		

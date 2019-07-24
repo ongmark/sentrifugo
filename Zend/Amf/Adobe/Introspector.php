@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Amf
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Introspector.php 23953 2011-05-03 05:47:39Z ralph $
  */
 
@@ -33,8 +33,8 @@ require_once 'Zend/Server/Reflection.php';
  *
  * @package    Zend_Amf
  * @subpackage Adobe
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Amf_Adobe_Introspector
 {
@@ -97,7 +97,7 @@ class Zend_Amf_Adobe_Introspector
         }
 
         $serv = $this->_xml->createElement('service-description');
-        $serv->setAttribute('xmlns', 'http://ns.adobe.com/flex/service-description/2008');
+        $serv->setAttribute('xmlns', 'https://ns.adobe.com/flex/service-description/2008');
 
         $this->_types = $this->_xml->createElement('types');
         $this->_ops   = $this->_xml->createElement('operations');

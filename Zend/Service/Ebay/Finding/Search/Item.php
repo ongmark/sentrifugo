@@ -15,7 +15,7 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Ebay
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
  * @license    http:framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Item.php 22824 2010-08-09 18:59:54Z renanbr $
  */
@@ -29,7 +29,7 @@ require_once 'Zend/Service/Ebay/Finding/Abstract.php';
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Ebay
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
  * @license    http:framework.zend.com/license/new-bsd     New BSD License
  * @uses       Zend_Service_Ebay_Finding_Abstract
  */
@@ -62,7 +62,7 @@ class Zend_Service_Ebay_Finding_Search_Item extends Zend_Service_Ebay_Finding_Ab
      * Two-letter ISO 3166 country code to indicate the country where the item
      * is located.
      *
-     * @link http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm
+     * @link https://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm
      * @var  string
      */
     public $country;
@@ -116,7 +116,7 @@ class Zend_Service_Ebay_Finding_Search_Item extends Zend_Service_Ebay_Finding_Ab
      * combination of the site, language, and territory. In other eBay APIs
      * (such as the Shopping API), this value is know as the site ID.
      *
-     * @link http://developer.ebay.com/DevZone/finding/CallRef/Enums/GlobalIdList.html
+     * @link https://developer.ebay.com/DevZone/finding/CallRef/Enums/GlobalIdList.html
      * @var  string
      */
     public $globalId;
@@ -156,7 +156,7 @@ class Zend_Service_Ebay_Finding_Search_Item extends Zend_Service_Ebay_Finding_Ab
      *  Payment methods are not applicable to eBay Real Estate advertisement
      *  listings or other Classified Ad listing formats.
      *
-     * @link http://developer.ebay.com/DevZone/shopping/docs/CallRef/types/BuyerPaymentMethodCodeType.html
+     * @link https://developer.ebay.com/DevZone/shopping/docs/CallRef/types/BuyerPaymentMethodCodeType.html
      * @var  string[]
      */
     public $paymentMethod;

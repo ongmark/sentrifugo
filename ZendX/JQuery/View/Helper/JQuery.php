@@ -7,7 +7,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -15,8 +15,8 @@
  * @category    ZendX
  * @package     ZendX_JQuery
  * @subpackage  View
- * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
- * @license     http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license     https://framework.zend.com/license/new-bsd     New BSD License
  * @version     $Id: JQuery.php 20184 2010-01-10 21:22:54Z freak $
  */
 
@@ -46,8 +46,8 @@ require_once "ZendX/JQuery/View/Helper/JQuery/Container.php";
  * @uses 	   Zend_Json
  * @package    ZendX_JQuery
  * @subpackage View
- * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class ZendX_JQuery_View_Helper_JQuery extends Zend_View_Helper_Abstract
 {
@@ -59,7 +59,7 @@ class ZendX_JQuery_View_Helper_JQuery extends Zend_View_Helper_Abstract
 	/**
 	 * jQuery no Conflict Mode
 	 *
-	 * @see	      http://docs.jquery.com/Using_jQuery_with_Other_Libraries
+	 * @see	      https://docs.jquery.com/Using_jQuery_with_Other_Libraries
 	 * @staticvar Boolean Status of noConflict Mode
 	 */
     private static $noConflictMode = false;
@@ -128,7 +128,7 @@ class ZendX_JQuery_View_Helper_JQuery extends Zend_View_Helper_Abstract
 	 * other Javascript libraries. Will setup jQuery in the variable
 	 * $j instead of $ to overcome conflicts.
 	 *
-	 * @link http://docs.jquery.com/Using_jQuery_with_Other_Libraries
+	 * @link https://docs.jquery.com/Using_jQuery_with_Other_Libraries
 	 */
     public static function enableNoConflictMode()
     {

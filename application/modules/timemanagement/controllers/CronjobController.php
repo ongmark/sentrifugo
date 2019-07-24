@@ -14,7 +14,7 @@
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with Sentrifugo.  If not, see <https://www.gnu.org/licenses/>.
  *
  *  Sentrifugo Support <support@sentrifugo.com>
  ********************************************************************************/
@@ -211,7 +211,7 @@ class Timemanagement_CronjobController extends Zend_Controller_Action
 
 	public function send_mail_emp($empid,$ls_week,$ls_day,$emp_name,$emp_email,$days,$whichremainder,$blockreminderday = '')
 	{
-		$base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+		$base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 		$period = $ls_week.' to '.$ls_day;
 		$view = $this->getHelper('ViewRenderer')->view;
 
@@ -257,7 +257,7 @@ class Timemanagement_CronjobController extends Zend_Controller_Action
 
    public function send_mail_manager($emp_arr,$ls_week,$ls_day,$mgr_id,$mgr_name,$mgr_mail,$whichremainder)
 	{
-		$base_url = 'http://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
+		$base_url = 'https://'.$this->getRequest()->getHttpHost() . $this->getRequest()->getBaseUrl();
 
 		$emp_names='';
 		foreach($emp_arr as $key=>$value)

@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Spreadsheets
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: WorksheetEntry.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -42,8 +42,8 @@ require_once 'Zend/Gdata/Spreadsheets/Extension/ColCount.php';
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Spreadsheets
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Gdata_Spreadsheets_WorksheetEntry extends Zend_Gdata_Entry
 {
@@ -172,7 +172,7 @@ class Zend_Gdata_Spreadsheets_WorksheetEntry extends Zend_Gdata_Entry
      * the array is an associative array with a 'value' and a 'function'.
      * Only non-empty cells are returned by default.  'range' is the
      * value of the 'range' query parameter specified at:
-     * http://code.google.com/apis/spreadsheets/reference.html#cells_Parameters
+     * https://code.google.com/apis/spreadsheets/reference.html#cells_Parameters
      *
      * @param string $range The range of cells to retrieve
      * @param boolean $empty Whether to retrieve empty cells

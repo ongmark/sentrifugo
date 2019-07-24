@@ -5,7 +5,7 @@
  * Some French punctuation requires a thin non-breaking space (U+202F) character before it,
  * for example before a colon or exclamation mark.
  * There is one of these characters between these quotes: " "
- * @link http://unicode.org/udhr/n/notes_fra.html
+ * @link https://unicode.org/udhr/n/notes_fra.html
  *
  */
 

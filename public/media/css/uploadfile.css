@@ -380,7 +380,7 @@ input#search, input#search_sel, .search_emp_by_name_div input[type="button"]{bac
 .cofig_title .new-form-ui-submit .back-to-page input[type="button"]{margin-right: 0px; padding-top: 3px; margin-top: 0px;}
 .tm_grid th{ border-bottom:1px solid #bbbbbb; background:#efefef; padding:5px 0;}
 .tm_grid th.tm_grid_header, .tm_grid td.tm_grid_header{ text-align:left; font-weight:normal; padding:10px 0 10px 10px !important; 
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,eeeeee+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,eeeeee+100 */
 background: #ffffff; /* Old browsers */
 background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */

@@ -98,7 +98,7 @@ Background gradients can be set on all block elements e.g. P, DIV, H1-H6, as wel
 
 <h4>Rounded Borders</h4>
 <div class="rounded">
-Rounded corners to borders can be added using border-radius as defined in the draft spec. of <a href="http://www.w3.org/TR/2008/WD-css3-background-20080910/#layering">CSS3</a>. <br />
+Rounded corners to borders can be added using border-radius as defined in the draft spec. of <a href="https://www.w3.org/TR/2008/WD-css3-background-20080910/#layering">CSS3</a>. <br />
 
 The two length values of the border-*-radius properties define the radii of a quarter ellipse that defines the shape of the corner of the outer border edge.
 The first value is the horizontal radius. <br />
@@ -212,7 +212,7 @@ This is only recommended in non-HTML headers and footers. Although the text is a
 
   <h4>All SVG color keywords supported</h4>
   <p style="margin: 0pt;">This table provides a list of all the named colors supported by mPDF. The
-   list is precisely the same as the <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords">SVG 1.0 color
+   list is precisely the same as the <a href="https://www.w3.org/TR/SVG/types.html#ColorKeywords">SVG 1.0 color
    keyword names</a>. 
    The two color swatches on the left illustrate setting the background color
    of a table cell in two ways: The first column uses the named color value,
@@ -1881,7 +1881,7 @@ $header = array(
 $footer = '
 <table width="100%" style="border-top: 0.1mm solid #000000; vertical-align: top; font-family: sans; font-size: 9pt; color: #000055;"><tr>
 <td width="50%"></td>
-<td width="50%" align="right">See <a href="http://mpdf1.com/manual/index.php">documentation manual</a> for further details</td>
+<td width="50%" align="right">See <a href="https://mpdf1.com/manual/index.php">documentation manual</a> for further details</td>
 </tr></table>
 ';
 

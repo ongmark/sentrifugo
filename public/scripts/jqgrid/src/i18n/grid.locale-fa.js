@@ -2,8 +2,8 @@
 /**
  * jqGrid Persian Translation
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
 **/
 $.jgrid = {
 	defaults : {
@@ -39,7 +39,7 @@ $.jgrid = {
 	        email: "پست الکترونيک وارد شده معتبر نيست",
 	        integer: "لطفا يک عدد صحيح وارد کنيد",
 			date: "لطفا يک تاريخ معتبر وارد کنيد",
-			url: "is not a valid URL. Prefix required ('http://' or 'https://')",
+			url: "is not a valid URL. Prefix required ('https://' or 'https://')",
 			nodefined : " is not defined!",
 			novalue : " return value is required!",
 			customarray : "Custom function should return array!",

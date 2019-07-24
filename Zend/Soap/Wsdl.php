@@ -7,15 +7,15 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
  * @package    Zend_Soap
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Wsdl.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -90,12 +90,12 @@ class Zend_Soap_Wsdl
          */
         $wsdl = "<?xml version='1.0' ?>
                 <definitions name='$name' targetNamespace='$uri'
-                    xmlns='http://schemas.xmlsoap.org/wsdl/'
+                    xmlns='https://schemas.xmlsoap.org/wsdl/'
                     xmlns:tns='$uri'
-                    xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/'
-                    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
-                    xmlns:soap-enc='http://schemas.xmlsoap.org/soap/encoding/'
-                    xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'></definitions>";
+                    xmlns:soap='https://schemas.xmlsoap.org/wsdl/soap/'
+                    xmlns:xsd='https://www.w3.org/2001/XMLSchema'
+                    xmlns:soap-enc='https://schemas.xmlsoap.org/soap/encoding/'
+                    xmlns:wsdl='https://schemas.xmlsoap.org/wsdl/'></definitions>";
         $this->_dom = new DOMDocument();
         if (!$this->_dom->loadXML($wsdl)) {
             require_once 'Zend/Server/Exception.php';
@@ -177,10 +177,10 @@ class Zend_Soap_Wsdl
     }
 
     /**
-     * Add a {@link http://www.w3.org/TR/wsdl#_messages message} element to the WSDL
+     * Add a {@link https://www.w3.org/TR/wsdl#_messages message} element to the WSDL
      *
-     * @param string $name Name for the {@link http://www.w3.org/TR/wsdl#_messages message}
-     * @param array $parts An array of {@link http://www.w3.org/TR/wsdl#_message parts}
+     * @param string $name Name for the {@link https://www.w3.org/TR/wsdl#_messages message}
+     * @param array $parts An array of {@link https://www.w3.org/TR/wsdl#_message parts}
      *                     The array is constructed like: 'name of part' => 'part xml schema data type'
      *                     or 'name of part' => array('type' => 'part xml schema type')
      *                     or 'name of part' => array('element' => 'part xml element name')
@@ -213,7 +213,7 @@ class Zend_Soap_Wsdl
     }
 
     /**
-     * Add a {@link http://www.w3.org/TR/wsdl#_porttypes portType} element to the WSDL
+     * Add a {@link https://www.w3.org/TR/wsdl#_porttypes portType} element to the WSDL
      *
      * @param string $name portType element's name
      * @return object The new portType's XML_Tree_Node for use in {@link function addPortOperation} and {@link function addDocumentation}
@@ -228,7 +228,7 @@ class Zend_Soap_Wsdl
     }
 
     /**
-     * Add an {@link http://www.w3.org/TR/wsdl#_request-response operation} element to a portType element
+     * Add an {@link https://www.w3.org/TR/wsdl#_request-response operation} element to a portType element
      *
      * @param object $portType a portType XML_Tree_Node, from {@link function addPortType}
      * @param string $name Operation name
@@ -264,7 +264,7 @@ class Zend_Soap_Wsdl
     }
 
     /**
-     * Add a {@link http://www.w3.org/TR/wsdl#_bindings binding} element to WSDL
+     * Add a {@link https://www.w3.org/TR/wsdl#_bindings binding} element to WSDL
      *
      * @param string $name Name of the Binding
      * @param string $type name of the portType to bind
@@ -285,9 +285,9 @@ class Zend_Soap_Wsdl
      * Add an operation to a binding element
      *
      * @param object $binding A binding XML_Tree_Node returned by {@link function addBinding}
-     * @param array $input An array of attributes for the input element, allowed keys are: 'use', 'namespace', 'encodingStyle'. {@link http://www.w3.org/TR/wsdl#_soap:body More Information}
-     * @param array $output An array of attributes for the output element, allowed keys are: 'use', 'namespace', 'encodingStyle'. {@link http://www.w3.org/TR/wsdl#_soap:body More Information}
-     * @param array $fault An array of attributes for the fault element, allowed keys are: 'name', 'use', 'namespace', 'encodingStyle'. {@link http://www.w3.org/TR/wsdl#_soap:body More Information}
+     * @param array $input An array of attributes for the input element, allowed keys are: 'use', 'namespace', 'encodingStyle'. {@link https://www.w3.org/TR/wsdl#_soap:body More Information}
+     * @param array $output An array of attributes for the output element, allowed keys are: 'use', 'namespace', 'encodingStyle'. {@link https://www.w3.org/TR/wsdl#_soap:body More Information}
+     * @param array $fault An array of attributes for the fault element, allowed keys are: 'name', 'use', 'namespace', 'encodingStyle'. {@link https://www.w3.org/TR/wsdl#_soap:body More Information}
      * @return object The new Operation's XML_Tree_Node for use with {@link function addSoapOperation} and {@link function addDocumentation}
      */
     public function addBindingOperation($binding, $name, $input = false, $output = false, $fault = false)
@@ -319,7 +319,7 @@ class Zend_Soap_Wsdl
             $node = $this->_dom->createElement('fault');
             /**
              * Note. Do we really need name attribute to be also set at wsdl:fault node???
-             * W3C standard doesn't mention it (http://www.w3.org/TR/wsdl#_soap:fault)
+             * W3C standard doesn't mention it (https://www.w3.org/TR/wsdl#_soap:fault)
              * But some real world WSDLs use it, so it may be required for compatibility reasons.
              */
             if (isset($fault['name'])) {
@@ -340,14 +340,14 @@ class Zend_Soap_Wsdl
     }
 
     /**
-     * Add a {@link http://www.w3.org/TR/wsdl#_soap:binding SOAP binding} element to a Binding element
+     * Add a {@link https://www.w3.org/TR/wsdl#_soap:binding SOAP binding} element to a Binding element
      *
      * @param object $binding A binding XML_Tree_Node returned by {@link function addBinding}
      * @param string $style binding style, possible values are "rpc" (the default) and "document"
      * @param string $transport Transport method (defaults to HTTP)
      * @return boolean
      */
-    public function addSoapBinding($binding, $style = 'document', $transport = 'http://schemas.xmlsoap.org/soap/http')
+    public function addSoapBinding($binding, $style = 'document', $transport = 'https://schemas.xmlsoap.org/soap/http')
     {
         $soap_binding = $this->_dom->createElement('soap:binding');
         $soap_binding->setAttribute('style', $style);
@@ -359,7 +359,7 @@ class Zend_Soap_Wsdl
     }
 
     /**
-     * Add a {@link http://www.w3.org/TR/wsdl#_soap:operation SOAP operation} to an operation element
+     * Add a {@link https://www.w3.org/TR/wsdl#_soap:operation SOAP operation} to an operation element
      *
      * @param object $operation An operation XML_Tree_Node returned by {@link function addBindingOperation}
      * @param string $soap_action SOAP Action
@@ -379,7 +379,7 @@ class Zend_Soap_Wsdl
     }
 
     /**
-     * Add a {@link http://www.w3.org/TR/wsdl#_services service} element to the WSDL
+     * Add a {@link https://www.w3.org/TR/wsdl#_services service} element to the WSDL
      *
      * @param string $name Service Name
      * @param string $port_name Name of the port for the service
@@ -413,9 +413,9 @@ class Zend_Soap_Wsdl
     /**
      * Add a documentation element to any element in the WSDL.
      *
-     * Note that the WSDL {@link http://www.w3.org/TR/wsdl#_documentation specification} uses 'document',
-     * but the WSDL {@link http://schemas.xmlsoap.org/wsdl/ schema} uses 'documentation' instead.
-     * The {@link http://www.ws-i.org/Profiles/BasicProfile-1.1-2004-08-24.html#WSDL_documentation_Element WS-I Basic Profile 1.1} recommends using 'documentation'.
+     * Note that the WSDL {@link https://www.w3.org/TR/wsdl#_documentation specification} uses 'document',
+     * but the WSDL {@link https://schemas.xmlsoap.org/wsdl/ schema} uses 'documentation' instead.
+     * The {@link https://www.ws-i.org/Profiles/BasicProfile-1.1-2004-08-24.html#WSDL_documentation_Element WS-I Basic Profile 1.1} recommends using 'documentation'.
      *
      * @param object $input_node An XML_Tree_Node returned by another method to add the documentation to
      * @param string $documentation Human readable documentation for the node
@@ -591,7 +591,7 @@ class Zend_Soap_Wsdl
     }
 
     /**
-     * Add a {@link http://www.w3.org/TR/wsdl#_types types} data type definition
+     * Add a {@link https://www.w3.org/TR/wsdl#_types types} data type definition
      *
      * @param string $type Name of the class to be specified
      * @return string XSD Type for the given PHP type

@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Technorati
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Technorati.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -32,13 +32,13 @@
  * @category   Zend
  * @package    Zend_Service
  * @subpackage Technorati
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_Technorati
 {
     /** Base Technorati API URI */
-    const API_URI_BASE = 'http://api.technorati.com';
+    const API_URI_BASE = 'https://api.technorati.com';
 
     /** Query paths */
     const API_PATH_COSMOS           = '/cosmos';
@@ -132,11 +132,11 @@ class Zend_Service_Technorati
      *      Set this parameter to FALSE to apply no special markup to the blog excerpt.
      *      Internally the value is converted in (int).
      *
-     * @param   string $url     the URL you are searching for. Prefixes http:// and www. are optional.
+     * @param   string $url     the URL you are searching for. Prefixes https:// and www. are optional.
      * @param   array $options  additional parameters to refine your query
      * @return  Zend_Service_Technorati_CosmosResultSet
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://technorati.com/developers/api/cosmos.html Technorati API: Cosmos Query reference
+     * @link    https://technorati.com/developers/api/cosmos.html Technorati API: Cosmos Query reference
      */
     public function cosmos($url, $options = null)
     {
@@ -202,7 +202,7 @@ class Zend_Service_Technorati
      * @param   array $options  additional parameters to refine your query
      * @return  Zend_Service_Technorati_SearchResultSet
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://technorati.com/developers/api/search.html Technorati API: Search Query reference
+     * @link    https://technorati.com/developers/api/search.html Technorati API: Search Query reference
      */
     public function search($query, $options = null)
     {
@@ -249,7 +249,7 @@ class Zend_Service_Technorati
      * @param   array $options  additional parameters to refine your query
      * @return  Zend_Service_Technorati_TagResultSet
      * @throws  Zend_Service_Technorati_Exception
-     *  @link    http://technorati.com/developers/api/tag.html Technorati API: Tag Query reference
+     *  @link    https://technorati.com/developers/api/tag.html Technorati API: Tag Query reference
      */
     public function tag($tag, $options = null)
     {
@@ -287,7 +287,7 @@ class Zend_Service_Technorati
      * @param   array $options  additional parameters to refine your query
      * @return  Zend_Service_Technorati_DailyCountsResultSet
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://technorati.com/developers/api/dailycounts.html Technorati API: DailyCounts Query reference
+     * @link    https://technorati.com/developers/api/dailycounts.html Technorati API: DailyCounts Query reference
      */
     public function dailyCounts($query, $options = null)
     {
@@ -326,7 +326,7 @@ class Zend_Service_Technorati
      * @param   array $options  additional parameters to refine your query
      * @return  Zend_Service_Technorati_TagsResultSet
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://technorati.com/developers/api/toptags.html Technorati API: TopTags Query reference
+     * @link    https://technorati.com/developers/api/toptags.html Technorati API: TopTags Query reference
      */
     public function topTags($options = null)
     {
@@ -350,12 +350,12 @@ class Zend_Service_Technorati
     /**
      * BlogInfo provides information on what blog, if any, is associated with a given URL.
      *
-     * @param   string $url     the URL you are searching for. Prefixes http:// and www. are optional.
+     * @param   string $url     the URL you are searching for. Prefixes https:// and www. are optional.
      *                          The URL must be recognized by Technorati as a blog.
      * @param   array $options  additional parameters to refine your query
      * @return  Zend_Service_Technorati_BlogInfoResult
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://technorati.com/developers/api/bloginfo.html Technorati API: BlogInfo Query reference
+     * @link    https://technorati.com/developers/api/bloginfo.html Technorati API: BlogInfo Query reference
      */
     public function blogInfo($url, $options = null)
     {
@@ -391,12 +391,12 @@ class Zend_Service_Technorati
      *      The default start value is 1.
      *      Note. This property is not documented.
      *
-     * @param   string $url     the URL you are searching for. Prefixes http:// and www. are optional.
+     * @param   string $url     the URL you are searching for. Prefixes https:// and www. are optional.
      *                          The URL must be recognized by Technorati as a blog.
      * @param   array $options  additional parameters to refine your query
      * @return  Zend_Service_Technorati_TagsResultSet
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://technorati.com/developers/api/blogposttags.html Technorati API: BlogPostTags Query reference
+     * @link    https://technorati.com/developers/api/blogposttags.html Technorati API: BlogPostTags Query reference
      */
     public function blogPostTags($url, $options = null)
     {
@@ -433,7 +433,7 @@ class Zend_Service_Technorati
      * @param   array $options      additional parameters to refine your query
      * @return  Zend_Service_Technorati_GetInfoResult
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://technorati.com/developers/api/getinfo.html Technorati API: GetInfo reference
+     * @link    https://technorati.com/developers/api/getinfo.html Technorati API: GetInfo reference
      */
     public function getInfo($username, $options = null)
     {
@@ -461,7 +461,7 @@ class Zend_Service_Technorati
      *
      * @return  Zend_Service_Technorati_KeyInfoResult
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://developers.technorati.com/wiki/KeyInfo Technorati API: Key Info reference
+     * @link    https://developers.technorati.com/wiki/KeyInfo Technorati API: Key Info reference
      */
     public function keyInfo()
     {
@@ -523,7 +523,7 @@ class Zend_Service_Technorati
      *
      * @param   string $key     Technorati API Key
      * @return  void
-     * @link    http://technorati.com/developers/apikey.html How to get your Technorati API Key
+     * @link    https://technorati.com/developers/apikey.html How to get your Technorati API Key
      */
     public function setApiKey($key)
     {
@@ -932,7 +932,7 @@ class Zend_Service_Technorati
      * @param   DomDocument $dom    the XML response as a DOM document
      * @return  void
      * @throws  Zend_Service_Technorati_Exception
-     * @link    http://technorati.com/developers/api/error.html Technorati API: Error response
+     * @link    https://technorati.com/developers/api/error.html Technorati API: Error response
      * @access  protected
      */
     protected static function _checkErrors(DomDocument $dom)

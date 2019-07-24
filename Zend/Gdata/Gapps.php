@@ -8,7 +8,7 @@
  * This source file is subject to the new BSD license that is bundled
  * with this package in the file LICENSE.txt.
  * It is also available through the world-wide-web at this URL:
- * http://framework.zend.com/license/new-bsd
+ * https://framework.zend.com/license/new-bsd
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
@@ -16,8 +16,8 @@
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Gapps
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Gapps.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
@@ -71,13 +71,13 @@ require_once 'Zend/Gdata/Gapps/EmailListRecipientFeed.php';
  * Because of the nature of this API, all access must occur over an
  * authenticated connection.
  *
- * @link http://code.google.com/apis/apps/gdata_provisioning_api_v2.0_reference.html
+ * @link https://code.google.com/apis/apps/gdata_provisioning_api_v2.0_reference.html
  *
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage Gapps
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (https://www.zend.com)
+ * @license    https://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Gdata_Gapps extends Zend_Gdata
 {
@@ -123,7 +123,7 @@ class Zend_Gdata_Gapps extends Zend_Gdata
      * @var array
      */
     public static $namespaces = array(
-        array('apps', 'http://schemas.google.com/apps/2006', 1, 0)
+        array('apps', 'https://schemas.google.com/apps/2006', 1, 0)
     );
 
     /**
@@ -888,7 +888,7 @@ class Zend_Gdata_Gapps extends Zend_Gdata
     }
 
     // Convenience methods
-    // Specified at http://code.google.com/apis/apps/gdata_provisioning_api_v2.0_reference.html#appendix_e
+    // Specified at https://code.google.com/apis/apps/gdata_provisioning_api_v2.0_reference.html#appendix_e
 
     /**
      * Create a new user entry and send it to the Google Apps servers.
